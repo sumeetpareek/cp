@@ -5,5 +5,15 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /.*
+- url: /static
+  static_dir: static
+
+- url: /sanitycheck
   script: sanitycheck.app
+
+- url: .*
+  script: cp.app
+  
+libraries:
+- name: jinja2
+  version: latest

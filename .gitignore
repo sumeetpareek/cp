@@ -1,0 +1,6 @@
+# Eclipse files should stay out
+.project
+.pydevproject
+
+# Compiled files should stay out
+*.pyc
