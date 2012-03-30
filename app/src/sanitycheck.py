@@ -5,5 +5,5 @@ class SanityCheck(webapp2.RequestHandler):
       self.response.headers['Content-Type'] = 'text/plain'
       self.response.out.write('If you see this then things are Sane!')
 
-app = webapp2.WSGIApplication([('/', SanityCheck)],
+app = webapp2.WSGIApplication([('/sanitycheck', SanityCheck)],
                               debug=True)
