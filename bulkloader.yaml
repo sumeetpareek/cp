@@ -43,3 +43,22 @@ transformers:
       import_transform: transform.create_foreign_key('Team')
       export_transform: transform.key_id_or_name_as_string
       
+- kind: Player
+  connector: csv
+  connector_options:
+    # Defaults are good enough for us
+  property_map:
+    - property: __key__
+      external_name: id
+      import_transform: "lambda x: 'player_' + x"
+
+    - property: name
+      external_name: name
+
+    - property: role
+      external_name: role
+
+    - property: team
+      external_name: team
+      import_transform: transform.create_foreign_key('Team')
+      export_transform: transform.key_id_or_name_as_string

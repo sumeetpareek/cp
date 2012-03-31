@@ -1,29 +1,34 @@
 FACEBOOK_APP_ID = "185318768251247"
 FACEBOOK_APP_SECRET = "f9cb1482d17dd99f33f0a76a427b54e0"
-PREDICTION_LIMITS = {
-  'p_r': {'min': 0, 'max': 150,},
-  'p_w': {'min': 1, 'max': 10,},
-  'p_s': {'min': 1, 'max': 10,},
-  't_r': {'min': 0, 'max': 250,},
-  't_s': {'min': 1, 'max': 30,},
-}
 
-import webapp2
-import jinja2
-import os
 import facebook
+import os.path
+import wsgiref.handlers
+import logging
 import urllib2
+import webapp2
 import pprint
 
+import jinja2
+import os
+
+from google.appengine.ext import db
 from google.appengine.ext.webapp import util
 from google.appengine.ext.webapp import template
 from google.appengine.api.urlfetch import fetch
 
-from schema import *
-
-# We initialize the templating engine with the current files path
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
+
+class User(db.Model):
+    id = db.StringProperty(required=True)
+    created = db.DateTimeProperty(auto_now_add=True)
+    updated = db.DateTimeProperty(auto_now=True)
+    name = db.StringProperty(required=True)
+    profile_url = db.StringProperty(required=True)
+    access_token = db.StringProperty(required=True)
+    email = db.EmailProperty(required=True)
+
 
 class BaseHandler(webapp2.RequestHandler):
     """Provides access to the active Facebook user in self.current_user
@@ -58,29 +63,36 @@ class BaseHandler(webapp2.RequestHandler):
                     user.access_token = cookie["access_token"]
                     user.put()
                 self._current_user = user
+        
+        
+#        graph = facebook.GraphAPI(cookie["access_token"])
+#        profile = graph.get_object("me")  
+#        self.response.out.write(profile)
+        
         return self._current_user
 
 
-class MainPage(BaseHandler):
-  def get(self):
-    matches = Match.all().fetch(1000)
-#    items = []
-#    for match in matches:
-#      item = {'str_key': str(match.key().id_or_name()),
-#              'data': match 
-#              }
-#      items.append(item)
-    template_values = {
-      'matches': matches,
-      'current_user': self.current_user,
-      'facebook_app_id': FACEBOOK_APP_ID,
-      'prediction_limits': PREDICTION_LIMITS,
-                       }
-    template = jinja_environment.get_template('templates/homepage.html')
-    self.response.out.write(template.render(template_values))
+class FBLogin(BaseHandler):
+    def get(self):
+        path = os.path.join(os.path.dirname(__file__), "example.html")
+        args = dict(current_user=self.current_user,
+                    facebook_app_id=FACEBOOK_APP_ID)
+        template = jinja_environment.get_template('templates/fblogin.html')
+        self.response.out.write(template.render(args))
+#
+#    def post(self):
+#        url = self.request.get('url')
+#        file = urllib2.urlopen(url)
+#        graph = facebook.GraphAPI(self.current_user.access_token)
+#        graph.put_photo(file, "Test Image")
 
-# Once app.yaml sends us here we call use appropriate clases to show functionality for appropriate paths
-app = webapp2.WSGIApplication([
-  ('/', MainPage),
-], debug = True)
-  
+
+
+
+#class FBLogin(webapp2.RequestHandler):
+#    def get(self):
+#      self.response.headers['Content-Type'] = 'text/plain'
+#      self.response.out.write('Facebook login test')
+
+app = webapp2.WSGIApplication([('/fblogin', FBLogin)],
+                              debug=True)

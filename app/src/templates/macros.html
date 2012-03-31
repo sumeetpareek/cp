@@ -1,0 +1,34 @@
+{% macro team_player_select(id, name, team) -%}
+<select id="{{id}}" name="{{name}}">
+	{% for player in team.player_team_set %}
+		<option value="{{player.key().id_or_name()}}">{{player.name}}</option>
+	{% endfor %}
+</select>
+{%- endmacro %}
+
+{% macro match_player_select(id, name, match) -%}
+<select id="{{id}}" name="{{name}}">
+	{% for player in match.team_one.player_team_set %}
+		<option value="{{player.key().id_or_name()}}">{{player.name}}</option>
+	{% endfor %}
+	{% for player in match.team_two.player_team_set %}
+		<option value="{{player.key().id_or_name()}}">{{player.name}}</option>
+	{% endfor %}
+</select>
+{%- endmacro %}
+
+{% macro match_team_select(id, name, match) -%}
+<select id="{{id}}" name="{{name}}">
+		<option value="{{match.team_one.key().id_or_name()}}">{{match.team_one.name}}</option>
+		<option value="{{match.team_two.key().id_or_name()}}">{{match.team_two.name}}</option>
+</select>
+{%- endmacro %}
+
+{% macro prediction_select(id, name, val) -%}
+<select id="{{id}}" name="{{name}}">
+	{% for i in range(val.min, val.max) %}
+		<option value="{{i}}">{{i}}</option>
+	{% endfor %}
+</select>
+{%- endmacro %}
+

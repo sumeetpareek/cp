@@ -14,6 +14,10 @@ handlers:
 - url: /sanitycheck
   script: sanitycheck.app
 
+- url: /fblogin
+  script: fblogin.app
+
+
 - url: .*
   script: cp.app
   

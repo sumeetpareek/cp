@@ -1,0 +1,39 @@
+#header{
+text-align: right;
+background: #EEE;
+padding: 10px;
+margin: 20px;
+}
+#sidebar{
+float: right;
+margin-right: 100px;
+padding: 0px 20px;
+overflow: scroll;
+height: 400px;
+}
+#main{
+float: left;
+width: 70%;
+}
+.hidden{
+display:none;
+}
+.match-main{
+padding: 10px;
+margin: 10px;
+width: 100%;
+height:500px;
+background: yellow;
+float: left;
+}
+.match-link{
+border: 1px dashed #999;
+margin: 5px 0px;
+padding: 0px 20px;
+cursor: pointer;
+}
+.match-link:hover{
+background: #eee;
+}
+.match-main form{}
+.match-main .form-item{}
