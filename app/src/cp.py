@@ -2,6 +2,7 @@ import webapp2
 
 import jinja2
 import os
+from google.appengine.api import users
 
 from schema import *
 
@@ -11,14 +12,16 @@ jinja_environment = jinja2.Environment(
 
 class MainPage(webapp2.RequestHandler):
   def get(self):
-    # Fetch the index.html template and render it
-    template = jinja_environment.get_template('templates/index.html')
-    self.response.out.write(template.render())
-#    team = Team()
-#    team.put()
-#    match = Match()
-#    match.put()
+    matches = Match.all()
+    user = users.get_current_user()
     
+    template_values = {
+      'matches': matches,
+      'user': user,
+      'login_url': users.create_login_url(self.request.uri)
+                       }
+    template = jinja_environment.get_template('templates/homepage.html')
+    self.response.out.write(template.render(template_values))
 
 # Once app.yaml sends us here we call use appropriate clases to show functionality for appropriate paths
 app = webapp2.WSGIApplication([

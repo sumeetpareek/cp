@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>CaptainPandey - Award winning game for everybody with a cricket prediction</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/static/js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/static/js/script.js" type="text/javascript"></script>
+  </head>
+  <body>
+  {% if user %}
+    <h1>Welcome {{ user.nickname() }}</h1>
+  {% else %}
+  	<a href="{{ login_url }}">Hello Guest Please Login</a>
+  {% endif %}
+  {% for match in matches %}
+  	<li><a class="match-link" href="#">{{ match.team_one.name }} VS {{ match.team_two.name }}</a></li>
+  {% endfor %}
+  
+  
+  </body>
+</html>
