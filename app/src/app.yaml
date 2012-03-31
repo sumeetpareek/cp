@@ -1,8 +1,11 @@
-application: cp-dev
+application: cp-live
 version: 1
 runtime: python27
 api_version: 1
 threadsafe: true
+
+builtins:
+- remote_api: on
 
 handlers:
 - url: /static
@@ -10,6 +13,9 @@ handlers:
 
 - url: /sanitycheck
   script: sanitycheck.app
+  
+- url: /
+  script: teaser.app
 
 - url: .*
   script: cp.app
@@ -17,3 +23,4 @@ handlers:
 libraries:
 - name: jinja2
   version: latest
+  
