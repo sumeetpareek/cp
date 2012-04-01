@@ -16,15 +16,19 @@
 	
 	<div id="main">
 		{% for match_key in cp.match_keys %}
-		<div id="{{match_key}}_main" class="match-main hidden">
+		<div id="{{match_key}}_main" class="match-main hidden match-main-{{cp.matches[match_key].flag}}">
 				<h1>{{cp.teams[cp.matches[match_key].team_one].name}} Vs. {{cp.teams[cp.matches[match_key].team_two].name}}</h1>
-				{% if ((cp.matches[match_key].start_time|strptime('%a %b %d %Y %H:%M')) < (curr_date_time|strptime('%a %b %d %Y %H:%M'))) %}
-				<h1>Old Match - Prediction Closed</h1>
-				{% elif ((cp.matches[match_key].start_time|strptime('%a %b %d %Y %H:%M')) < (allowed_date_time|strptime('%a %b %d %Y %H:%M'))) %}
-				<h1>Upcoming Match - Prediction Ongoing</h1>
-				{% else %}
-				<h1>Future Match - Prediction Closed</h1>
-				{% endif %}
+				
+				{% if (cp.matches[match_key].flag == 'closed') %}
+				<p>This is a CLOSED match</p>
+				<p>TODO</p>
+				<p>Anon user will see scorecard of the match</p>
+				<p>Auth user will see his predictions compared to the real score + his points (if he had made predicitons)</p>
+				<p>Auth user will see scorecard if he had not made any predictions</p>
+				
+				{% elif (cp.matches[match_key].flag == 'open') %}
+				<p>Make your predictions for this game below and win prizes.. la la la la..</p>
+				<p>Hurry!! We will STOP accepting your predictions as soon as the match starts at - {{cp.matches[match_key].start_time}}</p>
 				<form method="post" action="/TODO">
 				<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_run', name='player_run', match=cp.matches[match_key], cp=cp) }} will score {{ mac.prediction_select(id='TODO', name='player_run_pred', val=prediction_limits['p_r']) }} runs</div>
 				<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_wicket', name='player_run', match=cp.matches[match_key], cp=cp) }} will take {{ mac.prediction_select(id='TODO', name='player_wicket_pred', val=prediction_limits['p_w']) }} wickets</div>
@@ -33,6 +37,12 @@
 				<div class="form-item">Team {{ mac.match_team_select(id=match_key+'_team_six', name='team_six', match=cp.matches[match_key], cp=cp) }} will hit {{ mac.prediction_select(id='TODO', name='team_six_pred', val=prediction_limits['t_s']) }} sixes in total</div>				
 				<input type="submit" value="Save Predictions" />
 				</form>
+				
+				{% elif (cp.matches[match_key].flag == 'future') %}
+				<p>This is a FUTURE match</p>
+				<p>You will be able to MAKE predictions for this match from - {{cp.matches[match_key].pred_start_time}}</p>
+				<p>We will STOP letting you add predictions right before the match begins at - {{cp.matches[match_key].start_time}} </p>
+				{% endif %}
 		</div>
 		{% endfor %}
 	</div>  
@@ -40,9 +50,9 @@
 
 	<div id="sidebar">
 	{% for match_key in cp.match_keys %}
-		<div id="{{match_key}}" class="match-link">
+		<div id="{{match_key}}" class="match-link match-link-{{cp.matches[match_key].flag}}">
 		<p>{{match_key}} | {{cp.matches[match_key].start_time}}</p>
-		<p>{{cp.teams[cp.matches[match_key].team_one].name}} Vs. {{cp.teams[cp.matches[match_key].team_two].name}}</p>
+		<p>{{cp.teams[cp.matches[match_key].team_one].name}} Vs. {{cp.teams[cp.matches[match_key].team_two].name}} <span class="match-link-flag">{{cp.matches[match_key].flag}}</span></p>
 		</div>
 	{% endfor %}
 	</div>

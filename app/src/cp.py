@@ -80,7 +80,27 @@ class MainPage(BaseHandler):
     
     stream = open("cp_static_data.yaml", "r")
     cp_data = yaml.load(stream)
-#    self.response.out.write(cp_data)
+    
+    '''
+    Add tags to matches to reflect what the user can do in their context and what information is shown there
+          future => matches that are more than a day away from current time and are still not open for predictions
+          open => matches which are about to take place and are open for predictions
+          pending => matches that have their predictions closed but scoring and point calculation not done yet
+          closed => matches which are over and scoring, points calculation has been done as well
+    ''' 
+#    current_datetime = datetime.datetime.now() #TODO real val to use
+    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
+    for match_key in cp_data['match_keys']:
+      match_datetime = datetime.datetime.strptime(cp_data['matches'][match_key]['start_time'], '%a %b %d %Y %H:%M')
+      match_time_delta = match_datetime - current_datetime
+      if (match_time_delta.days > 0):
+        cp_data['matches'][match_key]['flag'] = 'future'
+        cp_data['matches'][match_key]['pred_start_time'] = (match_datetime - datetime.timedelta(days=1)).strftime('%a %b %d %Y %H:%M')
+      elif (match_time_delta.days < 0):
+        cp_data['matches'][match_key]['flag'] = 'closed' #TODO: add pending check later
+      else:
+        cp_data['matches'][match_key]['flag'] = 'open'
+    
     template_values = {
       'cp': cp_data,
       'current_user': self.current_user,

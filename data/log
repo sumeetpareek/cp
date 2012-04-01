@@ -9,4 +9,26 @@
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match.gae.csv --kind=Match --url=http://cp-dev.appspot.com/_ah/remote_api -e=positivecharge@gmail.com
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/player.gae.csv --kind=Player --url=http://cp-dev.appspot.com/_ah/remote_api -e=positivecharge@gmail.com
 
-ARCPP9983G
+sumeet
+* matches should have tag - future, open, closed, (pending) - 30
+* add relevant classes to match-list and match-main - 10
+* add relevant tag to match-list - 10 
+*all future matches to show open close time for predictions - 30
+*all open matches to show prediction form with alert on submit - 10
+*all closed matches to show closed message - 10
+auth open matches to save predictions on submit - 120
+auth open matches to load predictions - 120
+
+
+basant
+teaser page - 30
+header theme and basic background - 60
+
+
+start
+curr
+
+future if start - curr > 1 day
+open if 0 > start - curr < 1day
+closed if start - curr < 0
+
