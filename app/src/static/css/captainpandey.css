@@ -1,0 +1,90 @@
+body{
+	background:url(images/background.jpg) no-repeat fixed 0 0 #183152;
+}
+
+#footer-bottom{
+	background:url(images/footer_bottom.png) no-repeat scroll 0 0 transparent;
+	display:block;
+	height:110px;
+	width:100%;
+	position: fixed;
+	bottom:0;
+	left:0;
+	z-index:-10;
+}
+
+#header-top{
+	background:url(images/header_top.png) no-repeat scroll 2% 0 transparent;
+	display:block;
+	height:100px;
+	width:100%;
+	left: 0;
+    position: fixed;
+    top: 0;
+    z-index:-10;
+}
+
+#page{
+	width:900px;
+	margin:0 auto;
+}
+
+#slogan{
+	background: url("images/slogan.png") no-repeat scroll 0 0 transparent;
+    color: #E0E5F8;
+    font-family: Comic Sans MS;
+    font-size: 28px;
+    font-weight: bolder;
+    height: 62px;
+    margin: 25px auto 40px;
+    text-align: center;
+    text-indent: -99999px;
+    width: 562px;
+}
+#video-container{
+	background:rgb(225, 230, 249);
+	background:rgba(225, 230, 249,.48);/*#e1e6f9*/;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius:9px;
+	padding:10px 25px 40px;
+	margin-top:35px;
+	margin:0 50px;
+}
+#video-container ul{
+	text-align:center;
+}
+#video-container li{
+	list-style:none;
+	display:inline;
+	margin-right:40px;
+}
+#video-container li iframe{
+	 box-shadow: 0 0 6px 2px #FCFCFB;
+}
+#bat-background{
+	 background: url("images/bat-ball.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    height: 121px;
+    position: relative;
+    top: -60px;
+    width: 516px;
+}
+
+#fb-like{
+	display:block;
+	width:100px;
+	height:45px;
+	text-indent:-9999px;
+	margin:30px 115px;
+	background:url(images/fblike.gif) no-repeat scroll 0 0 transparent;
+}
+#logo{
+	display:block;
+	width:630px;
+	height:220px;
+	margin:0 auto;
+	text-indent:-9999px;
+	background:url(images/coming_logo.png) no-repeat scroll 0 0 transparent;
+}
