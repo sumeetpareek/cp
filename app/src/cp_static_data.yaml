@@ -1,0 +1,1756 @@
+team_players:
+  team_bangalore:
+    player_214: Daniel Vettori
+    player_215: Mayank Agarwal
+    player_216: KP Appanna
+    player_217: Sreenath Aravind
+    player_218: Arun Karthik
+    player_219: Raju Bhatkal
+    player_220: AB de Villiers
+    player_221: Tillakaratne Dilshan
+    player_222: Muralidharen Gautam
+    player_223: Chris Gayle
+    player_224: Mohammad Kaif
+    player_225: Abrar Kazi
+    player_226: Zaheer Khan
+    player_227: Virat Kohli
+    player_228: Charl Langeveldt
+    player_229: Andrew McDonald
+    player_230: Abhimanyu Mithun
+    player_231: Muttiah Muralitharan
+    player_232: Karun Nair
+    player_233: Dirk Nannes
+    player_234: Ryan Ninan
+    player_235: Harshal Patel
+    player_236: Asad Pathan
+    player_237: Luke Pomersbach
+    player_238: Cheteshwar Pujara
+    player_239: Rilee Rossouw
+    player_240: Jamaluddin Syed Mohammad
+    player_241: Saurabh Tiwary
+    player_242: Vinay Kumar
+    player_243: Vijay Zol
+  team_chennai:
+    player_189: MS Dhoni
+    player_190: Srikkanth Anirudha
+    player_191: Ravichandran Ashwin
+    player_192: Subramaniam Badrinath
+    player_193: George Bailey
+    player_194: Doug Bollinger
+    player_195: Dwayne Bravo
+    player_196: Faf du Plessis
+    player_197: Ben Hilfenhaus
+    player_198: Michael Hussey
+    player_199: Ravindra Jadeja
+    player_200: Shadab Jakati
+    player_201: Joginder Sharma
+    player_202: Suraj Randiv
+    player_203: Nuwan Kulasekara
+    player_204: Yo Mahesh
+    player_205: Albie Morkel
+    player_206: Abhinav Mukund
+    player_207: Suresh Raina
+    player_208: Wriddhiman Saha
+    player_209: Scott Styris
+    player_210: Sudeep Tyagi
+    player_211: Kuthethurshri Vasudevadas
+    player_212: Ganapathi Vignesh
+    player_213: Murali Vijay
+  team_delhi:
+    player_36: Virender Sehwag
+    player_37: Manprit Juneja
+    player_38: Varun Aaron
+    player_39: Ajit Agarkar
+    player_40: Puneet Bisht
+    player_41: Robin Bist
+    player_42: Gulam Bodi
+    player_43: Doug Bracewell
+    player_44: Unmukt Chand
+    player_45: Aaron Finch
+    player_46: Mahela Jayawardene
+    player_47: Glenn Maxwell
+    player_48: Morne Morkel
+    player_49: Shahbaz Nadeem
+    player_50: Yogesh Nagar
+    player_51: Prashant Naik
+    player_52: Pawan Negi
+    player_53: Naman Ojha
+    player_54: Irfan Pathan
+    player_55: Kevin Pietersen
+    player_56: Kuldeep Raval
+    player_57: Andre Russell
+    player_58: Aavishkar Salvi
+    player_59: Ross Taylor
+    player_60: Roelof van der Merwe
+    player_61: Venugopal Rao
+    player_62: Vikas Mishra
+    player_63: David Warner
+    player_64: Tejashwi Yadav
+    player_65: Umesh Yadav
+    player_66: Travis Birt
+    player_67: Colin Ingram
+  team_hyderabad:
+    player_123: Kumar Sangakkara
+    player_124: Ashish Reddy
+    player_125: Anand Rajan
+    player_126: Ankit Sharma
+    player_127: Tekkami Atchuta Rao
+    player_128: Akash Bhandari
+    player_129: Darren Bravo
+    player_130: Bharat Chipli
+    player_131: Daniel Christian
+    player_132: Kedar Devdhar
+    player_133: Shikhar Dhawan
+    player_134: Jean-Paul Duminy
+    player_135: Manpreet Gony
+    player_136: Daniel Harris
+    player_137: Ishank Jaggi
+    player_138: Abhishek Jhunjhunwala
+    player_139: Chris Lynn
+    player_140: Amit Mishra
+    player_141: Tanmay Mishra
+    player_142: Parthiv Patel
+    player_143: Veer Pratap Singh
+    player_144: Syed Quadri
+    player_145: Dwaraka Ravi Teja
+    player_146: Akshath Reddy
+    player_147: Biplab Samantray
+    player_148: Ishant Sharma
+    player_149: Sneha Kishore
+    player_150: Sunny Sohal
+    player_151: Tanmay Srivastava
+    player_152: Dale Steyn
+    player_153: TP Sudhindra
+    player_154: Rusty Theron
+    player_155: Cameron White
+    player_156: Arjun Yadav
+  team_kolkata:
+    player_100: Rajat Bhatia
+    player_101: Manvinder  Bisla
+    player_102: Debabrata Das
+    player_103: Marchant De Lange
+    player_104: Brad Haddin
+    player_105: Iqbal Abdulla
+    player_106: Chirag Jani
+    player_107: jacques Kallis
+    player_108: Brett Lee
+    player_109: Brendon McCullum
+    player_110: Eoin Morgan
+    player_111: Sunil Narine
+    player_112: Yusuf Pathan
+    player_113: James Pattinson
+    player_114: Sanju Samson
+    player_115: Pradeep Sangwan
+    player_116: Iresh Saxena
+    player_117: Shami Ahmed
+    player_118: Shakib Al Hasan
+    player_119: Laxmi Shukla
+    player_120: Ryan ten Doeschate
+    player_121: Manoj Tiwary
+    player_122: Jaydev Unadkat
+    player_97: Gautam Gambhir
+    player_98: Sarabjit Ladda
+    player_99: Lakshmipathy Balaji
+  team_mumbai:
+    player_157: Sachin Tendulkar
+    player_158: Abu Nechim
+    player_159: Amitoze Singh
+    player_160: Aliden Blizzard
+    player_161: Yuzvendra Chahal
+    player_162: James Franklin
+    player_163: Herschelle Gibbs
+    player_164: Harbhajan Singh
+    player_165: Davy Jacobs
+    player_166: Mitchell Johnson
+    player_167: Dinesh Karthik
+    player_168: Dhawal Kulkarni
+    player_169: Richard Levi
+    player_170: Clint McKay
+    player_171: Lasith Malinga
+    player_172: Sushant Marathe
+    player_173: Sujit Nayak
+    player_174: Pragyan Ojha
+    player_175: Munaf Patel
+    player_176: Thisara Perera
+    player_177: Robin Peterson
+    player_178: Kieron Pollard
+    player_179: Ambati Rayudu
+    player_180: Jaydev Shah
+    player_181: Rohit Sharma
+    player_182: Rahul Shukla
+    player_183: RP Singh
+    player_184: Tirumalasetti Suman
+    player_185: Pawan Suyal
+    player_186: Aditya Tare
+    player_187: Apoorv Wankhade
+    player_188: Suryakumar Yadav
+  team_pune:
+    player_01: Sourav Ganguly
+    player_02: Eklavya Diwedi
+    player_03: Michael Clarke
+    player_04: Ashok Dinda
+    player_05: Callum Ferguson
+    player_06: Raiphi Gomez
+    player_07: Harpreet Singh
+    player_08: James Hopes
+    player_09: Dheeraj Jadhav
+    player_10: Kamran Khan
+    player_11: Murali Kartik
+    player_12: Harshad Khadiwale
+    player_13: Bhuvneshwar Kumar
+    player_14: Nathan McCullum
+    player_15: Anustup Majumdar
+    player_16: Mithun Manhas
+    player_17: Angelo Mathews
+    player_18: Mohnish  Mishra
+    player_19: Ali Murtaza
+    player_20: Ashish Nehra
+    player_21: Manish Pandey
+    player_22: Wayne Parnell
+    player_23: Sachin Rana
+    player_24: Jesse Ryder
+    player_25: Marlon Samuels
+    player_26: Rahul Sharma
+    player_27: Graeme Smith
+    player_28: Steven Smith
+    player_29: Alfonso Thomas
+    player_30: Krishnakant  Upadhyay
+    player_31: Robin Uthappa
+    player_32: Shrikant Wagh
+    player_33: Luke Wright
+    player_34: Yuvraj Singh
+    player_35: Mitchell Marsh
+  team_punjab:
+    player_68: Adam Gilchrist
+    player_69: Parvinder Awana
+    player_70: Love Ablish
+    player_71: Amit Yadav
+    player_72: Azhar Mahmood
+    player_73: Bhargav Bhatt
+    player_74: Bipul Sharma
+    player_75: Stuart Broad
+    player_76: Piyush Chawla
+    player_77: Siddharth Chitnis
+    player_78: Paras Dogra
+    player_79: James Faulkner
+    player_80: Harmeet Singh
+    player_81: Ryan Harris
+    player_82: David Hussey
+    player_83: Praveen Kumar
+    player_84: Vikramjeet Malik
+    player_85: Mandeep Singh
+    player_86: Shaun Marsh
+    player_87: Dimitri Mascarenhas
+    player_88: David Miller
+    player_89: Abhishek Nayar
+    player_90: Ramesh Powar
+    player_91: Nathan Rimmington
+    player_92: Nitin Saini
+    player_93: Rajagopal Sathish
+    player_94: Shalabh Srivastava
+    player_95: Sunny Singh
+    player_96: Paul Valthaty
+  team_rajasthan:
+    player_244: Rahul Dravid
+    player_245: Stuart Binny
+    player_246: Johan Botha
+    player_247: Deepak Chahar
+    player_248: Dinesh Chandimal
+    player_249: Ankeet Chavan
+    player_250: Aakash Chopra
+    player_251: Paul Collingwood
+    player_252: Kevon Cooper
+    player_253: Aditya Dole
+    player_254: Samad Fallah
+    player_255: Faiz Fazal
+    player_256: Shreevats Goswami
+    player_257: Brad Hodge
+    player_258: Brad Hogg
+    player_259: Ashok Menaria
+    player_260: Sumit Narwal
+    player_261: Pankaj Singh
+    player_262: Amit Paunikar
+    player_263: Ajinkya Rahane
+    player_264: Abhishek Raut
+    player_265: Owais Shah
+    player_266: Pinal Shah
+    player_267: Amit Singh
+    player_268: Sreesanth
+    player_269: Shaun Tait
+    player_270: Siddharth Trivedi
+    player_271: Shane Watson
+    player_272: Dishant Yagnik
+
+players:
+  player_01:
+    name: Sourav Ganguly
+    role: Top-order batsman
+    team: team_pune
+  player_02:
+    name: Eklavya Diwedi
+    role: Wicketkeeper
+    team: team_pune
+  player_03:
+    name: Michael Clarke
+    role: Middle-order batsman
+    team: team_pune
+  player_04:
+    name: Ashok Dinda
+    role: Bowler
+    team: team_pune
+  player_05:
+    name: Callum Ferguson
+    role: Middle-order batsman
+    team: team_pune
+  player_06:
+    name: Raiphi Gomez
+    role: Allrounder
+    team: team_pune
+  player_07:
+    name: Harpreet Singh
+    role: Batsman
+    team: team_pune
+  player_08:
+    name: James Hopes
+    role: Allrounder
+    team: team_pune
+  player_09:
+    name: Dheeraj Jadhav
+    role: Batsman
+    team: team_pune
+  player_10:
+    name: Kamran Khan
+    role: Bowler
+    team: team_pune
+  player_100:
+    name: Rajat Bhatia
+    role: Allrounder
+    team: team_kolkata
+  player_101:
+    name: Manvinder  Bisla
+    role: Wicketkeeper
+    team: team_kolkata
+  player_102:
+    name: Debabrata Das
+    role: Batsman
+    team: team_kolkata
+  player_103:
+    name: Marchant De Lange
+    role: Bowler
+    team: team_kolkata
+  player_104:
+    name: Brad Haddin
+    role: Wicketkeeper batsman
+    team: team_kolkata
+  player_105:
+    name: Iqbal Abdulla
+    role: Allrounder
+    team: team_kolkata
+  player_106:
+    name: Chirag Jani
+    role: Batsman
+    team: team_kolkata
+  player_107:
+    name: jacques Kallis
+    role: Allrounder
+    team: team_kolkata
+  player_108:
+    name: Brett Lee
+    role: Bowler
+    team: team_kolkata
+  player_109:
+    name: Brendon McCullum
+    role: Wicketkeeper batsman
+    team: team_kolkata
+  player_11:
+    name: Murali Kartik
+    role: Bowler
+    team: team_pune
+  player_110:
+    name: Eoin Morgan
+    role: Middle-order batsman
+    team: team_kolkata
+  player_111:
+    name: Sunil Narine
+    role: Bowler
+    team: team_kolkata
+  player_112:
+    name: Yusuf Pathan
+    role: Allrounder
+    team: team_kolkata
+  player_113:
+    name: James Pattinson
+    role: Bowler
+    team: team_kolkata
+  player_114:
+    name: Sanju Samson
+    role: Batsman
+    team: team_kolkata
+  player_115:
+    name: Pradeep Sangwan
+    role: Bowler
+    team: team_kolkata
+  player_116:
+    name: Iresh Saxena
+    role: Bowler
+    team: team_kolkata
+  player_117:
+    name: Shami Ahmed
+    role: Bowler
+    team: team_kolkata
+  player_118:
+    name: Shakib Al Hasan
+    role: Allrounder
+    team: team_kolkata
+  player_119:
+    name: Laxmi Shukla
+    role: Allrounder
+    team: team_kolkata
+  player_12:
+    name: Harshad Khadiwale
+    role: Opening batsman
+    team: team_pune
+  player_120:
+    name: Ryan ten Doeschate
+    role: Allrounder
+    team: team_kolkata
+  player_121:
+    name: Manoj Tiwary
+    role: Batsman
+    team: team_kolkata
+  player_122:
+    name: Jaydev Unadkat
+    role: Bowler
+    team: team_kolkata
+  player_123:
+    name: Kumar Sangakkara
+    role: Wicketkeeper batsman
+    team: team_hyderabad
+  player_124:
+    name: Ashish Reddy
+    role: Bowler
+    team: team_hyderabad
+  player_125:
+    name: Anand Rajan
+    role: Bowler
+    team: team_hyderabad
+  player_126:
+    name: Ankit Sharma
+    role: Bowler
+    team: team_hyderabad
+  player_127:
+    name: Tekkami Atchuta Rao
+    role: Bowler
+    team: team_hyderabad
+  player_128:
+    name: Akash Bhandari
+    role: Bowler
+    team: team_hyderabad
+  player_129:
+    name: Darren Bravo
+    role: Batsman
+    team: team_hyderabad
+  player_13:
+    name: Bhuvneshwar Kumar
+    role: Bowler
+    team: team_pune
+  player_130:
+    name: Bharat Chipli
+    role: Batsman
+    team: team_hyderabad
+  player_131:
+    name: Daniel Christian
+    role: Allrounder
+    team: team_hyderabad
+  player_132:
+    name: Kedar Devdhar
+    role: Wicketkeeper
+    team: team_hyderabad
+  player_133:
+    name: Shikhar Dhawan
+    role: Top-order batsman
+    team: team_hyderabad
+  player_134:
+    name: Jean-Paul Duminy
+    role: Middle-order batsman
+    team: team_hyderabad
+  player_135:
+    name: Manpreet Gony
+    role: Bowler
+    team: team_hyderabad
+  player_136:
+    name: Daniel Harris
+    role: Batsman
+    team: team_hyderabad
+  player_137:
+    name: Ishank Jaggi
+    role: Batsman
+    team: team_hyderabad
+  player_138:
+    name: Abhishek Jhunjhunwala
+    role: Batsman
+    team: team_hyderabad
+  player_139:
+    name: Chris Lynn
+    role: Batsman
+    team: team_hyderabad
+  player_14:
+    name: Nathan McCullum
+    role: Bowler
+    team: team_pune
+  player_140:
+    name: Amit Mishra
+    role: Bowler
+    team: team_hyderabad
+  player_141:
+    name: Tanmay Mishra
+    role: Middle-order batsman
+    team: team_hyderabad
+  player_142:
+    name: Parthiv Patel
+    role: Wicketkeeper batsman
+    team: team_hyderabad
+  player_143:
+    name: Veer Pratap Singh
+    role: Bowler
+    team: team_hyderabad
+  player_144:
+    name: Syed Quadri
+    role: Allrounder
+    team: team_hyderabad
+  player_145:
+    name: Dwaraka Ravi Teja
+    role: Batsman
+    team: team_hyderabad
+  player_146:
+    name: Akshath Reddy
+    role: Batsman
+    team: team_hyderabad
+  player_147:
+    name: Biplab Samantray
+    role: Batsman
+    team: team_hyderabad
+  player_148:
+    name: Ishant Sharma
+    role: Bowler
+    team: team_hyderabad
+  player_149:
+    name: Sneha Kishore
+    role: Bowler
+    team: team_hyderabad
+  player_15:
+    name: Anustup Majumdar
+    role: Batsman
+    team: team_pune
+  player_150:
+    name: Sunny Sohal
+    role: Batsman
+    team: team_hyderabad
+  player_151:
+    name: Tanmay Srivastava
+    role: Top-order batsman
+    team: team_hyderabad
+  player_152:
+    name: Dale Steyn
+    role: Bowler
+    team: team_hyderabad
+  player_153:
+    name: TP Sudhindra
+    role: Bowler
+    team: team_hyderabad
+  player_154:
+    name: Rusty Theron
+    role: Bowler
+    team: team_hyderabad
+  player_155:
+    name: Cameron White
+    role: Middle-order batsman
+    team: team_hyderabad
+  player_156:
+    name: Arjun Yadav
+    role: Batsman
+    team: team_hyderabad
+  player_157:
+    name: Sachin Tendulkar
+    role: Top-order batsman
+    team: team_mumbai
+  player_158:
+    name: Abu Nechim
+    role: Bowler
+    team: team_mumbai
+  player_159:
+    name: Amitoze Singh
+    role: Batsman
+    team: team_mumbai
+  player_16:
+    name: Mithun Manhas
+    role: Allrounder
+    team: team_pune
+  player_160:
+    name: Aliden Blizzard
+    role: Batsman
+    team: team_mumbai
+  player_161:
+    name: Yuzvendra Chahal
+    role: Bowler
+    team: team_mumbai
+  player_162:
+    name: James Franklin
+    role: Allrounder
+    team: team_mumbai
+  player_163:
+    name: Herschelle Gibbs
+    role: Batsman
+    team: team_mumbai
+  player_164:
+    name: Harbhajan Singh
+    role: Bowler
+    team: team_mumbai
+  player_165:
+    name: Davy Jacobs
+    role: Wicketkeeper batsman
+    team: team_mumbai
+  player_166:
+    name: Mitchell Johnson
+    role: Bowler
+    team: team_mumbai
+  player_167:
+    name: Dinesh Karthik
+    role: Wicketkeeper batsman
+    team: team_mumbai
+  player_168:
+    name: Dhawal Kulkarni
+    role: Bowler
+    team: team_mumbai
+  player_169:
+    name: Richard Levi
+    role: Batsman
+    team: team_mumbai
+  player_17:
+    name: Angelo Mathews
+    role: Allrounder
+    team: team_pune
+  player_170:
+    name: Clint McKay
+    role: Bowler
+    team: team_mumbai
+  player_171:
+    name: Lasith Malinga
+    role: Bowler
+    team: team_mumbai
+  player_172:
+    name: Sushant Marathe
+    role: Wicketkeeper
+    team: team_mumbai
+  player_173:
+    name: Sujit Nayak
+    role: Bowler
+    team: team_mumbai
+  player_174:
+    name: Pragyan Ojha
+    role: Bowler
+    team: team_mumbai
+  player_175:
+    name: Munaf Patel
+    role: Bowler
+    team: team_mumbai
+  player_176:
+    name: Thisara Perera
+    role: Allrounder
+    team: team_mumbai
+  player_177:
+    name: Robin Peterson
+    role: Bowler
+    team: team_mumbai
+  player_178:
+    name: Kieron Pollard
+    role: Allrounder
+    team: team_mumbai
+  player_179:
+    name: Ambati Rayudu
+    role: Wicketkeeper batsman
+    team: team_mumbai
+  player_18:
+    name: Mohnish  Mishra
+    role: Batsman
+    team: team_pune
+  player_180:
+    name: Jaydev Shah
+    role: Batsman
+    team: team_mumbai
+  player_181:
+    name: Rohit Sharma
+    role: Batsman
+    team: team_mumbai
+  player_182:
+    name: Rahul Shukla
+    role: Bowler
+    team: team_mumbai
+  player_183:
+    name: RP Singh
+    role: Bowler
+    team: team_mumbai
+  player_184:
+    name: Tirumalasetti Suman
+    role: Batsman
+    team: team_mumbai
+  player_185:
+    name: Pawan Suyal
+    role: Bowler
+    team: team_mumbai
+  player_186:
+    name: Aditya Tare
+    role: Wicketkeeper
+    team: team_mumbai
+  player_187:
+    name: Apoorv Wankhade
+    role: Batsman
+    team: team_mumbai
+  player_188:
+    name: Suryakumar Yadav
+    role: Batsman
+    team: team_mumbai
+  player_189:
+    name: MS Dhoni
+    role: Wicketkeeper batsman
+    team: team_chennai
+  player_19:
+    name: Ali Murtaza
+    role: Bowler
+    team: team_pune
+  player_190:
+    name: Srikkanth Anirudha
+    role: Top-order batsman
+    team: team_chennai
+  player_191:
+    name: Ravichandran Ashwin
+    role: Bowler
+    team: team_chennai
+  player_192:
+    name: Subramaniam Badrinath
+    role: Middle-order batsman
+    team: team_chennai
+  player_193:
+    name: George Bailey
+    role: Top-order batsman
+    team: team_chennai
+  player_194:
+    name: Doug Bollinger
+    role: Bowler
+    team: team_chennai
+  player_195:
+    name: Dwayne Bravo
+    role: Allrounder
+    team: team_chennai
+  player_196:
+    name: Faf du Plessis
+    role: Allrounder
+    team: team_chennai
+  player_197:
+    name: Ben Hilfenhaus
+    role: Bowler
+    team: team_chennai
+  player_198:
+    name: Michael Hussey
+    role: Middle-order batsman
+    team: team_chennai
+  player_199:
+    name: Ravindra Jadeja
+    role: Allrounder
+    team: team_chennai
+  player_20:
+    name: Ashish Nehra
+    role: Bowler
+    team: team_pune
+  player_200:
+    name: Shadab Jakati
+    role: Bowler
+    team: team_chennai
+  player_201:
+    name: Joginder Sharma
+    role: Allrounder
+    team: team_chennai
+  player_202:
+    name: Suraj Randiv
+    role: Bowler
+    team: team_chennai
+  player_203:
+    name: Nuwan Kulasekara
+    role: Bowler
+    team: team_chennai
+  player_204:
+    name: Yo Mahesh
+    role: Allrounder
+    team: team_chennai
+  player_205:
+    name: Albie Morkel
+    role: Allrounder
+    team: team_chennai
+  player_206:
+    name: Abhinav Mukund
+    role: Top-order batsman
+    team: team_chennai
+  player_207:
+    name: Suresh Raina
+    role: Batsman
+    team: team_chennai
+  player_208:
+    name: Wriddhiman Saha
+    role: Wicketkeeper
+    team: team_chennai
+  player_209:
+    name: Scott Styris
+    role: Allrounder
+    team: team_chennai
+  player_21:
+    name: Manish Pandey
+    role: Top-order batsman
+    team: team_pune
+  player_210:
+    name: Sudeep Tyagi
+    role: Bowler
+    team: team_chennai
+  player_211:
+    name: Kuthethurshri Vasudevadas
+    role: Batsman
+    team: team_chennai
+  player_212:
+    name: Ganapathi Vignesh
+    role: Allrounder
+    team: team_chennai
+  player_213:
+    name: Murali Vijay
+    role: Opening batsman
+    team: team_chennai
+  player_214:
+    name: Daniel Vettori
+    role: Allrounder
+    team: team_bangalore
+  player_215:
+    name: Mayank Agarwal
+    role: Batsman
+    team: team_bangalore
+  player_216:
+    name: KP Appanna
+    role: Bowler
+    team: team_bangalore
+  player_217:
+    name: Sreenath Aravind
+    role: Bowler
+    team: team_bangalore
+  player_218:
+    name: Arun Karthik
+    role: Batsman
+    team: team_bangalore
+  player_219:
+    name: Raju Bhatkal
+    role: Allrounder
+    team: team_bangalore
+  player_22:
+    name: Wayne Parnell
+    role: Bowler
+    team: team_pune
+  player_220:
+    name: AB de Villiers
+    role: Wicketkeeper batsman
+    team: team_bangalore
+  player_221:
+    name: Tillakaratne Dilshan
+    role: Allrounder
+    team: team_bangalore
+  player_222:
+    name: Muralidharen Gautam
+    role: Wicketkeeper
+    team: team_bangalore
+  player_223:
+    name: Chris Gayle
+    role: Allrounder
+    team: team_bangalore
+  player_224:
+    name: Mohammad Kaif
+    role: Batsman
+    team: team_bangalore
+  player_225:
+    name: Abrar Kazi
+    role: Bowler
+    team: team_bangalore
+  player_226:
+    name: Zaheer Khan
+    role: Bowler
+    team: team_bangalore
+  player_227:
+    name: Virat Kohli
+    role: Middle-order batsman
+    team: team_bangalore
+  player_228:
+    name: Charl Langeveldt
+    role: Bowler
+    team: team_bangalore
+  player_229:
+    name: Andrew McDonald
+    role: Allrounder
+    team: team_bangalore
+  player_23:
+    name: Sachin Rana
+    role: Bowler
+    team: team_pune
+  player_230:
+    name: Abhimanyu Mithun
+    role: Bowler
+    team: team_bangalore
+  player_231:
+    name: Muttiah Muralitharan
+    role: Bowler
+    team: team_bangalore
+  player_232:
+    name: Karun Nair
+    role: Batsman
+    team: team_bangalore
+  player_233:
+    name: Dirk Nannes
+    role: Bowler
+    team: team_bangalore
+  player_234:
+    name: Ryan Ninan
+    role: Allrounder
+    team: team_bangalore
+  player_235:
+    name: Harshal Patel
+    role: Bowler
+    team: team_bangalore
+  player_236:
+    name: Asad Pathan
+    role: Bowler
+    team: team_bangalore
+  player_237:
+    name: Luke Pomersbach
+    role: Batsman
+    team: team_bangalore
+  player_238:
+    name: Cheteshwar Pujara
+    role: Batsman
+    team: team_bangalore
+  player_239:
+    name: Rilee Rossouw
+    role: Batsman
+    team: team_bangalore
+  player_24:
+    name: Jesse Ryder
+    role: Allrounder
+    team: team_pune
+  player_240:
+    name: Jamaluddin Syed Mohammad
+    role: Bowler
+    team: team_bangalore
+  player_241:
+    name: Saurabh Tiwary
+    role: Batsman
+    team: team_bangalore
+  player_242:
+    name: Vinay Kumar
+    role: Bowler
+    team: team_bangalore
+  player_243:
+    name: Vijay Zol
+    role: Batsman
+    team: team_bangalore
+  player_244:
+    name: Rahul Dravid
+    role: Top-order batsman
+    team: team_rajasthan
+  player_245:
+    name: Stuart Binny
+    role: Allrounder
+    team: team_rajasthan
+  player_246:
+    name: Johan Botha
+    role: Allrounder
+    team: team_rajasthan
+  player_247:
+    name: Deepak Chahar
+    role: Bowler
+    team: team_rajasthan
+  player_248:
+    name: Dinesh Chandimal
+    role: Wicketkeeper batsman
+    team: team_rajasthan
+  player_249:
+    name: Ankeet Chavan
+    role: Batsman
+    team: team_rajasthan
+  player_25:
+    name: Marlon Samuels
+    role: Batsman
+    team: team_pune
+  player_250:
+    name: Aakash Chopra
+    role: Batsman
+    team: team_rajasthan
+  player_251:
+    name: Paul Collingwood
+    role: Allrounder
+    team: team_rajasthan
+  player_252:
+    name: Kevon Cooper
+    role: Bowler
+    team: team_rajasthan
+  player_253:
+    name: Aditya Dole
+    role: Bowler
+    team: team_rajasthan
+  player_254:
+    name: Samad Fallah
+    role: Bowler
+    team: team_rajasthan
+  player_255:
+    name: Faiz Fazal
+    role: Opening batsman
+    team: team_rajasthan
+  player_256:
+    name: Shreevats Goswami
+    role: Wicketkeeper batsman
+    team: team_rajasthan
+  player_257:
+    name: Brad Hodge
+    role: Top-order batsman
+    team: team_rajasthan
+  player_258:
+    name: Brad Hogg
+    role: Allrounder
+    team: team_rajasthan
+  player_259:
+    name: Ashok Menaria
+    role: Allrounder
+    team: team_rajasthan
+  player_26:
+    name: Rahul Sharma
+    role: Bowler
+    team: team_pune
+  player_260:
+    name: Sumit Narwal
+    role: Allrounder
+    team: team_rajasthan
+  player_261:
+    name: Pankaj Singh
+    role: Bowler
+    team: team_rajasthan
+  player_262:
+    name: Amit Paunikar
+    role: Wicketkeeper batsman
+    team: team_rajasthan
+  player_263:
+    name: Ajinkya Rahane
+    role: Top-order batsman
+    team: team_rajasthan
+  player_264:
+    name: Abhishek Raut
+    role: Allrounder
+    team: team_rajasthan
+  player_265:
+    name: Owais Shah
+    role: Batsman
+    team: team_rajasthan
+  player_266:
+    name: Pinal Shah
+    role: Wicketkeeper batsman
+    team: team_rajasthan
+  player_267:
+    name: Amit Singh
+    role: Bowler
+    team: team_rajasthan
+  player_268:
+    name: Sreesanth
+    role: Bowler
+    team: team_rajasthan
+  player_269:
+    name: Shaun Tait
+    role: Bowler
+    team: team_rajasthan
+  player_27:
+    name: Graeme Smith
+    role: Opening batsman
+    team: team_pune
+  player_270:
+    name: Siddharth Trivedi
+    role: Bowler
+    team: team_rajasthan
+  player_271:
+    name: Shane Watson
+    role: Allrounder
+    team: team_rajasthan
+  player_272:
+    name: Dishant Yagnik
+    role: Wicketkeeper
+    team: team_rajasthan
+  player_28:
+    name: Steven Smith
+    role: Allrounder
+    team: team_pune
+  player_29:
+    name: Alfonso Thomas
+    role: Bowler
+    team: team_pune
+  player_30:
+    name: Krishnakant  Upadhyay
+    role: Bowler
+    team: team_pune
+  player_31:
+    name: Robin Uthappa
+    role: Batsman
+    team: team_pune
+  player_32:
+    name: Shrikant Wagh
+    role: Allrounder
+    team: team_pune
+  player_33:
+    name: Luke Wright
+    role: Allrounder
+    team: team_pune
+  player_34:
+    name: Yuvraj Singh
+    role: Middle-order batsman
+    team: team_pune
+  player_35:
+    name: Mitchell Marsh
+    role: Top-order batsman
+    team: team_pune
+  player_36:
+    name: Virender Sehwag
+    role: Top-order batsman
+    team: team_delhi
+  player_37:
+    name: Manprit Juneja
+    role: Batsman
+    team: team_delhi
+  player_38:
+    name: Varun Aaron
+    role: Bowler
+    team: team_delhi
+  player_39:
+    name: Ajit Agarkar
+    role: Bowler
+    team: team_delhi
+  player_40:
+    name: Puneet Bisht
+    role: Batsman
+    team: team_delhi
+  player_41:
+    name: Robin Bist
+    role: Middle-order batsman
+    team: team_delhi
+  player_42:
+    name: Gulam Bodi
+    role: Batsman
+    team: team_delhi
+  player_43:
+    name: Doug Bracewell
+    role: Bowler
+    team: team_delhi
+  player_44:
+    name: Unmukt Chand
+    role: Top-order batsman
+    team: team_delhi
+  player_45:
+    name: Aaron Finch
+    role: Top-order batsman
+    team: team_delhi
+  player_46:
+    name: Mahela Jayawardene
+    role: Batsman
+    team: team_delhi
+  player_47:
+    name: Glenn Maxwell
+    role: Allrounder
+    team: team_delhi
+  player_48:
+    name: Morne Morkel
+    role: Bowler
+    team: team_delhi
+  player_49:
+    name: Shahbaz Nadeem
+    role: Bowler
+    team: team_delhi
+  player_50:
+    name: Yogesh Nagar
+    role: Allrounder
+    team: team_delhi
+  player_51:
+    name: Prashant Naik
+    role: Middle-order batsman
+    team: team_delhi
+  player_52:
+    name: Pawan Negi
+    role: Allrounder
+    team: team_delhi
+  player_53:
+    name: Naman Ojha
+    role: Wicketkeeper batsman
+    team: team_delhi
+  player_54:
+    name: Irfan Pathan
+    role: Allrounder
+    team: team_delhi
+  player_55:
+    name: Kevin Pietersen
+    role: Top-order batsman
+    team: team_delhi
+  player_56:
+    name: Kuldeep Raval
+    role: Batsman
+    team: team_delhi
+  player_57:
+    name: Andre Russell
+    role: Allrounder
+    team: team_delhi
+  player_58:
+    name: Aavishkar Salvi
+    role: Bowler
+    team: team_delhi
+  player_59:
+    name: Ross Taylor
+    role: Middle-order batsman
+    team: team_delhi
+  player_60:
+    name: Roelof van der Merwe
+    role: Allrounder
+    team: team_delhi
+  player_61:
+    name: Venugopal Rao
+    role: Middle-order batsman
+    team: team_delhi
+  player_62:
+    name: Vikas Mishra
+    role: Bowler
+    team: team_delhi
+  player_63:
+    name: David Warner
+    role: Opening batsman
+    team: team_delhi
+  player_64:
+    name: Tejashwi Yadav
+    role: Middle-order batsman
+    team: team_delhi
+  player_65:
+    name: Umesh Yadav
+    role: Bowler
+    team: team_delhi
+  player_66:
+    name: Travis Birt
+    role: Middle-order batsman
+    team: team_delhi
+  player_67:
+    name: Colin Ingram
+    role: Top-order batsman
+    team: team_delhi
+  player_68:
+    name: Adam Gilchrist
+    role: Wicketkeeper batsman
+    team: team_punjab
+  player_69:
+    name: Parvinder Awana
+    role: Bowler
+    team: team_punjab
+  player_70:
+    name: Love Ablish
+    role: Bowler
+    team: team_punjab
+  player_71:
+    name: Amit Yadav
+    role: Allrounder
+    team: team_punjab
+  player_72:
+    name: Azhar Mahmood
+    role: Allrounder
+    team: team_punjab
+  player_73:
+    name: Bhargav Bhatt
+    role: Bowler
+    team: team_punjab
+  player_74:
+    name: Bipul Sharma
+    role: Allrounder
+    team: team_punjab
+  player_75:
+    name: Stuart Broad
+    role: Bowler
+    team: team_punjab
+  player_76:
+    name: Piyush Chawla
+    role: Allrounder
+    team: team_punjab
+  player_77:
+    name: Siddharth Chitnis
+    role: Batsman
+    team: team_punjab
+  player_78:
+    name: Paras Dogra
+    role: Batsman
+    team: team_punjab
+  player_79:
+    name: James Faulkner
+    role: Allrounder
+    team: team_punjab
+  player_80:
+    name: Harmeet Singh
+    role: Bowler
+    team: team_punjab
+  player_81:
+    name: Ryan Harris
+    role: Bowler
+    team: team_punjab
+  player_82:
+    name: David Hussey
+    role: Allrounder
+    team: team_punjab
+  player_83:
+    name: Praveen Kumar
+    role: Bowler
+    team: team_punjab
+  player_84:
+    name: Vikramjeet Malik
+    role: Bowler
+    team: team_punjab
+  player_85:
+    name: Mandeep Singh
+    role: Allrounder
+    team: team_punjab
+  player_86:
+    name: Shaun Marsh
+    role: Top-order batsman
+    team: team_punjab
+  player_87:
+    name: Dimitri Mascarenhas
+    role: Allrounder
+    team: team_punjab
+  player_88:
+    name: David Miller
+    role: Middle-order batsman
+    team: team_punjab
+  player_89:
+    name: Abhishek Nayar
+    role: Allrounder
+    team: team_punjab
+  player_90:
+    name: Ramesh Powar
+    role: Bowler
+    team: team_punjab
+  player_91:
+    name: Nathan Rimmington
+    role: Bowler
+    team: team_punjab
+  player_92:
+    name: Nitin Saini
+    role: Batsman
+    team: team_punjab
+  player_93:
+    name: Rajagopal Sathish
+    role: Allrounder
+    team: team_punjab
+  player_94:
+    name: Shalabh Srivastava
+    role: Bowler
+    team: team_punjab
+  player_95:
+    name: Sunny Singh
+    role: Batsman
+    team: team_punjab
+  player_96:
+    name: Paul Valthaty
+    role: Batsman
+    team: team_punjab
+  player_97:
+    name: Gautam Gambhir
+    role: Top-order batsman
+    team: team_kolkata
+  player_98:
+    name: Sarabjit Ladda
+    role: Bowler
+    team: team_kolkata
+  player_99:
+    name: Lakshmipathy Balaji
+    role: Bowler
+    team: team_kolkata
+
+matches:
+  match_01:
+    start_time: Wed Apr 4 2012 20:00
+    team_one: team_chennai
+    team_two: team_mumbai
+  match_02:
+    start_time: Thu Apr 5 2012 20:00
+    team_one: team_kolkata
+    team_two: team_delhi
+  match_03:
+    start_time: Fri Apr 6 2012 16:00
+    team_one: team_mumbai
+    team_two: team_pune
+  match_04:
+    start_time: Fri Apr 6 2012 20:00
+    team_one: team_rajasthan
+    team_two: team_punjab
+  match_05:
+    start_time: Sat Apr 7 2012 16:00
+    team_one: team_bangalore
+    team_two: team_delhi
+  match_06:
+    start_time: Sat Apr 7 2012 20:00
+    team_one: team_hyderabad
+    team_two: team_chennai
+  match_07:
+    start_time: Sun Apr 8 2012 16:00
+    team_one: team_rajasthan
+    team_two: team_kolkata
+  match_08:
+    start_time: Sun Apr 8 2012 20:00
+    team_one: team_pune
+    team_two: team_punjab
+  match_09:
+    start_time: Mon Apr 9 2012 20:00
+    team_one: team_hyderabad
+    team_two: team_mumbai
+  match_10:
+    start_time: Tue Apr 10 2012 16:00
+    team_one: team_bangalore
+    team_two: team_kolkata
+  match_11:
+    start_time: Tue Apr 10 2012 20:00
+    team_one: team_delhi
+    team_two: team_chennai
+  match_12:
+    start_time: Wed Apr 11 2012 20:00
+    team_one: team_mumbai
+    team_two: team_rajasthan
+  match_13:
+    start_time: Thu Apr 12 2012 16:00
+    team_one: team_chennai
+    team_two: team_bangalore
+  match_14:
+    start_time: Thu Apr 12 2012 20:00
+    team_one: team_punjab
+    team_two: team_pune
+  match_15:
+    start_time: Fri Apr 13 2012 20:00
+    team_one: team_kolkata
+    team_two: team_rajasthan
+  match_16:
+    start_time: Sat Apr 14 2012 20:00
+    team_one: team_pune
+    team_two: team_chennai
+  match_17:
+    start_time: Sun Apr 15 2012 16:00
+    team_one: team_kolkata
+    team_two: team_punjab
+  match_18:
+    start_time: Sun Apr 15 2012 20:00
+    team_one: team_bangalore
+    team_two: team_rajasthan
+  match_19:
+    start_time: Mon Apr 16 2012 20:00
+    team_one: team_mumbai
+    team_two: team_delhi
+  match_20:
+    start_time: Tue Apr 17 2012 16:00
+    team_one: team_rajasthan
+    team_two: team_hyderabad
+  match_21:
+    start_time: Tue Apr 17 2012 20:00
+    team_one: team_bangalore
+    team_two: team_pune
+  match_22:
+    start_time: Wed Apr 18 2012 20:00
+    team_one: team_punjab
+    team_two: team_kolkata
+  match_23:
+    start_time: Thu Apr 19 2012 16:00
+    team_one: team_delhi
+    team_two: team_hyderabad
+  match_24:
+    start_time: Thu Apr 19 2012 20:00
+    team_one: team_chennai
+    team_two: team_pune
+  match_25:
+    start_time: Fri Apr 20 2012 20:00
+    team_one: team_punjab
+    team_two: team_bangalore
+  match_26:
+    start_time: Sat Apr 21 2012 16:00
+    team_one: team_chennai
+    team_two: team_rajasthan
+  match_27:
+    start_time: Sat Apr 21 2012 20:00
+    team_one: team_delhi
+    team_two: team_pune
+  match_28:
+    start_time: Sun Apr 22 2012 16:00
+    team_one: team_mumbai
+    team_two: team_punjab
+  match_29:
+    start_time: Sun Apr 22 2012 20:00
+    team_one: team_hyderabad
+    team_two: team_kolkata
+  match_30:
+    start_time: Mon Apr 23 2012 20:00
+    team_one: team_rajasthan
+    team_two: team_bangalore
+  match_31:
+    start_time: Tue Apr 24 2012 16:00
+    team_one: team_pune
+    team_two: team_delhi
+  match_32:
+    start_time: Tue Apr 24 2012 20:00
+    team_one: team_kolkata
+    team_two: team_hyderabad
+  match_33:
+    start_time: Wed Apr 25 2012 16:00
+    team_one: team_punjab
+    team_two: team_mumbai
+  match_34:
+    start_time: Wed Apr 25 2012 20:00
+    team_one: team_bangalore
+    team_two: team_chennai
+  match_35:
+    start_time: Thu Apr 26 2012 20:00
+    team_one: team_pune
+    team_two: team_hyderabad
+  match_36:
+    start_time: Fri Apr 27 2012 20:00
+    team_one: team_delhi
+    team_two: team_mumbai
+  match_37:
+    start_time: Sat Apr 28 2012 16:00
+    team_one: team_chennai
+    team_two: team_punjab
+  match_38:
+    start_time: Sat Apr 28 2012 20:00
+    team_one: team_kolkata
+    team_two: team_bangalore
+  match_39:
+    start_time: Sun Apr 29 2012 16:00
+    team_one: team_delhi
+    team_two: team_rajasthan
+  match_40:
+    start_time: Sun Apr 29 2012 20:00
+    team_one: team_mumbai
+    team_two: team_hyderabad
+  match_41:
+    start_time: Mon Apr 30 2012 20:00
+    team_one: team_chennai
+    team_two: team_kolkata
+  match_42:
+    start_time: Tue May 1 2012 16:00
+    team_one: team_hyderabad
+    team_two: team_pune
+  match_43:
+    start_time: Tue May 1 2012 20:00
+    team_one: team_rajasthan
+    team_two: team_delhi
+  match_44:
+    start_time: Wed May 2 2012 20:00
+    team_one: team_bangalore
+    team_two: team_punjab
+  match_45:
+    start_time: Thu May 3 2012 16:00
+    team_one: team_pune
+    team_two: team_mumbai
+  match_46:
+    start_time: Fri May 4 2012 20:00
+    team_one: team_chennai
+    team_two: team_hyderabad
+  match_47:
+    start_time: Sat May 5 2012 16:00
+    team_one: team_kolkata
+    team_two: team_pune
+  match_48:
+    start_time: Sat May 5 2012 20:00
+    team_one: team_punjab
+    team_two: team_rajasthan
+  match_49:
+    start_time: Sun May 6 2012 16:00
+    team_one: team_mumbai
+    team_two: team_chennai
+  match_50:
+    start_time: Sun May 6 2012 20:00
+    team_one: team_bangalore
+    team_two: team_hyderabad
+  match_51:
+    start_time: Mon May 7 2012 20:00
+    team_one: team_delhi
+    team_two: team_kolkata
+  match_52:
+    start_time: Tue May 8 2012 16:00
+    team_one: team_pune
+    team_two: team_rajasthan
+  match_53:
+    start_time: Tue May 8 2012 20:00
+    team_one: team_hyderabad
+    team_two: team_punjab
+  match_54:
+    start_time: Wed May 9 2012 20:00
+    team_one: team_mumbai
+    team_two: team_bangalore
+  match_55:
+    start_time: Thu May 10 2012 16:00
+    team_one: team_hyderabad
+    team_two: team_delhi
+  match_56:
+    start_time: Thu May 10 2012 20:00
+    team_one: team_rajasthan
+    team_two: team_chennai
+  match_57:
+    start_time: Fri May 11 2012 20:00
+    team_one: team_pune
+    team_two: team_bangalore
+  match_58:
+    start_time: Sat May 12 2012 16:00
+    team_one: team_kolkata
+    team_two: team_mumbai
+  match_59:
+    start_time: Sat May 12 2012 20:00
+    team_one: team_chennai
+    team_two: team_delhi
+  match_60:
+    start_time: Sun May 13 2012 16:00
+    team_one: team_rajasthan
+    team_two: team_pune
+  match_61:
+    start_time: Sun May 13 2012 20:00
+    team_one: team_punjab
+    team_two: team_hyderabad
+  match_62:
+    start_time: Mon May 14 2012 16:00
+    team_one: team_bangalore
+    team_two: team_mumbai
+  match_63:
+    start_time: Mon May 14 2012 20:00
+    team_one: team_kolkata
+    team_two: team_chennai
+  match_64:
+    start_time: Tue May 15 2012 20:00
+    team_one: team_delhi
+    team_two: team_punjab
+  match_65:
+    start_time: Wed May 16 2012 20:00
+    team_one: team_mumbai
+    team_two: team_kolkata
+  match_66:
+    start_time: Thu May 17 2012 16:00
+    team_one: team_punjab
+    team_two: team_chennai
+  match_67:
+    start_time: Thu May 17 2012 20:00
+    team_one: team_delhi
+    team_two: team_bangalore
+  match_68:
+    start_time: Fri May 18 2012 20:00
+    team_one: team_hyderabad
+    team_two: team_rajasthan
+  match_69:
+    start_time: Sat May 19 2012 16:00
+    team_one: team_punjab
+    team_two: team_delhi
+  match_70:
+    start_time: Sat May 19 2012 20:00
+    team_one: team_pune
+    team_two: team_kolkata
+  match_71:
+    start_time: Sun May 20 2012 16:00
+    team_one: team_hyderabad
+    team_two: team_bangalore
+  match_72:
+    start_time: Sun May 20 2012 20:00
+    team_one: team_rajasthan
+    team_two: team_mumbai
+
+teams:
+  team_bangalore:
+    name: Bangalore
+  team_chennai:
+    name: Chennai
+  team_delhi:
+    name: Delhi
+  team_hyderabad:
+    name: Hyderabad
+  team_kolkata:
+    name: Kolkata
+  team_mumbai:
+    name: Mumbai
+  team_pune:
+    name: Pune
+  team_punjab:
+    name: Punjab
+  team_rajasthan:
+    name: Rajasthan
+    
+match_keys:
+- match_01
+- match_02
+- match_03
+- match_04
+- match_05
+- match_06
+- match_07
+- match_08
+- match_09
+- match_10
+- match_11
+- match_12
+- match_13
+- match_14
+- match_15
+- match_16
+- match_17
+- match_18
+- match_19
+- match_20
+- match_21
+- match_22
+- match_23
+- match_24
+- match_25
+- match_26
+- match_27
+- match_28
+- match_29
+- match_30
+- match_31
+- match_32
+- match_33
+- match_34
+- match_35
+- match_36
+- match_37
+- match_38
+- match_39
+- match_40
+- match_41
+- match_42
+- match_43
+- match_44
+- match_45
+- match_46
+- match_47
+- match_48
+- match_49
+- match_50
+- match_51
+- match_52
+- match_53
+- match_54
+- match_55
+- match_56
+- match_57
+- match_58
+- match_59
+- match_60
+- match_61
+- match_62
+- match_63
+- match_64
+- match_65
+- match_66
+- match_67
+- match_68
+- match_69
+- match_70
+- match_71
+- match_72

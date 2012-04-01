@@ -14,6 +14,10 @@ import os
 import facebook
 import urllib2
 import pprint
+import yaml
+import datetime
+import time
+
 
 from google.appengine.ext.webapp import util
 from google.appengine.ext.webapp import template
@@ -24,6 +28,7 @@ from schema import *
 # We initialize the templating engine with the current files path
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
+jinja_environment.filters['strptime'] = time.strptime
 
 class BaseHandler(webapp2.RequestHandler):
     """Provides access to the active Facebook user in self.current_user
@@ -63,21 +68,31 @@ class BaseHandler(webapp2.RequestHandler):
 
 class MainPage(BaseHandler):
   def get(self):
-    matches = Match.all().fetch(1000)
-#    items = []
-#    for match in matches:
-#      item = {'str_key': str(match.key().id_or_name()),
-#              'data': match 
-#              }
-#      items.append(item)
+#    matches = Match.all().fetch(1000)
+#    template_values = {
+#      'matches': matches,
+#      'current_user': self.current_user,
+#      'facebook_app_id': FACEBOOK_APP_ID,
+#      'prediction_limits': PREDICTION_LIMITS,
+#                       }
+#    template = jinja_environment.get_template('templates/homepage.html')
+#    self.response.out.write(template.render(template_values))
+    
+    stream = open("cp_static_data.yaml", "r")
+    cp_data = yaml.load(stream)
+#    self.response.out.write(cp_data)
     template_values = {
-      'matches': matches,
+      'cp': cp_data,
       'current_user': self.current_user,
       'facebook_app_id': FACEBOOK_APP_ID,
       'prediction_limits': PREDICTION_LIMITS,
+      'curr_date_time': "Tue Apr 10 2012 11:00",
+      'allowed_date_time': "Wed Apr 11 2012 11:00"
                        }
-    template = jinja_environment.get_template('templates/homepage.html')
+    
+    template = jinja_environment.get_template('templates/homepage_2.html')
     self.response.out.write(template.render(template_values))
+    
 
 # Once app.yaml sends us here we call use appropriate clases to show functionality for appropriate paths
 app = webapp2.WSGIApplication([

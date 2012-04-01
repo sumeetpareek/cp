@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>CaptainPandey - Award winning game for everybody with a cricket prediction</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/static/js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/static/js/script.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+  </head>
+  <body>
+  {% import 'templates/macros.html' as mac %}
+	<div id="header">
+		{% if current_user %}<span>Hey!! {{ current_user.name }}</span> {% endif %}<fb:login-button autologoutlink="true" scope="email"></fb:login-button>
+	</div>
+	
+	<div id="main">
+		{% for match_key in cp.match_keys %}
+		<div id="{{match_key}}_main" class="match-main hidden">
+				<h1>{{cp.teams[cp.matches[match_key].team_one].name}} Vs. {{cp.teams[cp.matches[match_key].team_two].name}}</h1>
+				{% if ((cp.matches[match_key].start_time|strptime('%a %b %d %Y %H:%M')) < (curr_date_time|strptime('%a %b %d %Y %H:%M'))) %}
+				<h1>Old Match - Prediction Closed</h1>
+				{% elif ((cp.matches[match_key].start_time|strptime('%a %b %d %Y %H:%M')) < (allowed_date_time|strptime('%a %b %d %Y %H:%M'))) %}
+				<h1>Upcoming Match - Prediction Ongoing</h1>
+				{% else %}
+				<h1>Future Match - Prediction Closed</h1>
+				{% endif %}
+				<form method="post" action="/TODO">
+				<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_run', name='player_run', match=cp.matches[match_key], cp=cp) }} will score {{ mac.prediction_select(id='TODO', name='player_run_pred', val=prediction_limits['p_r']) }} runs</div>
+				<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_wicket', name='player_run', match=cp.matches[match_key], cp=cp) }} will take {{ mac.prediction_select(id='TODO', name='player_wicket_pred', val=prediction_limits['p_w']) }} wickets</div>
+				<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_six', name='player_run', match=cp.matches[match_key], cp=cp) }} will hit {{ mac.prediction_select(id='TODO', name='player_six_pred', val=prediction_limits['p_s']) }} sixes</div>
+				<div class="form-item">Team {{ mac.match_team_select(id=match_key+'_team_run', name='team_run', match=cp.matches[match_key], cp=cp) }} will score {{ mac.prediction_select(id='TODO', name='team_run_pred', val=prediction_limits['t_r']) }} runs in total</div>
+				<div class="form-item">Team {{ mac.match_team_select(id=match_key+'_team_six', name='team_six', match=cp.matches[match_key], cp=cp) }} will hit {{ mac.prediction_select(id='TODO', name='team_six_pred', val=prediction_limits['t_s']) }} sixes in total</div>				
+				<input type="submit" value="Save Predictions" />
+				</form>
+		</div>
+		{% endfor %}
+	</div>  
+
+
+	<div id="sidebar">
+	{% for match_key in cp.match_keys %}
+		<div id="{{match_key}}" class="match-link">
+		<p>{{match_key}} | {{cp.matches[match_key].start_time}}</p>
+		<p>{{cp.teams[cp.matches[match_key].team_one].name}} Vs. {{cp.teams[cp.matches[match_key].team_two].name}}</p>
+		</div>
+	{% endfor %}
+	</div>
+	
+    <div id="fb-root"></div>
+    
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({appId: '{{ facebook_app_id }}', status: true, cookie: true,
+                 xfbml: true});
+        FB.Event.subscribe('{% if current_user %}auth.logout{% else %}auth.login{% endif %}', function(response) {
+          window.location.reload();
+        });
+      };
+      (function() {
+        var e = document.createElement('script');
+        e.type = 'text/javascript';
+        e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+        e.async = true;
+        document.getElementById('fb-root').appendChild(e);
+      }());
+    </script>
+  </body>
+</html>
