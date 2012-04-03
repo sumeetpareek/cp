@@ -148,24 +148,24 @@ width:280px;
 	padding:10px 20px;
 	}
 
-.match-player .batsman{
+.match_player .batsman{
 	background:url("images/batsman.png") no-repeat scroll transparent;
 }
-.match-player .Batsman{
+.match_player .Batsman{
 	background:url("images/batsman.png") no-repeat scroll transparent;
 }
-.match-player .Allrounder{
+.match_player .Allrounder{
 	background:url("images/allrounder.png") no-repeat scroll transparent;
 }
-.match-player .Bowler{
+.match_player .Bowler{
 	background:url("images/bowler.png") no-repeat scroll transparent;
 }
-.match-player .Wicketkeeper{
+.match_player .Wicketkeeper{
 	background:url("images/wicketkeeper.png") no-repeat scroll transparent;;
 }
 
-select.match-player,.ui-select-menu { float: left; margin-right: 10px; }
-select.match-player { width: 200px; }
+select.match_player,.ui-select-menu { float: left; margin-right: 10px; }
+select.match_player { width: 200px; }
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
 -moz-border-radius-bottomright: 4px/*{cornerRadius}*/;
 -webkit-border-bottom-right-radius: 4px/*{cornerRadius}*/;

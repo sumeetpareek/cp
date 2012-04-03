@@ -31,7 +31,7 @@ $(document).ready(function(){
 //			return $(this).css("background-image");
 //		}
 //	}
-	$('select.match-player').selectmenu();
+	$('select.match_player').selectmenu();
 //	$('ul.ui-selectmenu-menu-dropdown').niceScroll({touchbehavior:false,cursorcolor:"#000000",cursoropacitymax:0.9,cursorwidth:10,cursorborder:"none",cursorborderradius:"2px",boxzoom:false,cursoropacitymin:0.8});
 	$('.schedule-content').niceScroll({touchbehavior:false,cursorcolor:"#8E9897",cursoropacitymax:0.8,cursorwidth:9,cursorborder:"none",cursorborderradius:"2px",boxzoom:false,cursoropacitymin:0.5});
 	$('.prediction_slider_run').slider({
