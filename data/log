@@ -15,45 +15,16 @@
 /opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/player_local.csv --kind=Player --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
 /opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/match_local.csv --kind=Match --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
 -- on dev gae instance --
-/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/team_local.csv --kind=Team --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
-/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/player_local.csv --kind=Player --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
-/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/match_local.csv --kind=Match --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/team_cp_dev.csv --kind=Team --url=http://cp-dev.appspot.com/_ah/remote_api
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/match_cp_dev.csv --kind=Match --url=http://cp-dev.appspot.com/_ah/remote_api
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/player_cp_dev.csv --kind=Player --url=http://cp-dev.appspot.com/_ah/remote_api
 
+* upload team, match, player data from dev
+* create cache yamls for dev
+git
+update dev app
+test
+merge with the theme that basant has made
+basant: work on JS and theme layer
+sumeet: work on auto cache yaml setup on local
 
-on auth page load show saved predictions
-update the same entry using pred key elements
-
-
-
-Consider I have the following models - 
-
-class Team(db.Model): # say I have just 5 teams
-  name = db.StringProperty()
-  
-class Player(db.Model): # say I have thousands of players
-  name = db.StringProperty()
-  team = db.ReferenceProperty(Team, collection_name="player_set")
-  
-* Key name for each Team entity = 'team_<team_number>' , and for each Player entity = 'player_<player_number>'
-* By some prior arrangement I have a Team entity's (key_name, name) mapping available to me. For example (team_01, United States Of America), (team_02, Russia) etc
-* I have to show all the players and their teams on a page. One way of doing this would be - 
-
-players = Player.all().fetch(1000) # This is 1 DB read
-for player in players: # This will iterate 1000 times
-  self.response.out.write(player.name) # This is obviously not a DB read
-  self.response.out.write(player.team.name) #This is a total of 1x1000 = 1000 DB reads
-  
-* That is a 1001 DB reads for a silly thing. 
-* The interesting part is that when I do a db.to_dict() on players, it shows that for every player in that list there is 'name' of the player and there is the 'key_name' of the team available too.
-* So how can I do the below ??
-
-players = Player.all().fetch(1000) # This is 1 DB read
-for player in players: # This will iterate 1000 times
-  self.response.out.write(player.name) # This is obviously not a DB read
-  self.response.out.write(team_list[player.<SOME WAY OF GETTING TEAM KEY NAME>]) # Here 'team_list' already has (key_name, name) for all 5 teams
-  
-I have been struggling with this for a long time. Have read every available documentation. 
-
-I could just hug the person that can help me here :-)
-
-Disclaimer: The above problem description is not a real scenario. It is a simplified arrangement that represents my problem exactly. I have run into it in a rater complex and big GAE appication.
