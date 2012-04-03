@@ -71,7 +71,8 @@ class MainPage(BaseHandler):
   """Renders the homepage where users can start playing the game straight away"""
   def get(self):
     current_user_predictions = Prediction.get_user_predictions(self.current_user)
-    stream = open("cp_static_data.yaml", "r")
+#    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
+    stream = open("cp_static_data_dev.yaml", "r") #TODO: use only on cp-dev setup
     cp_data = yaml.load(stream)
     
     '''
