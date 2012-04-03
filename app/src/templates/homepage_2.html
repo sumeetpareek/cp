@@ -30,13 +30,25 @@
 				<p>Make your predictions for this game below and win prizes.. la la la la..</p>
 				<p>Hurry!! We will STOP accepting your predictions as soon as the match starts at - {{cp.matches[match_key].start_time}}</p>
 				<form method="post" action="/TODO">
-				<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_run', name='player_run', match=cp.matches[match_key], cp=cp) }} will score {{ mac.prediction_select(id='TODO', name='player_run_pred', val=prediction_limits['p_r']) }} runs</div>
-				<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_wicket', name='player_wicket', match=cp.matches[match_key], cp=cp) }} will take {{ mac.prediction_select(id='TODO', name='player_wicket_pred', val=prediction_limits['p_w']) }} wickets</div>
-				<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_six', name='player_six', match=cp.matches[match_key], cp=cp) }} will hit {{ mac.prediction_select(id='TODO', name='player_six_pred', val=prediction_limits['p_s']) }} sixes</div>
-				<div class="form-item">Team {{ mac.match_team_select(id=match_key+'_team_run', name='team_run', match=cp.matches[match_key], cp=cp) }} will score {{ mac.prediction_select(id='TODO', name='team_run_pred', val=prediction_limits['t_r']) }} runs in total</div>
-				<div class="form-item">Team {{ mac.match_team_select(id=match_key+'_team_six', name='team_six', match=cp.matches[match_key], cp=cp) }} will hit {{ mac.prediction_select(id='TODO', name='team_six_pred', val=prediction_limits['t_s']) }} sixes in total</div>				
-				<input type="hidden" name="match_key" value="{{match_key}}" />
-				<input type="submit" value="Save Predictions" />
+				{% if (not user_pred) or (cp.matches[match_key].key not in user_pred) %}
+					<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_run', name='player_run', match=cp.matches[match_key], cp=cp) }} will score {{ mac.prediction_select(id='TODO', name='player_run_pred', val=prediction_limits['p_r']) }} runs</div>
+					<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_wicket', name='player_wicket', match=cp.matches[match_key], cp=cp) }} will take {{ mac.prediction_select(id='TODO', name='player_wicket_pred', val=prediction_limits['p_w']) }} wickets</div>
+					<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_six', name='player_six', match=cp.matches[match_key], cp=cp) }} will hit {{ mac.prediction_select(id='TODO', name='player_six_pred', val=prediction_limits['p_s']) }} sixes</div>
+					<div class="form-item">Team {{ mac.match_team_select(id=match_key+'_team_run', name='team_run', match=cp.matches[match_key], cp=cp) }} will score {{ mac.prediction_select(id='TODO', name='team_run_pred', val=prediction_limits['t_r']) }} runs in total</div>
+					<div class="form-item">Team {{ mac.match_team_select(id=match_key+'_team_six', name='team_six', match=cp.matches[match_key], cp=cp) }} will hit {{ mac.prediction_select(id='TODO', name='team_six_pred', val=prediction_limits['t_s']) }} sixes in total</div>				
+					<input type="hidden" name="match_key" value="{{match_key}}" />
+					<input type="hidden" name="pred_key" value="" />
+					<input type="submit" value="Save Your Predictions" />
+				{% else %}
+					<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_run', name='player_run', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].run_player_key) }} will score {{ mac.prediction_select(id='TODO', name='player_run_pred', val=prediction_limits['p_r'], default=user_pred[cp.matches[match_key].key].run_player_val) }} runs</div>
+					<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_wicket', name='player_wicket', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].wicket_player_key) }} will take {{ mac.prediction_select(id='TODO', name='player_wicket_pred', val=prediction_limits['p_w'], default=user_pred[cp.matches[match_key].key].wicket_player_val) }} wickets</div>
+					<div class="form-item">{{ mac.match_player_select(id=match_key+'_player_six', name='player_six', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].six_player_key) }} will hit {{ mac.prediction_select(id='TODO', name='player_six_pred', val=prediction_limits['p_s'], default=user_pred[cp.matches[match_key].key].six_player_val) }} sixes</div>
+					<div class="form-item">Team {{ mac.match_team_select(id=match_key+'_team_run', name='team_run', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].run_team_key) }} will score {{ mac.prediction_select(id='TODO', name='team_run_pred', val=prediction_limits['t_r'], default=user_pred[cp.matches[match_key].key].run_team_val) }} runs in total</div>
+					<div class="form-item">Team {{ mac.match_team_select(id=match_key+'_team_six', name='team_six', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].six_team_key) }} will hit {{ mac.prediction_select(id='TODO', name='team_six_pred', val=prediction_limits['t_s'], default=user_pred[cp.matches[match_key].key].six_team_val) }} sixes in total</div>				
+					<input type="hidden" name="match_key" value="{{match_key}}" />
+					<input type="hidden" name="pred_key" value="{{user_pred[cp.matches[match_key].key].pred_key}}" />
+					<input type="submit" value="Update Your Predictions" />
+				{% endif %}
 				</form>
 				
 				{% elif (cp.matches[match_key].flag == 'future') %}

@@ -76,6 +76,7 @@ class BaseHandler(webapp2.RequestHandler):
 
 class FBLogin(BaseHandler):
     def get(self):
+      self.response.out.write("sanity check")
 #        path = os.path.join(os.path.dirname(__file__), "example.html")
 #        args = dict(current_user=self.current_user,
 #                    facebook_app_id=FACEBOOK_APP_ID)

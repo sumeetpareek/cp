@@ -2,7 +2,6 @@ from google.appengine.ext import db
 
 import datetime
 import time
-from curses.has_key import system
 SIMPLE_TYPES = (int, long, float, bool, dict, basestring, list)
 
 def to_dict(model):
@@ -67,4 +66,22 @@ class Prediction(db.Model):
   def get_user_predictions(user):
     if not user: return None
     predictions = Prediction.all().filter("user =", user).fetch(100)
-    return predictions
+    user_predictions = {}
+    for prediction in predictions:
+      user_predictions.update({str(Prediction.match.get_value_for_datastore(prediction)): 
+                                {
+                                  'pred_key': str(prediction.key()),
+                                  'six_player_key': str(Prediction.pred_six_player.get_value_for_datastore(prediction)),
+                                  'six_player_val': prediction.pred_six_player_val,
+                                  'wicket_player_key': str(Prediction.pred_wicket_player.get_value_for_datastore(prediction)),
+                                  'wicket_player_val': prediction.pred_wicket_player_val,
+                                  'run_player_key': str(Prediction.pred_run_player.get_value_for_datastore(prediction)),
+                                  'run_player_val': prediction.pred_run_player_val,
+                                  'run_team_key': str(Prediction.pred_run_team.get_value_for_datastore(prediction)),
+                                  'run_team_val': prediction.pred_run_team_val,
+                                  'six_team_key': str(Prediction.pred_six_team.get_value_for_datastore(prediction)),
+                                  'six_team_val': prediction.pred_six_team_val,
+                                  'pred_match_key': str(Prediction.match.get_value_for_datastore(prediction)),
+                                }
+                              })
+    return user_predictions
