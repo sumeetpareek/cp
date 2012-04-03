@@ -1,0 +1,41 @@
+== Upload Data ==
+-- on local --
+/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/team.gae.csv --kind=Team --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match.gae.csv --kind=Match --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/player.gae.csv --kind=Player --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+-- on gae dev instance --
+/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/team.gae.csv --kind=Team --url=http://cp-dev.appspot.com/_ah/remote_api -e=positivecharge@gmail.com
+/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match.gae.csv --kind=Match --url=http://cp-dev.appspot.com/_ah/remote_api -e=positivecharge@gmail.com
+/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/player.gae.csv --kind=Player --url=http://cp-dev.appspot.com/_ah/remote_api -e=positivecharge@gmail.com
+
+
+== Download Data ==
+-- on local machine --
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/team_local.csv --kind=Team --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/player_local.csv --kind=Player --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/match_local.csv --kind=Match --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+-- on dev gae instance --
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/team_cp_dev.csv --kind=Team --url=http://cp-dev.appspot.com/_ah/remote_api
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/match_cp_dev.csv --kind=Match --url=http://cp-dev.appspot.com/_ah/remote_api
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/player_cp_dev.csv --kind=Player --url=http://cp-dev.appspot.com/_ah/remote_api
+
+
+-- teaser tasks 
+* get cp mail password from mukesh, ask which accounts are created..
+use mail to setup google analytics
+have basant include google analytics code on teaser page
+push teaser page to cp-live
+test
+* create youtube account
+* uplaod video
+* change video on teaser page
+
+
+
+-- dev tasks
+fix player data in dev yaml
+test
+merge with the theme that basant has made
+basant: work on JS and theme layer
+sumeet: work on auto cache yaml setup on local
+
