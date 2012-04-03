@@ -56,38 +56,38 @@ team_chennai:
   player_212: Ganapathi Vignesh
   player_213: Murali Vijay
 team_delhi:
-  player_36: Virender Sehwag
-  player_37: Manprit Juneja
-  player_38: Varun Aaron
-  player_39: Ajit Agarkar
-  player_40: Puneet Bisht
-  player_41: Robin Bist
-  player_42: Gulam Bodi
-  player_43: Doug Bracewell
-  player_44: Unmukt Chand
-  player_45: Aaron Finch
-  player_46: Mahela Jayawardene
-  player_47: Glenn Maxwell
-  player_48: Morne Morkel
-  player_49: Shahbaz Nadeem
-  player_50: Yogesh Nagar
-  player_51: Prashant Naik
-  player_52: Pawan Negi
-  player_53: Naman Ojha
-  player_54: Irfan Pathan
-  player_55: Kevin Pietersen
-  player_56: Kuldeep Raval
-  player_57: Andre Russell
-  player_58: Aavishkar Salvi
-  player_59: Ross Taylor
-  player_60: Roelof van der Merwe
-  player_61: Venugopal Rao
-  player_62: Vikas Mishra
-  player_63: David Warner
-  player_64: Tejashwi Yadav
-  player_65: Umesh Yadav
-  player_66: Travis Birt
-  player_67: Colin Ingram
+  player_036: Virender Sehwag
+  player_037: Manprit Juneja
+  player_038: Varun Aaron
+  player_039: Ajit Agarkar
+  player_040: Puneet Bisht
+  player_041: Robin Bist
+  player_042: Gulam Bodi
+  player_043: Doug Bracewell
+  player_044: Unmukt Chand
+  player_045: Aaron Finch
+  player_046: Mahela Jayawardene
+  player_047: Glenn Maxwell
+  player_048: Morne Morkel
+  player_049: Shahbaz Nadeem
+  player_050: Yogesh Nagar
+  player_051: Prashant Naik
+  player_052: Pawan Negi
+  player_053: Naman Ojha
+  player_054: Irfan Pathan
+  player_055: Kevin Pietersen
+  player_056: Kuldeep Raval
+  player_057: Andre Russell
+  player_058: Aavishkar Salvi
+  player_059: Ross Taylor
+  player_060: Roelof van der Merwe
+  player_061: Venugopal Rao
+  player_062: Vikas Mishra
+  player_063: David Warner
+  player_064: Tejashwi Yadav
+  player_065: Umesh Yadav
+  player_066: Travis Birt
+  player_067: Colin Ingram
 team_hyderabad:
   player_123: Kumar Sangakkara
   player_124: Ashish Reddy
@@ -124,6 +124,9 @@ team_hyderabad:
   player_155: Cameron White
   player_156: Arjun Yadav
 team_kolkata:
+  player_097: Gautam Gambhir
+  player_098: Sarabjit Ladda
+  player_099: Lakshmipathy Balaji
   player_100: Rajat Bhatia
   player_101: Manvinder  Bisla
   player_102: Debabrata Das
@@ -147,9 +150,6 @@ team_kolkata:
   player_120: Ryan ten Doeschate
   player_121: Manoj Tiwary
   player_122: Jaydev Unadkat
-  player_97: Gautam Gambhir
-  player_98: Sarabjit Ladda
-  player_99: Lakshmipathy Balaji
 team_mumbai:
   player_157: Sachin Tendulkar
   player_158: Abu Nechim
@@ -184,71 +184,71 @@ team_mumbai:
   player_187: Apoorv Wankhade
   player_188: Suryakumar Yadav
 team_pune:
-  player_01: Sourav Ganguly
-  player_02: Eklavya Diwedi
-  player_03: Michael Clarke
-  player_04: Ashok Dinda
-  player_05: Callum Ferguson
-  player_06: Raiphi Gomez
-  player_07: Harpreet Singh
-  player_08: James Hopes
-  player_09: Dheeraj Jadhav
-  player_10: Kamran Khan
-  player_11: Murali Kartik
-  player_12: Harshad Khadiwale
-  player_13: Bhuvneshwar Kumar
-  player_14: Nathan McCullum
-  player_15: Anustup Majumdar
-  player_16: Mithun Manhas
-  player_17: Angelo Mathews
-  player_18: Mohnish  Mishra
-  player_19: Ali Murtaza
-  player_20: Ashish Nehra
-  player_21: Manish Pandey
-  player_22: Wayne Parnell
-  player_23: Sachin Rana
-  player_24: Jesse Ryder
-  player_25: Marlon Samuels
-  player_26: Rahul Sharma
-  player_27: Graeme Smith
-  player_28: Steven Smith
-  player_29: Alfonso Thomas
-  player_30: Krishnakant  Upadhyay
-  player_31: Robin Uthappa
-  player_32: Shrikant Wagh
-  player_33: Luke Wright
-  player_34: Yuvraj Singh
-  player_35: Mitchell Marsh
+  player_001: Sourav Ganguly
+  player_002: Eklavya Diwedi
+  player_003: Michael Clarke
+  player_004: Ashok Dinda
+  player_005: Callum Ferguson
+  player_006: Raiphi Gomez
+  player_007: Harpreet Singh
+  player_008: James Hopes
+  player_009: Dheeraj Jadhav
+  player_010: Kamran Khan
+  player_011: Murali Kartik
+  player_012: Harshad Khadiwale
+  player_013: Bhuvneshwar Kumar
+  player_014: Nathan McCullum
+  player_015: Anustup Majumdar
+  player_016: Mithun Manhas
+  player_017: Angelo Mathews
+  player_018: Mohnish  Mishra
+  player_019: Ali Murtaza
+  player_020: Ashish Nehra
+  player_021: Manish Pandey
+  player_022: Wayne Parnell
+  player_023: Sachin Rana
+  player_024: Jesse Ryder
+  player_025: Marlon Samuels
+  player_026: Rahul Sharma
+  player_027: Graeme Smith
+  player_028: Steven Smith
+  player_029: Alfonso Thomas
+  player_030: Krishnakant  Upadhyay
+  player_031: Robin Uthappa
+  player_032: Shrikant Wagh
+  player_033: Luke Wright
+  player_034: Yuvraj Singh
+  player_035: Mitchell Marsh
 team_punjab:
-  player_68: Adam Gilchrist
-  player_69: Parvinder Awana
-  player_70: Love Ablish
-  player_71: Amit Yadav
-  player_72: Azhar Mahmood
-  player_73: Bhargav Bhatt
-  player_74: Bipul Sharma
-  player_75: Stuart Broad
-  player_76: Piyush Chawla
-  player_77: Siddharth Chitnis
-  player_78: Paras Dogra
-  player_79: James Faulkner
-  player_80: Harmeet Singh
-  player_81: Ryan Harris
-  player_82: David Hussey
-  player_83: Praveen Kumar
-  player_84: Vikramjeet Malik
-  player_85: Mandeep Singh
-  player_86: Shaun Marsh
-  player_87: Dimitri Mascarenhas
-  player_88: David Miller
-  player_89: Abhishek Nayar
-  player_90: Ramesh Powar
-  player_91: Nathan Rimmington
-  player_92: Nitin Saini
-  player_93: Rajagopal Sathish
-  player_94: Shalabh Srivastava
-  player_95: Sunny Singh
-  player_96: Paul Valthaty
+  player_068: Adam Gilchrist
+  player_069: Parvinder Awana
+  player_070: Love Ablish
+  player_071: Amit Yadav
+  player_072: Azhar Mahmood
+  player_073: Bhargav Bhatt
+  player_074: Bipul Sharma
+  player_075: Stuart Broad
+  player_076: Piyush Chawla
+  player_077: Siddharth Chitnis
+  player_078: Paras Dogra
+  player_079: James Faulkner
+  player_080: Harmeet Singh
+  player_081: Ryan Harris
+  player_082: David Hussey
+  player_083: Praveen Kumar
+  player_084: Vikramjeet Malik
+  player_085: Mandeep Singh
+  player_086: Shaun Marsh
+  player_087: Dimitri Mascarenhas
+  player_088: David Miller
+  player_089: Abhishek Nayar
+  player_090: Ramesh Powar
+  player_091: Nathan Rimmington
+  player_092: Nitin Saini
+  player_093: Rajagopal Sathish
+  player_094: Shalabh Srivastava
+  player_095: Sunny Singh
+  player_096: Paul Valthaty
 team_rajasthan:
   player_244: Rahul Dravid
   player_245: Stuart Binny

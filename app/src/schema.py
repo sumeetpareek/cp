@@ -2,6 +2,7 @@ from google.appengine.ext import db
 
 import datetime
 import time
+from curses.has_key import system
 SIMPLE_TYPES = (int, long, float, bool, dict, basestring, list)
 
 def to_dict(model):
@@ -47,3 +48,23 @@ class Player(db.Model):
   name = db.StringProperty()
   role = db.StringProperty()
   team = db.ReferenceProperty(Team, collection_name="player_set")
+
+class Prediction(db.Model):
+  user = db.ReferenceProperty(User, collection_name="user_pred_set")
+  match = db.ReferenceProperty(Match, collection_name="match_pred_set")
+  pred_six_player = db.ReferenceProperty(Player, collection_name="player_pred_six_set")
+  pred_run_player = db.ReferenceProperty(Player, collection_name="player_pred_run_set")
+  pred_wicket_player = db.ReferenceProperty(Player, collection_name="player_pred_wicket_set")
+  pred_six_team = db.ReferenceProperty(Team, collection_name="team_pred_six_set")
+  pred_run_team = db.ReferenceProperty(Team, collection_name="team_pred_run_set")
+  pred_six_player_val = db.IntegerProperty()
+  pred_run_player_val = db.IntegerProperty()
+  pred_wicket_player_val = db.IntegerProperty()
+  pred_six_team_val = db.IntegerProperty()
+  pred_run_team_val = db.IntegerProperty()
+  
+  @staticmethod
+  def get_user_predictions(user):
+    if not user: return None
+    predictions = Prediction.all().filter("user =", user).fetch(100)
+    return predictions

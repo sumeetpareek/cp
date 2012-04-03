@@ -17,6 +17,8 @@ from google.appengine.ext.webapp import util
 from google.appengine.ext.webapp import template
 from google.appengine.api.urlfetch import fetch
 
+from schema import *
+
 jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)))
 
@@ -74,11 +76,11 @@ class BaseHandler(webapp2.RequestHandler):
 
 class FBLogin(BaseHandler):
     def get(self):
-        path = os.path.join(os.path.dirname(__file__), "example.html")
-        args = dict(current_user=self.current_user,
-                    facebook_app_id=FACEBOOK_APP_ID)
-        template = jinja_environment.get_template('templates/fblogin.html')
-        self.response.out.write(template.render(args))
+#        path = os.path.join(os.path.dirname(__file__), "example.html")
+#        args = dict(current_user=self.current_user,
+#                    facebook_app_id=FACEBOOK_APP_ID)
+#        template = jinja_environment.get_template('templates/fblogin.html')
+#        self.response.out.write(template.render(args))
 #
 #    def post(self):
 #        url = self.request.get('url')

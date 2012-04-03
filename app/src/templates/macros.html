@@ -1,17 +1,17 @@
 {% macro match_player_select(id, name, match, cp) -%}
 <select id="{{id}}" name="{{name}}">
-	{% for player_key,player_name in cp.team_players[match.team_one].items() %}
-		<option value="{{player_key}}">{{player_name}}</option>
+	{% for player_keyname,player_name in cp.team_players[match.team_one].items() %}
+		<option value="{{cp.players[player_keyname].key}}">{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
 	{% endfor %}
-	{% for player_key,player_name in cp.team_players[match.team_two].items() %}
-		<option value="{{player_key}}">{{player_name}}</option>
+	{% for player_keyname,player_name in cp.team_players[match.team_two].items() %}
+		<option value="{{cp.players[player_keyname].key}}">{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
 	{% endfor %}</select>
 {%- endmacro %}
 
 {% macro match_team_select(id, name, match, cp) -%}
 <select id="{{id}}" name="{{name}}">
-		<option value="{{match.team_one}}">{{cp.teams[match.team_one].name}}</option>
-		<option value="{{match.team_two}}">{{cp.teams[match.team_two].name}}</option>
+		<option value="{{cp.teams[match.team_one].key}}">{{cp.teams[match.team_one].name}}</option>
+		<option value="{{cp.teams[match.team_two].key}}">{{cp.teams[match.team_two].name}}</option>
 </select>
 {%- endmacro %}
 
