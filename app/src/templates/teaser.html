@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/css/images/favicon.ico">
     <title>CaptainPandey - Award winning game for everybody with a cricket prediction</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="/static/js/jquery.cookie.js" type="text/javascript"></script>
@@ -14,25 +15,34 @@
 	
   </head>
   <body>
+  	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=121661024578963";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
   	<div id="header-top"></div>
   	<div id="page">
-  		<div id="slogan"> TODO </div>
+  		<div id="logo">Captain Pandey</div>
   		<div id="video-container">
   			<ul>
   				<li>
-  					<iframe width="200" height="150" src="http://www.youtube.com/embed/gAioeWL1xaU" frameborder="0" allowfullscreen></iframe>
-  				</li>
-  				<li>
-  					<iframe width="200" height="150" src="http://www.youtube.com/embed/OWgHMs-Yj9o" frameborder="0" allowfullscreen></iframe>
-  				</li>
-  				<li>
-  					<iframe width="200" height="150" src="http://www.youtube.com/embed/s3qDnPzHFuo" frameborder="0" allowfullscreen></iframe>
+  					<iframe width="300" height="250" src="http://www.youtube.com/embed/gAioeWL1xaU" frameborder="0" allowfullscreen></iframe>
   				</li>
   			</ul>
+  			<div id="slogan"> Everybody has a cricket prediction. Captain Pandey will allow you to make yours, and have fun with them like you have never had before. </div>
   		</div>
   		<div id="bat-background"></div>
-  		<div id="fb-like">TODO</div> 
-  		<div id="logo">Captain Pandey</div> 			
+  		<div class="social">
+	  		<div class="fb-msg-pre">The game will go live in a matter of hours ... </div> 
+	  		<div id="fb-like-wrapper">
+				<div class="fb-like" data-href="https://www.facebook.com/pages/Captain-Pandey/389814551036207" data-send="false" data-layout="button_count" data-show-faces="false" data-font="verdana"></div>
+			</div>
+	  		<div class="fb-msg-post">us to find when it does.</div>
+	  	</div>  		 			
   	</div>
   	<div id="footer-bottom"></div>
   </body>
