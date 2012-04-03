@@ -1,11 +1,17 @@
 {% macro match_player_select(id, name, match, cp) -%}
-<select id="{{id}}" name="{{name}}">
+<select id="{{id}}" class="match-player" name="{{name}}">
+	<option value="default" selected="selected">Select a Player</option>
+	<optgroup label={{cp.teams[match.team_one].name}}>
 	{% for player_key,player_name in cp.team_players[match.team_one].items() %}
-		<option value="{{player_key}}">{{player_name}}</option>
+		<option class="{{cp.players[player_key].role}}" value="{{player_key}}">{{player_name}}</option>
 	{% endfor %}
+	</optgroup>
+	<optgroup label={{cp.teams[match.team_two].name}}>
 	{% for player_key,player_name in cp.team_players[match.team_two].items() %}
-		<option value="{{player_key}}">{{player_name}}</option>
-	{% endfor %}</select>
+		<option class="{{cp.players[player_key].role}}" value="{{player_key}}">{{player_name}}</option>
+	{% endfor %}
+	</optgroup>
+</select>
 {%- endmacro %}
 
 {% macro match_team_select(id, name, match, cp) -%}
@@ -16,10 +22,11 @@
 {%- endmacro %}
 
 {% macro prediction_select(id, name, val) -%}
-<select id="{{id}}" name="{{name}}">
-	{% for i in range(val.min, val.max) %}
-		<option value="{{i}}">{{i}}</option>
-	{% endfor %}
-</select>
+<!-- <select id="{{id}}" name="{{name}}"> -->
+<!-- 	{% for i in range(val.min, val.max) %} -->
+<!-- 		<option value="{{i}}">{{i}}</option> -->
+<!-- 	{% endfor %} -->
+<!-- </select> -->
+	<input type="text" ReadOnly="true" class={{id}} max={{val.max}} min={{val.min}} />
 {%- endmacro %}
 

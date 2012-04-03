@@ -1,0 +1,206 @@
+body{
+	background:url(images/background.jpg) no-repeat fixed 0 0 #183152;
+}
+
+#footer-bottom{
+	background:url(images/footer_bottom.png) no-repeat scroll 0 0 transparent;
+	display:block;
+	height:110px;
+	width:100%;
+	position: fixed;
+	bottom:0;
+	left:0;
+	z-index:-10;
+}
+#page{
+	width:900px;
+	margin:0 auto;
+}
+
+#slogan{
+	background: url("images/slogan.png") no-repeat scroll 0 0 transparent;
+    color: #E0E5F8;
+    font-family: Comic Sans MS;
+    font-size: 28px;
+    font-weight: bolder;
+    height: 62px;
+    margin: 25px auto 40px;
+    text-align: center;
+    text-indent: -99999px;
+    width: 562px;    
+	float:left;
+	margin-left:80px;
+}
+#video-container{
+	background:rgb(225, 230, 249);
+	background:rgba(225, 230, 249,.48);/*#e1e6f9*/;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius:9px;
+	padding:10px 25px 40px;
+	margin-top:35px;
+	margin:0 50px;
+}
+#video-container ul{
+	text-align:center;
+}
+#video-container li{
+	list-style:none;
+	display:inline;
+	margin-right:40px;
+}
+#video-container li iframe{
+	 box-shadow: 0 0 6px 2px #FCFCFB;
+}
+#bat-background{
+	 background: url("images/bat-ball.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: right;
+    height: 121px;
+    position: relative;
+    top: -60px;
+    width: 516px;
+}
+#fb-login{
+float:left;
+margin-left:80px;
+margin-top:25px;
+}
+#fb-like{
+	display:block;
+	width:100px;
+	height:45px;
+	text-indent:-9999px;
+	margin:30px 115px;
+	background:url(images/fblike.gif) no-repeat scroll 0 0 transparent;
+}
+#logo{
+	display:block;
+	width:300px;
+	height:120px;
+	margin:0;
+	text-indent:-9999px;
+	background:url(images/logo.png) no-repeat scroll 0 0 transparent;
+	float:left;
+}
+#header{
+	width:1100px;
+	margin:0 auto;
+}
+#main{
+float: left;
+width: 580px;
+}
+#sidebar{
+float: left;
+margin-left:40px;
+width:280px;
+}
+#sidebar .schedule-content{
+	height:400px;
+	overflow:auto;
+}
+.content{
+	padding:10px;
+	background:rgb(225, 230, 249);
+	background:rgba(225, 230, 249,.48);/*#e1e6f9*/;
+	-webkit-border-radius: 9px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius: 9px;
+	-moz-border-radius-topright:0px;
+	border-radius:9px;
+	border-top-right-radius:0px;
+	clear:right;
+}
+#primary-menu li{
+	list-style:none;
+	display:inline;
+}	
+#primary-menu{
+	-webkit-border-radius: 100px 50px 0 0;
+	-moz-border-radius: 100px 50px 0 0;
+	border-radius:100px 50px 0 0;
+	background:rgb(225, 230, 249);
+	background:rgba(225, 230, 249,.48);/*#e1e6f9*/;
+	float:right;
+	clear:left;
+}
+.header{
+	-webkit-border-radius: 100px 50px 0 0;
+	-moz-border-radius: 100px 50px 0 0;
+	border-radius:50px 25px 0 0;
+	background:rgb(225, 230, 249);
+	background:rgba(225, 230, 249,.48);/*#e1e6f9*/;
+	float:right;
+	clear:left;
+	padding:10px 20px;
+	}
+
+.match-player .batsman{
+	background:url("images/batsman.png") no-repeat scroll transparent;
+}
+.match-player .Batsman{
+	background:url("images/batsman.png") no-repeat scroll transparent;
+}
+.match-player .Allrounder{
+	background:url("images/allrounder.png") no-repeat scroll transparent;
+}
+.match-player .Bowler{
+	background:url("images/bowler.png") no-repeat scroll transparent;
+}
+.match-player .Wicketkeeper{
+	background:url("images/wicketkeeper.png") no-repeat scroll transparent;;
+}
+
+select.match-player,.ui-select-menu { float: left; margin-right: 10px; }
+select.match-player { width: 200px; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+-moz-border-radius-bottomright: 4px/*{cornerRadius}*/;
+-webkit-border-bottom-right-radius: 4px/*{cornerRadius}*/;
+-khtml-border-bottom-right-radius: 4px/*{cornerRadius}*/;
+border-bottom-right-radius: 4px/*{cornerRadius}*/;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+-moz-border-radius-bottomleft: 4px/*{cornerRadius}*/;
+-webkit-border-bottom-left-radius: 4px/*{cornerRadius}*/;
+-khtml-border-bottom-left-radius: 4px/*{cornerRadius}*/;
+border-bottom-left-radius: 4px/*{cornerRadius}*/;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+-moz-border-radius-topright: 4px/*{cornerRadius}*/;
+-webkit-border-top-right-radius: 4px/*{cornerRadius}*/;
+-khtml-border-top-right-radius: 4px/*{cornerRadius}*/;
+border-top-right-radius: 4px/*{cornerRadius}*/;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+-moz-border-radius-topleft: 4px/*{cornerRadius}*/;
+-webkit-border-top-left-radius: 4px/*{cornerRadius}*/;
+-khtml-border-top-left-radius: 4px/*{cornerRadius}*/;
+border-top-left-radius: 4px/*{cornerRadius}*/;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+border: 1px solid lightGrey/*{borderColorDefault}*/;
+background: #E6E6E6/*{bgColorDefault}*/ url(images/ui-bg_glass_75_e6e6e6_1x400.png)/*{bgImgUrlDefault}*/ 50%/*{bgDefaultXPos}*/ 50%/*{bgDefaultYPos}*/ repeat-x/*{bgDefaultRepeat}*/;
+font-weight: normal/*{fwDefault}*/;
+color: #555/*{fcDefault}*/;
+}
+.ui-widget {
+font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+font-size: 1.1em/*{fsDefault}*/;
+}
+.ui-selectmenu {font-size:1.9em;line-height: 1.9em;}
+.ui-widget {
+font-family: Verdana,Arial,sans-serif/*{ffDefault}*/;
+font-size: 0.8em/*{fsDefault}*/;
+}
+.ui-selectmenu-menu li a, .ui-selectmenu-status { padding: 0.3em 2em; }
+option.batsman { background-repeat: no-repeat !important; padding-left: 20px; }
+option.Batsman { background-repeat: no-repeat !important; padding-left: 20px; }
+option.Allrounder { background-repeat: no-repeat !important; padding-left: 20px; }
+option.Bowler { background-repeat: no-repeat !important; padding-left: 20px; }
+option.Wicketkeeper { background-repeat: no-repeat !important; padding-left: 20px; }
+
+.select_player_team{
+	position:absolute;
+	left:-300px;
+}
