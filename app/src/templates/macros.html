@@ -1,32 +1,67 @@
-{% macro match_player_select(id, name, match, cp) -%}
-<select id="{{id}}" class="match-player" name="{{name}}">
-	<option value="default" selected="selected">Select a Player</option>
+{% macro match_player_select(id, name, match, cp, default=None) -%}
+{% if default != None %}
+<select id="{{id}}" name="{{name}}">
+	<option value="default">Select a Player</option>
 	<optgroup label={{cp.teams[match.team_one].name}}>
-	{% for player_key,player_name in cp.team_players[match.team_one].items() %}
-		<option class="{{cp.players[player_key].role}}" value="{{player_key}}">{{player_name}}</option>
+	{% for player_keyname,player_name in cp.team_players[match.team_one].items() %}
+		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}" {% if cp.players[player_keyname].key == default %} selected="selected" {% endif %}>{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
 	{% endfor %}
 	</optgroup>
 	<optgroup label={{cp.teams[match.team_two].name}}>
-	{% for player_key,player_name in cp.team_players[match.team_two].items() %}
-		<option class="{{cp.players[player_key].role}}" value="{{player_key}}">{{player_name}}</option>
+	{% for player_keyname,player_name in cp.team_players[match.team_two].items() %}
+		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}" {% if cp.players[player_keyname].key == default %} selected="selected" {% endif %}>{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
 	{% endfor %}
 	</optgroup>
 </select>
-{%- endmacro %}
-
-{% macro match_team_select(id, name, match, cp) -%}
+{% else %}
 <select id="{{id}}" name="{{name}}">
-		<option value="{{match.team_one}}">{{cp.teams[match.team_one].name}}</option>
-		<option value="{{match.team_two}}">{{cp.teams[match.team_two].name}}</option>
+	<option value="default">Select a Player</option>
+	<optgroup label={{cp.teams[match.team_one].name}}>
+	{% for player_keyname,player_name in cp.team_players[match.team_one].items() %}
+		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}">{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
+	{% endfor %}
+	</optgroup>
+	<optgroup label={{cp.teams[match.team_two].name}}>
+	{% for player_keyname,player_name in cp.team_players[match.team_two].items() %}
+		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}">{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
+	{% endfor %}
+	</optgroup>
 </select>
+{% endif %}
 {%- endmacro %}
 
-{% macro prediction_select(id, name, val) -%}
+
+
+{% macro match_team_select(id, name, match, cp, default=None) -%}
+{% if default != None %}
+<select id="{{id}}" name="{{name}}">
+		<option value="{{cp.teams[match.team_one].key}}" {% if cp.teams[match.team_one].key == default %} selected="selected" {% endif %}>{{cp.teams[match.team_one].name}}</option>
+		<option value="{{cp.teams[match.team_two].key}}" {% if cp.teams[match.team_two].key == default %} selected="selected" {% endif %}>{{cp.teams[match.team_two].name}}</option>
+</select>
+{% else %}
+<select id="{{id}}" name="{{name}}">
+		<option value="{{cp.teams[match.team_one].key}}">{{cp.teams[match.team_one].name}}</option>
+		<option value="{{cp.teams[match.team_two].key}}">{{cp.teams[match.team_two].name}}</option>
+</select>
+{% endif %}
+{%- endmacro %}
+
+
+{% macro prediction_select(id, name, val, default=None) -%}
+{% if default != None %}
+<input type="text" ReadOnly="true" class="{{id}}" value="{{default}}"/>
+<!-- <select id="{{id}}" name="{{name}}"> -->
+<!-- 	{% for i in range(val.min, val.max) %} -->
+<!-- 		<option value="{{i}}" {% if i == default %} selected="selected" {% endif %}>{{i}}</option> -->
+<!-- 	{% endfor %} -->
+<!-- </select> -->
+{% else %}
+<input type="text" ReadOnly="true" class="{{id}}" />
 <!-- <select id="{{id}}" name="{{name}}"> -->
 <!-- 	{% for i in range(val.min, val.max) %} -->
 <!-- 		<option value="{{i}}">{{i}}</option> -->
 <!-- 	{% endfor %} -->
 <!-- </select> -->
-	<input type="text" ReadOnly="true" class={{id}} max={{val.max}} min={{val.min}} />
+{% endif %}
 {%- endmacro %}
 

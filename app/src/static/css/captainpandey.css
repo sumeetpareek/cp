@@ -31,6 +31,18 @@ body{
 	float:left;
 	margin-left:80px;
 }
+
+.match-link{
+border: 1px dashed #999;
+margin: 5px 0px;
+padding: 0px 20px;
+cursor: pointer;
+}
+
+.hidden{
+display:none;
+}
+
 #video-container{
 	background:rgb(225, 230, 249);
 	background:rgba(225, 230, 249,.48);/*#e1e6f9*/;

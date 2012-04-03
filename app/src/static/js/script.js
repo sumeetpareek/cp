@@ -48,8 +48,22 @@ $(document).ready(function(){
 		});			
 	});
 	
-	$('.match-main form').submit(function(){
-		alert("Your following predition in JSON below would be saved via AJAX \n\n"+JSON.stringify($(this).serializeObject()))
+	$('body.anon-user .match-main form').submit(function(){
+		alert("Please login to submit your info. (TODO: Take to the login popup and auto submit)");
+		return false;
+	});
+	$('body.auth-user .match-main form').submit(function(){
+		$.ajax({
+			type: 'POST',
+			url: 'pred/put',
+			data: $(this).serialize(),
+			success: function(response){
+				alert('SUCCESS --- '+response)
+			},
+			error: function(jqXHR,error, errorThrown) {  
+				alert(jqXHR.responseText); 
+	        },
+		});
 		return false;
 	});
 });

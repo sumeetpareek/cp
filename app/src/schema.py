@@ -47,3 +47,41 @@ class Player(db.Model):
   name = db.StringProperty()
   role = db.StringProperty()
   team = db.ReferenceProperty(Team, collection_name="player_set")
+
+class Prediction(db.Model):
+  user = db.ReferenceProperty(User, collection_name="user_pred_set")
+  match = db.ReferenceProperty(Match, collection_name="match_pred_set")
+  pred_six_player = db.ReferenceProperty(Player, collection_name="player_pred_six_set")
+  pred_run_player = db.ReferenceProperty(Player, collection_name="player_pred_run_set")
+  pred_wicket_player = db.ReferenceProperty(Player, collection_name="player_pred_wicket_set")
+  pred_six_team = db.ReferenceProperty(Team, collection_name="team_pred_six_set")
+  pred_run_team = db.ReferenceProperty(Team, collection_name="team_pred_run_set")
+  pred_six_player_val = db.IntegerProperty()
+  pred_run_player_val = db.IntegerProperty()
+  pred_wicket_player_val = db.IntegerProperty()
+  pred_six_team_val = db.IntegerProperty()
+  pred_run_team_val = db.IntegerProperty()
+  
+  @staticmethod
+  def get_user_predictions(user):
+    if not user: return None
+    predictions = Prediction.all().filter("user =", user).fetch(100)
+    user_predictions = {}
+    for prediction in predictions:
+      user_predictions.update({str(Prediction.match.get_value_for_datastore(prediction)): 
+                                {
+                                  'pred_key': str(prediction.key()),
+                                  'six_player_key': str(Prediction.pred_six_player.get_value_for_datastore(prediction)),
+                                  'six_player_val': prediction.pred_six_player_val,
+                                  'wicket_player_key': str(Prediction.pred_wicket_player.get_value_for_datastore(prediction)),
+                                  'wicket_player_val': prediction.pred_wicket_player_val,
+                                  'run_player_key': str(Prediction.pred_run_player.get_value_for_datastore(prediction)),
+                                  'run_player_val': prediction.pred_run_player_val,
+                                  'run_team_key': str(Prediction.pred_run_team.get_value_for_datastore(prediction)),
+                                  'run_team_val': prediction.pred_run_team_val,
+                                  'six_team_key': str(Prediction.pred_six_team.get_value_for_datastore(prediction)),
+                                  'six_team_val': prediction.pred_six_team_val,
+                                  'pred_match_key': str(Prediction.match.get_value_for_datastore(prediction)),
+                                }
+                              })
+    return user_predictions
