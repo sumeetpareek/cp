@@ -67,4 +67,17 @@ $(document).ready(function(){
 			prediction_player.eq(ind).val( ui.value );
 		}
  });
+	
+	//logic for form validation
+	
+//	$(".match-main form.submit").click(function(event){
+//		alert(1);
+//	});
+//		if($("#user-login-form #edit-name-wrapper input").val() == '')
+//		{
+//		event.preventDefault();
+//		$("#user-login-form #edit-name-wrapper input").css('border-color','#E163AE');
+//		$("#user-login-form #edit-name-wrapper label").text('Please fill....');
+//		} else {$("#user-login-form #edit-name-wrapper input").css('border-color','#AAAAAA');}
+
 });
