@@ -32,13 +32,6 @@ body{
 	margin-left:80px;
 }
 
-.match-link{
-border: 1px dashed #999;
-margin: 5px 0px;
-padding: 0px 20px;
-cursor: pointer;
-}
-
 .hidden{
 display:none;
 }
@@ -137,17 +130,28 @@ width:280px;
 	float:right;
 	clear:left;
 }
+#primary-menu li{
+	font-family: monospace;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 8px 20px 19px 5px;
+    color:#183152;
+    background:url("images/future_bg.png") no-repeat scroll 0px 19px transparent;
+}
+	
 .header{
 	-webkit-border-radius: 100px 50px 0 0;
 	-moz-border-radius: 100px 50px 0 0;
 	border-radius:50px 25px 0 0;
-	background:rgb(225, 230, 249);
-	background:rgba(225, 230, 249,.48);/*#e1e6f9*/;
-	float:right;
-	clear:left;
-	padding:10px 20px;
+	background: url("images/schedule_bg.png") no-repeat scroll 19px 10px rgba(225, 230, 249, 0.48);
+    clear: left;
+    float: right;
+    font-family: monospace;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 8px 20px 8px 43px;
+    color:#183152;
 	}
-
 .match_player .batsman{
 	background:url("images/batsman.png") no-repeat scroll transparent;
 }
@@ -292,3 +296,67 @@ form .submit{
     margin:20px 40px;
     padding: 10px;
 }
+.match-link{
+	position:relative;
+}
+.match-index{
+	font-size:2em;
+	position:absolute;
+	color:#365d80;	
+}
+.match-time{
+	float:right;
+	font-size:.7em;
+	color:#365d80;
+}
+.match-teams{
+	float:right;
+	clear:right;
+	color:#183152;
+}
+.match-link-flag{
+	font-size:0.5em;
+	position:relative;
+	top:-12px;
+	color:#365d80;
+}
+.match-link-closed .match-link-flag{
+	left:5px;
+}
+.match-link-open .match-link-flag{
+	left:9px;
+}
+.match-link-future .match-link-flag{
+	left:7px;
+}
+.match-link-future{
+	background:url("images/future_bg.png") no-repeat scroll transparent;
+}
+.match-link-open{
+	background:url("images/open_bg.png") no-repeat scroll transparent;
+}
+.match-link-closed{
+	background:url("images/closed_bg.png") no-repeat 9px 11px scroll transparent;
+}
+
+.match-link{
+border-bottom: 1px dashed #ecf4f8;
+margin: 5px 0px;
+padding: 0px 20px;
+cursor: pointer;
+padding-left:40px;
+}
+.versus { 
+	text-indent:-99999px;
+	background:url("images/versus_bg.png") no-repeat 0px 0px scroll transparent;
+	height:43px;
+	width:42px;
+	display:inline-block;
+}
+.match-main h1{
+	color: #365D80;
+    font-family: monospace;
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px 3px #FFFFFF;

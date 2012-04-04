@@ -44,23 +44,14 @@
 			<div id="primary-menu">
 				<ul>
 					<li>
-						score
-					</li>
-					<li>
-						winner
-					</li>
-					<li>
-						friends
-					</li>
-					<li>
-						top-predictions
+						Your Prediction
 					</li>
 				</ul>
 			</div>
 			<div class="content">
 		{% for match_key in cp.match_keys %}
 		<div id="{{match_key}}_main" class="match-main hidden match-main-{{cp.matches[match_key].flag}}">
-				<h1>{{cp.teams[cp.matches[match_key].team_one].name}} Vs. {{cp.teams[cp.matches[match_key].team_two].name}}</h1>
+				<h1>{{cp.teams[cp.matches[match_key].team_one].name}} <span class="versus">Vs</span> {{cp.teams[cp.matches[match_key].team_two].name}}</h1>
 				
 				{% if (cp.matches[match_key].flag == 'closed') %}
 				<p>This is a CLOSED match</p>
@@ -113,8 +104,8 @@
 					<div class="schedule-content">
 	{% for match_key in cp.match_keys %}
 		<div id="{{match_key}}" class="match-link match-link-{{cp.matches[match_key].flag}}">
-		<p>{{match_key}} | {{cp.matches[match_key].start_time}}</p>
-		<p>{{cp.teams[cp.matches[match_key].team_one].name}} Vs. {{cp.teams[cp.matches[match_key].team_two].name}} <span class="match-link-flag">{{cp.matches[match_key].flag}}</span></p>
+		<p><span class="match-index">{{match_key.split('_')[1]}}</span><span class="match-time">{{(cp.matches[match_key].start_time).strftime("%b %d , %I:%M %p")}}</span></p>
+		<p><span class="match-teams">{{cp.teams[cp.matches[match_key].team_one].name}} Vs {{cp.teams[cp.matches[match_key].team_two].name}}</span> <span class="match-link-flag">{{cp.matches[match_key].flag}}</span></p>
 		</div>
 						{% endfor %}
 					</div>
