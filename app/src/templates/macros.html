@@ -4,12 +4,12 @@
 	<option value="default">Select a Player</option>
 	<optgroup label={{cp.teams[match.team_one].name}}>
 	{% for player_keyname,player_name in cp.team_players[match.team_one].items() %}
-		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}" {% if cp.players[player_keyname].key == default %} selected="selected" {% endif %}>{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
+		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}" {% if cp.players[player_keyname].key == default %} selected="selected" {% endif %}>{{cp.players[player_keyname].name}}</option>
 	{% endfor %}
 	</optgroup>
 	<optgroup label={{cp.teams[match.team_two].name}}>
 	{% for player_keyname,player_name in cp.team_players[match.team_two].items() %}
-		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}" {% if cp.players[player_keyname].key == default %} selected="selected" {% endif %}>{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
+		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}" {% if cp.players[player_keyname].key == default %} selected="selected" {% endif %}>{{cp.players[player_keyname].name}}</option>
 	{% endfor %}
 	</optgroup>
 </select>
@@ -18,12 +18,12 @@
 	<option value="default">Select a Player</option>
 	<optgroup label={{cp.teams[match.team_one].name}}>
 	{% for player_keyname,player_name in cp.team_players[match.team_one].items() %}
-		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}">{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
+		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}">{{cp.players[player_keyname].name}}</option>
 	{% endfor %}
 	</optgroup>
 	<optgroup label={{cp.teams[match.team_two].name}}>
 	{% for player_keyname,player_name in cp.team_players[match.team_two].items() %}
-		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}">{{cp.players[player_keyname].name}} -- ({{cp.players[player_keyname].role}})</option>
+		<option class="{{cp.players[player_keyname].role}}" value="{{cp.players[player_keyname].key}}">{{cp.players[player_keyname].name}}</option>
 	{% endfor %}
 	</optgroup>
 </select>
@@ -35,11 +35,13 @@
 {% macro match_team_select(id, name, match, cp, default=None) -%}
 {% if default != None %}
 <select id="{{id}}" name="{{name}}" class="match_player">
+		<option value="default">Select a Team</option>
 		<option value="{{cp.teams[match.team_one].key}}" {% if cp.teams[match.team_one].key == default %} selected="selected" {% endif %}>{{cp.teams[match.team_one].name}}</option>
 		<option value="{{cp.teams[match.team_two].key}}" {% if cp.teams[match.team_two].key == default %} selected="selected" {% endif %}>{{cp.teams[match.team_two].name}}</option>
 </select>
 {% else %}
 <select id="{{id}}" name="{{name}}" class="match_player">
+		<option value="default">Select a Team</option>
 		<option value="{{cp.teams[match.team_one].key}}">{{cp.teams[match.team_one].name}}</option>
 		<option value="{{cp.teams[match.team_two].key}}">{{cp.teams[match.team_two].name}}</option>
 </select>

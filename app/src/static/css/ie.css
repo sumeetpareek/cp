@@ -7,3 +7,13 @@ li{
        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50e1e6f9,endColorstr=#50e1e6f9);
        zoom: 1;
 } 
+.ui-widget-header, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-widget-content    {
+    background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50aac8e2,endColorstr=#50aac8e2);
+    zoom: 1;
+}
+form .submit{
+	background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#75183152,endColorstr=#75183152);
+    zoom: 1;
+}

@@ -219,19 +219,76 @@ option.Wicketkeeper { background-repeat: no-repeat !important; padding-left: 20p
 
 form .form-run{
 	background:url("images/run-prediction.png") no-repeat scroll transparent;
-	padding-left:70px;
+	padding-left:80px;
 	position:relative;
 	right:20px;
+	height:60px;
 }
 form .form-wicket{
 	background:url("images/wicket-prediction.png") no-repeat scroll transparent;
-	padding-left:70px;
+	padding-left:80px;
 	position:relative;
 	right:20px;
+	height:60px;
 }
 form .form-six{
 	background:url("images/six-prediction.png") no-repeat scroll transparent;
-	padding-left:70px;
+	padding-left:80px;
 	position:relative;
 	right:20px;
+	height:60px;
+}
+
+form .prediction-select-wrapper{
+	float:left;
+}
+form .prediction-wrapper{
+	width:200px;
+	float:left;
+	margin-left:35px;
+}
+form .prediction-wrapper input{
+	background:transparent;
+	color:#183152;
+	border:none;	
+	font-size:1.2em;
+	text-align:center;
+}
+.ui-widget-header {
+	background: none repeat scroll 0 0 rgba(225,230,249);
+    background: none repeat scroll 0 0 rgba(225,230,249,0.5);//#aac8e2;
+}
+.ui-widget-content {
+	background: none repeat scroll 0 0 rgba(125,132,149);
+    background: none repeat scroll 0 0 rgba(125,132,149,0.5);//#aac8e2;
+    border: 1px solid #aac8e2;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: none repeat scroll 0 0 rgba(125,132,149);
+    background: none repeat scroll 0 0 rgba(125,132,149,0.7);
+	color:#e1e6f9;
+	border: 1px solid #8A91A3;
+}
+ul.ui-widget-content {
+	background: none repeat scroll 0 0 rgba(125,132,149);//#aac8e2;
+    background: none repeat scroll 0 0 rgba(125,132,149,0.9);//#aac8e2;
+    border: 1px solid #aac8e2;
+}
+ul.ui-widget-content li a, .ui-selectmenu-group-label{
+	color:#e1e6f9;
+}
+.prediction-unit{
+	float: right;
+    font-size: 0.8em;
+    color:#183152;
+}
+form .submit{
+	 background: none repeat scroll 0 0 #183152;
+	 background:rgba(24,49,82,0.5);
+	 border-radius:6px;
+    border: medium none;
+    color: #E1E6F9;
+    float:right;
+    margin:20px 40px;
+    padding: 10px;
 }
