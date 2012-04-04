@@ -1,0 +1,11 @@
+<div class="scorecard-wrapper clearfix">
+{% if cp.matches[match_key].key in match_player_stats %}
+	<div class="stats-team-one">{{cp.teams[cp.matches[match_key].team_one].name}}</div><div class="stats-team-two">{{cp.teams[cp.matches[match_key].team_two].name}}</div>
+	<div class="stats-team-one">Player / Runs / Sixes / Wickets</div><div class="stats-team-two">Player / Runs / Sixes / Wickets</div>
+	{% for player_key, stat in match_player_stats[cp.matches[match_key].key].items() %}
+		<div class="stats-{{stat.team_one_or_two}}">{{player_key}} / {{stat.runs}} / {{stat.sixes}} / {{stat.wickets}}</div>
+	{% endfor %}
+{% else %}
+TODO: Stats not yet updated for this match. -- {{cp.matches[match_key].key}}
+{% endif %}
+</div>

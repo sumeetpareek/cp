@@ -235,3 +235,28 @@ form .form-six{
 	position:relative;
 	right:20px;
 }
+
+.stats-team-one{
+display: block;
+float: left;
+clear: left;
+background: red;
+margin: 2px;
+}
+.stats-team-two{
+display: block;
+float: right;
+clear: right;
+background: green;
+margin: 2px;
+}
+.clearfix::after {
+font-size: 0;
+}
+.clearfix::after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
