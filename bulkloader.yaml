@@ -62,3 +62,53 @@ transformers:
       external_name: team
       import_transform: transform.create_foreign_key('Team')
       export_transform: transform.key_id_or_name_as_string
+
+      
+- kind: PlayerMatchStats
+  connector: csv
+  connector_options:
+    # Defaults are good enough for us
+  property_map:
+    - property: player
+      external_name: player_keyname
+      import_transform: transform.create_foreign_key('Player')
+      
+    - property: match
+      external_name: match_keyname
+      import_transform: transform.create_foreign_key('Match')
+      
+    - property: runs
+      external_name: runs
+      import_transform: int
+      
+    - property: sixes
+      external_name: sixes
+      import_transform: int
+            
+    - property: wickets
+      external_name: wickets
+      import_transform: int
+
+    - property: team_one_or_two
+      external_name: team_one_or_two
+            
+- kind: TeamMatchStats
+  connector: csv
+  connector_options:
+    # Defaults are good enough for us
+  property_map:
+    - property: team
+      external_name: team_keyname
+      import_transform: transform.create_foreign_key('Team')
+      
+    - property: match
+      external_name: match_keyname
+      import_transform: transform.create_foreign_key('Match')
+      
+    - property: runs
+      external_name: runs
+      import_transform: int
+
+    - property: sixes
+      external_name: sixes
+      import_transform: int

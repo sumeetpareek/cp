@@ -70,9 +70,14 @@ class BaseHandler(webapp2.RequestHandler):
 class MainPage(BaseHandler):
   """Renders the homepage where users can start playing the game straight away"""
   def get(self):
+    match_team_stats = TeamMatchStats.get_matches_team_stats()
+    match_player_stats = PlayerMatchStats.get_matches_player_stats()
+    
+#    self.response.out.write(match_player_stats)
+    
     current_user_predictions = Prediction.get_user_predictions(self.current_user)
-#    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
-    stream = open("cp_static_data_dev.yaml", "r") #TODO: use only on cp-dev setup
+    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
+#    stream = open("cp_static_data_dev.yaml", "r") #TODO: use only on cp-dev setup
     cp_data = yaml.load(stream)
     
     '''
@@ -102,7 +107,9 @@ class MainPage(BaseHandler):
       'prediction_limits': PREDICTION_LIMITS,
       'curr_date_time': "Tue Apr 10 2012 11:00",
       'allowed_date_time': "Wed Apr 11 2012 11:00",
-      'user_pred': current_user_predictions
+      'user_pred': current_user_predictions,
+      'match_player_stats': match_player_stats,
+      'match_team_stats': match_team_stats,
                        }
     
     template = jinja_environment.get_template('templates/homepage_2.html')

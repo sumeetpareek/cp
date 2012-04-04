@@ -1,0 +1,23 @@
+match_keyname,player_keyname,player_name,runs,sixes,wickets,team_one_or_two
+match_01,player_157,Sachin Tendulkar,20,4,0,team-one
+match_01,player_158,Abu Nechim,20,2,0,team-one
+match_01,player_159,Amitoze Singh,20,2,0,team-one
+match_01,player_160,Aliden Blizzard,20,2,0,team-one
+match_01,player_161,Yuzvendra Chahal,20,0,0,team-one
+match_01,player_162,James Franklin,20,0,3,team-one
+match_01,player_163,Herschelle Gibbs,20,0,2,team-one
+match_01,player_164,Harbhajan Singh,20,0,1,team-one
+match_01,player_165,Davy Jacobs,20,0,0,team-one
+match_01,player_166,Mitchell Johnson,20,0,0,team-one
+match_01,player_167,Dinesh Karthik,20,0,0,team-one
+match_01,player_189,MS Dhoni,10,2,0,team-two
+match_01,player_190,Srikkanth Anirudha,10,0,0,team-two
+match_01,player_191,Ravichandran Ashwin,10,2,3,team-two
+match_01,player_192,Subramaniam Badrinath,10,0,0,team-two
+match_01,player_193,George Bailey,10,0,0,team-two
+match_01,player_194,Doug Bollinger,10,2,0,team-two
+match_01,player_195,Dwayne Bravo,10,0,0,team-two
+match_01,player_196,Faf du Plessis,10,2,0,team-two
+match_01,player_197,Ben Hilfenhaus,10,0,3,team-two
+match_01,player_198,Michael Hussey,10,0,0,team-two
+match_01,player_199,Ravindra Jadeja,10,0,0,team-two

@@ -85,3 +85,60 @@ class Prediction(db.Model):
                                 }
                               })
     return user_predictions
+
+class PlayerMatchStats(db.Model):
+  player = db.ReferenceProperty(Player, collection_name="player_stats_in_matches")
+  match = db.ReferenceProperty(Match, collection_name="players_stats_in_match")
+  runs = db.IntegerProperty()
+  sixes = db.IntegerProperty()
+  wickets = db.IntegerProperty()
+  team_one_or_two = db.StringProperty()
+  
+  @staticmethod
+  def get_matches_player_stats():
+    matches_player_stats = PlayerMatchStats.all().fetch(1000) #TODO this number needs to be more when more matches have been played
+    matches_player_stats_dict = {}
+    for stat in matches_player_stats:
+      try:
+        matches_player_stats_dict[str(PlayerMatchStats.match.get_value_for_datastore(stat))]
+      except KeyError, e:
+        matches_player_stats_dict[str(PlayerMatchStats.match.get_value_for_datastore(stat))] = {}
+      
+      try:
+        matches_player_stats_dict[str(PlayerMatchStats.match.get_value_for_datastore(stat))][str(PlayerMatchStats.player.get_value_for_datastore(stat))]
+      except KeyError, e:
+        matches_player_stats_dict[str(PlayerMatchStats.match.get_value_for_datastore(stat))][str(PlayerMatchStats.player.get_value_for_datastore(stat))] = {
+            'stat_key': str(stat.key()),
+            'runs': stat.runs,
+            'sixes': stat.sixes,
+            'wickets': stat.wickets,
+            'team_one_or_two': stat.team_one_or_two, 
+          }
+    return matches_player_stats_dict
+
+
+class TeamMatchStats(db.Model):
+  team = db.ReferenceProperty(Team, collection_name="team_stats_in_matches")
+  match = db.ReferenceProperty(Match, collection_name="teams_stats_in_match")
+  runs = db.IntegerProperty()
+  sixes = db.IntegerProperty()
+  
+  @staticmethod
+  def get_matches_team_stats():
+    matches_team_stats = TeamMatchStats.all().fetch(1000) #TODO this number needs to be more when more matches have been played
+    matches_team_stats_dict = {}
+    for stat in matches_team_stats:
+      try:
+        matches_team_stats_dict[str(TeamMatchStats.match.get_value_for_datastore(stat))]
+      except KeyError, e:
+        matches_team_stats_dict[str(TeamMatchStats.match.get_value_for_datastore(stat))] = {}
+      
+      try:
+        matches_team_stats_dict[str(TeamMatchStats.match.get_value_for_datastore(stat))][str(TeamMatchStats.team.get_value_for_datastore(stat))]
+      except KeyError, e:
+        matches_team_stats_dict[str(TeamMatchStats.match.get_value_for_datastore(stat))][str(TeamMatchStats.team.get_value_for_datastore(stat))] = {
+            'stat_key': str(stat.key()),
+            'runs': stat.runs,
+            'sixes': stat.sixes,
+          }
+    return matches_team_stats_dict

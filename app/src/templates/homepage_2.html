@@ -55,12 +55,12 @@
 				<h1>{{cp.teams[cp.matches[match_key].team_one].name}} <span class="versus">Vs</span> {{cp.teams[cp.matches[match_key].team_two].name}}</h1>
 				
 				{% if (cp.matches[match_key].flag == 'closed') %}
-				<p>This is a CLOSED match</p>
-				<p>TODO</p>
-				<p>Anon user will see scorecard of the match</p>
-				<p>Auth user will see his predictions compared to the real score + his points (if he had made predicitons)</p>
-				<p>Auth user will see scorecard if he had not made any predictions</p>
-				
+					{% if (not user_pred) or (cp.matches[match_key].key not in user_pred) %}
+						{% include 'templates/closed_match_scorecard.html' %}
+					{% else %}
+						{% include 'templates/closed_match_predictions_and_points.html' %}
+					{% endif %}
+
 				{% elif (cp.matches[match_key].flag == 'open') %}
 				<p>Make your predictions for this game below and win prizes.. la la la la..</p>
 				<p>Hurry!! We will STOP accepting your predictions as soon as the match starts at - {{cp.matches[match_key].start_time}}</p>
