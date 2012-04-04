@@ -158,10 +158,10 @@ width:280px;
 	background:url("images/allrounder.png") no-repeat scroll transparent;
 }
 .match_player .Bowler{
-	background:url("images/bowler.png") no-repeat scroll transparent;
+	background:url("images/bowler.png") no-repeat scroll 6px 3px transparent;
 }
 .match_player .Wicketkeeper{
-	background:url("images/wicketkeeper.png") no-repeat scroll transparent;;
+	background:url("images/wicketkeeper.png") no-repeat scroll 6px 0 transparent;;
 }
 
 select.match_player,.ui-select-menu { float: left; margin-right: 10px; }
@@ -215,4 +215,23 @@ option.Wicketkeeper { background-repeat: no-repeat !important; padding-left: 20p
 .select_player_team{
 	position:absolute;
 	left:-300px;
+}
+
+form .form-run{
+	background:url("images/run-prediction.png") no-repeat scroll transparent;
+	padding-left:70px;
+	position:relative;
+	right:20px;
+}
+form .form-wicket{
+	background:url("images/wicket-prediction.png") no-repeat scroll transparent;
+	padding-left:70px;
+	position:relative;
+	right:20px;
+}
+form .form-six{
+	background:url("images/six-prediction.png") no-repeat scroll transparent;
+	padding-left:70px;
+	position:relative;
+	right:20px;
 }
