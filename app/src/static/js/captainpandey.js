@@ -1,4 +1,59 @@
 $(document).ready(function(){
+	var match_id_cookie = $('#'+$.cookie('match_id'));
+	if(match_id_cookie == null)
+		$('#sidebar .match-link-open').eq(0).click();
+	else
+		{
+		match_id_cookie.slideDown('slow',function(){
+			var obj = $(this);
+			obj.addClass('active');
+			obj.find('select.match_player[name="player_run"]').val($.cookie('player_run')).attr('option','selected').text(); 
+			obj.find('select.match_player[name="player_run"]').nextAll('span').find('.ui-selectmenu-status').text(obj.find('select.match_player[name="player_run"] option:selected').text());
+			obj.find('select.match_player[name="player_wicket"]').val($.cookie('player_wicket'));
+			obj.find('select.match_player[name="player_wicket"]').nextAll('span').find('.ui-selectmenu-status').text(obj.find('select.match_player[name="player_wicket"] option:selected').text());
+			obj.find('select.match_player[name="player_six"]').val($.cookie('player_six'));
+			obj.find('select.match_player[name="player_six"]').nextAll('span').find('.ui-selectmenu-status').text(obj.find('select.match_player[name="player_six"] option:selected').text());
+			obj.find('select.match_player[name="team_run"]').val($.cookie('team_run'));
+			obj.find('select.match_player[name="team_run"]').nextAll('span').find('.ui-selectmenu-status').text(obj.find('select.match_player[name="team_run"] option:selected').text());
+			obj.find('select.match_player[name="team_six"]').val($.cookie('team_six'));
+			obj.find('select.match_player[name="team_six"]').nextAll('span').find('.ui-selectmenu-status').text(obj.find('select.match_player[name="team_six"] option:selected').text());
+			obj.find('input[name="player_run_pred"]').val($.cookie('pred_player_run'));
+			var width=$.cookie('pred_player_run')*100/150;
+			obj.find('input[name="player_run_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
+			obj.find('input[name="player_run_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
+			obj.find('input[name="player_wicket_pred"]').val($.cookie('pred_player_wicket'));
+			var width=$.cookie('pred_player_wicket')*100/10;
+			obj.find('input[name="player_wicket_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
+			obj.find('input[name="player_wicket_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
+			obj.find('input[name="player_six_pred"]').val($.cookie('pred_player_six'));
+			var width=$.cookie('pred_player_six')*100/20;
+			obj.find('input[name="player_six_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
+			obj.find('input[name="player_six_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
+			obj.find('input[name="team_run_pred"]').val($.cookie('pred_team_run'));
+			var width=$.cookie('pred_team_run')*100/150;
+			obj.find('input[name="team_run_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
+			obj.find('input[name="team_run_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
+			obj.find('input[name="team_six_pred"]').val($.cookie('pred_team_six'));
+			var width=$.cookie('pred_team_six')*100/20;
+			obj.find('input[name="team_six_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
+			obj.find('input[name="team_six_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
+			
+		});	
+		
+		
+		
+		
+		}
+//	$.cookie('player_run');
+//	$.cookie('player_wicket');
+//	$.cookie('player_six'); 
+//	$.cookie('team_run'); 
+//	$.cookie('team_six');
+//	$.cookie('pred_player_run');
+//	$.cookie('pred_player_wicket'); 
+//	$.cookie('pred_player_six');
+//	$.cookie('pred_team_run');
+//	$.cookie('pred_team_run');
 //	var values = $.map($('.match-player:eq(1) option'), function(e) { return e.text; });
 //	// as a comma separated string
 //	values.join(',');
@@ -69,10 +124,78 @@ $(document).ready(function(){
  });
 	
 	//logic for form validation
-	
-//	$(".match-main form.submit").click(function(event){
-//		alert(1);
-//	});
+	var match_main_form = $('.match-main form .submit');
+	match_main_form.on('click',function(event){
+		var ind = match_main_form.index(this);
+		var message = $('#message');
+		message.css('left','-300px');
+		var form = $('form').eq(ind);
+		form.find('.prediction-select-wrapper').css('border','none');
+		form.find('.prediction-unit').css('color','#183152');
+		
+		
+		var player_run = form.find('select.match_player[name="player_run"] option:selected').val(); 
+		var player_wicket = form.find('select.match_player[name="player_wicket"] option:selected').val();
+		var player_six = form.find('select.match_player[name="player_six"] option:selected').val();
+		var team_run = form.find('select.match_player[name="team_run"] option:selected').val();
+		var team_six = form.find('select.match_player[name="team_six"] option:selected').val(); 
+		var pred_player_run = form.find('input[name="player_run_pred"]').val();
+		var pred_player_wicket = form.find('input[name="player_wicket_pred"]').val();
+		var pred_player_six = form.find('input[name="player_six_pred"]').val();
+		var pred_team_run = form.find('input[name="team_run_pred"]').val();
+		var pred_team_six = form.find('input[name="team_six_pred"]').val();
+		
+		
+		
+		
+		
+		if( player_run == 'default' || player_wicket == 'default'|| player_six == 'default'
+			|| team_run == 'default'|| team_six == 'default' 
+			|| pred_player_run == ''
+			|| pred_player_wicket == ''
+			|| pred_player_six == ''
+			|| pred_team_run == ''
+			|| pred_team_run == ''
+			) {
+			message.text('please fill the form').animate({
+			    left: '164px',
+			    top:'144px'
+				  }, 500,'swing', function() {
+				    // Animation complete.
+				  });
+			form.find('select[value="default"] option:selected').parents('.prediction-select-wrapper').css('border','1px solid red');
+			form.find('input').filter(function() {
+			    return $(this).val()==='';
+			}).nextAll('.prediction-unit').css('color','red');
+			event.preventDefault();
+		} else{
+			alert('go');
+			if($('body').hasClass('anon-user')){
+				$.cookie('player_run',player_run);
+				$.cookie('player_wicket',player_wicket);
+				$.cookie('player_six',player_six); 
+				$.cookie('team_run',team_run); 
+				$.cookie('team_six',team_six);
+				$.cookie('pred_player_run',pred_player_run);
+				$.cookie('pred_player_wicket',pred_player_wicket); 
+				$.cookie('pred_player_six',pred_player_six);
+				$.cookie('pred_team_run',pred_team_run);
+				$.cookie('pred_team_six',pred_team_six);
+				$.cookie('match_id',$('.match-main-open.active').attr('id'));
+				alert('anon');
+				message.text('Please log in first').animate({
+				    left: '30%',
+				    top:'50%',
+				    'z-index':10,
+				    'font-size':'1.5em'
+					  }, 100,'swing', function() {
+					    // Animation complete.
+					  });
+				event.preventDefault();
+			}
+		event.preventDefault();
+		}
+	});
 //		if($("#user-login-form #edit-name-wrapper input").val() == '')
 //		{
 //		event.preventDefault();

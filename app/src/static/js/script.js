@@ -48,10 +48,10 @@ $(document).ready(function(){
 		});			
 	});
 	
-	$('body.anon-user .match-main form').submit(function(){
-		alert("Please login to submit your info. (TODO: Take to the login popup and auto submit)");
-		return false;
-	});
+//	$('body.anon-user .match-main form').submit(function(){
+//		alert("Please login to submit your info. (TODO: Take to the login popup and auto submit)");
+//		return false;
+//	});
 	$('body.auth-user .match-main form').submit(function(){
 		$.ajax({
 			type: 'POST',
