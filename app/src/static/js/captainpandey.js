@@ -37,23 +37,24 @@ $(document).ready(function(){
 			var width=$.cookie('pred_team_six')*100/20;
 			obj.find('input[name="team_six_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
 			obj.find('input[name="team_six_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
-			
+			$.cookie('player_run',null);
+			$.cookie('player_wicket',null);
+			$.cookie('player_six',null); 
+			$.cookie('team_run',null); 
+			$.cookie('team_six',null);
+			$.cookie('pred_player_run',null);
+			$.cookie('pred_player_wicket',null); 
+			$.cookie('pred_player_six',null);
+			$.cookie('pred_team_run',null);
+			$.cookie('pred_team_six',null);
+			$.cookie('match_id',null);
 		});	
 		
-		$.cookie('player_run',null);
-		$.cookie('player_wicket',null);
-		$.cookie('player_six',null); 
-		$.cookie('team_run',null); 
-		$.cookie('team_six',null);
-		$.cookie('pred_player_run',null);
-		$.cookie('pred_player_wicket',null); 
-		$.cookie('pred_player_six',null);
-		$.cookie('pred_team_run',null);
-		$.cookie('pred_team_six',null);
+		
 		
 		
 		}
-//	$.cookie('player_run');
+	//	$.cookie('player_run');
 //	$.cookie('player_wicket');
 //	$.cookie('player_six'); 
 //	$.cookie('team_run'); 
