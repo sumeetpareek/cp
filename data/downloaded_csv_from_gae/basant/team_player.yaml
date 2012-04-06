@@ -1,0 +1,275 @@
+---
+'':
+  'player_Allrounder,Abhishek Nayar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODkM,team_punjab': ~
+  'player_Allrounder,Abhishek Raut,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjQM,team_rajasthan': ~
+  'player_Allrounder,Albie Morkel,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDUM,team_chennai': ~
+  'player_Allrounder,Amit Yadav,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzEM,team_punjab': ~
+  'player_Allrounder,Andre Russell,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTcM,team_delhi': ~
+  'player_Allrounder,Andrew McDonald,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjkM,team_bangalore': ~
+  'player_Allrounder,Angelo Mathews,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTcM,team_pune': ~
+  'player_Allrounder,Ashok Menaria,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTkM,team_rajasthan': ~
+  'player_Allrounder,Azhar Mahmood,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzIM,team_punjab': ~
+  'player_Allrounder,Bipul Sharma,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzQM,team_punjab': ~
+  'player_Allrounder,Brad Hogg,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTgM,team_rajasthan': ~
+  'player_Allrounder,Chris Gayle,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjMM,team_bangalore': ~
+  'player_Allrounder,Daniel Christian,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzEM,team_hyderabad': ~
+  'player_Allrounder,Daniel Vettori,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTQM,team_bangalore': ~
+  'player_Allrounder,David Hussey,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODIM,team_punjab': ~
+  'player_Allrounder,Dimitri Mascarenhas,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODcM,team_punjab': ~
+  'player_Allrounder,Dwayne Bravo,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTUM,team_chennai': ~
+  'player_Allrounder,Faf du Plessis,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTYM,team_chennai': ~
+  'player_Allrounder,Ganapathi Vignesh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTIM,team_chennai': ~
+  'player_Allrounder,Glenn Maxwell,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDcM,team_delhi': ~
+  'player_Allrounder,Iqbal Abdulla,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDUM,team_kolkata': ~
+  'player_Allrounder,Irfan Pathan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTQM,team_delhi': ~
+  'player_Allrounder,James Faulkner,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzkM,team_punjab': ~
+  'player_Allrounder,James Franklin,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjIM,team_mumbai': ~
+  'player_Allrounder,James Hopes,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDgM,team_pune': ~
+  'player_Allrounder,Jesse Ryder,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjQM,team_pune': ~
+  'player_Allrounder,Joginder Sharma,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDEM,team_chennai': ~
+  'player_Allrounder,Johan Botha,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDYM,team_rajasthan': ~
+  'player_Allrounder,Kieron Pollard,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzgM,team_mumbai': ~
+  'player_Allrounder,Laxmi Shukla,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTkM,team_kolkata': ~
+  'player_Allrounder,Luke Wright,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzMM,team_pune': ~
+  'player_Allrounder,Mandeep Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODUM,team_punjab': ~
+  'player_Allrounder,Mithun Manhas,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTYM,team_pune': ~
+  'player_Allrounder,Paul Collingwood,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTEM,team_rajasthan': ~
+  'player_Allrounder,Pawan Negi,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTIM,team_delhi': ~
+  'player_Allrounder,Piyush Chawla,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzYM,team_punjab': ~
+  'player_Allrounder,Raiphi Gomez,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDYM,team_pune': ~
+  'player_Allrounder,Rajagopal Sathish,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTMM,team_punjab': ~
+  'player_Allrounder,Rajat Bhatia,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDAM,team_kolkata': ~
+  'player_Allrounder,Raju Bhatkal,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTkM,team_bangalore': ~
+  'player_Allrounder,Ravindra Jadeja,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTkM,team_chennai': ~
+  'player_Allrounder,Roelof van der Merwe,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjAM,team_delhi': ~
+  'player_Allrounder,Ryan Ninan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzQM,team_bangalore': ~
+  'player_Allrounder,Ryan ten Doeschate,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjAM,team_kolkata': ~
+  'player_Allrounder,Scott Styris,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDkM,team_chennai': ~
+  'player_Allrounder,Shakib Al Hasan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTgM,team_kolkata': ~
+  'player_Allrounder,Shane Watson,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNzEM,team_rajasthan': ~
+  'player_Allrounder,Shrikant Wagh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzIM,team_pune': ~
+  'player_Allrounder,Steven Smith,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjgM,team_pune': ~
+  'player_Allrounder,Stuart Binny,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDUM,team_rajasthan': ~
+  'player_Allrounder,Sumit Narwal,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjAM,team_rajasthan': ~
+  'player_Allrounder,Syed Quadri,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDQM,team_hyderabad': ~
+  'player_Allrounder,Thisara Perera,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzYM,team_mumbai': ~
+  'player_Allrounder,Tillakaratne Dilshan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjEM,team_bangalore': ~
+  'player_Allrounder,Yo Mahesh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDQM,team_chennai': ~
+  'player_Allrounder,Yogesh Nagar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTAM,team_delhi': ~
+  'player_Allrounder,Yusuf Pathan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTIM,team_kolkata': ~
+  'player_Allrounder,jacques Kallis,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDcM,team_kolkata': ~
+  'player_Batsman,Aakash Chopra,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTAM,team_rajasthan': ~
+  'player_Batsman,Abhishek Jhunjhunwala,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzgM,team_hyderabad': ~
+  'player_Batsman,Akshath Reddy,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDYM,team_hyderabad': ~
+  'player_Batsman,Aliden Blizzard,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjAM,team_mumbai': ~
+  'player_Batsman,Amitoze Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTkM,team_mumbai': ~
+  'player_Batsman,Ankeet Chavan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDkM,team_rajasthan': ~
+  'player_Batsman,Anustup Majumdar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTUM,team_pune': ~
+  'player_Batsman,Apoorv Wankhade,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODcM,team_mumbai': ~
+  'player_Batsman,Arjun Yadav,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTYM,team_hyderabad': ~
+  'player_Batsman,Arun Karthik,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTgM,team_bangalore': ~
+  'player_Batsman,Bharat Chipli,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzAM,team_hyderabad': ~
+  'player_Batsman,Biplab Samantray,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDcM,team_hyderabad': ~
+  'player_Batsman,Cheteshwar Pujara,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzgM,team_bangalore': ~
+  'player_Batsman,Chirag Jani,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDYM,team_kolkata': ~
+  'player_Batsman,Chris Lynn,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzkM,team_hyderabad': ~
+  'player_Batsman,Daniel Harris,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzYM,team_hyderabad': ~
+  'player_Batsman,Darren Bravo,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjkM,team_hyderabad': ~
+  'player_Batsman,Debabrata Das,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDIM,team_kolkata': ~
+  'player_Batsman,Dheeraj Jadhav,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDkM,team_pune': ~
+  'player_Batsman,Dwaraka Ravi Teja,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDUM,team_hyderabad': ~
+  'player_Batsman,Gulam Bodi,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDIM,team_delhi': ~
+  'player_Batsman,Harpreet Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDcM,team_pune': ~
+  'player_Batsman,Herschelle Gibbs,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjMM,team_mumbai': ~
+  'player_Batsman,Ishank Jaggi,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzcM,team_hyderabad': ~
+  'player_Batsman,Jaydev Shah,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODAM,team_mumbai': ~
+  'player_Batsman,Karun Nair,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzIM,team_bangalore': ~
+  'player_Batsman,Kuldeep Raval,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTYM,team_delhi': ~
+  'player_Batsman,Kuthethurshri Vasudevadas,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTEM,team_chennai': ~
+  'player_Batsman,Luke Pomersbach,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzcM,team_bangalore': ~
+  'player_Batsman,Mahela Jayawardene,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDYM,team_delhi': ~
+  'player_Batsman,Manoj Tiwary,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjEM,team_kolkata': ~
+  'player_Batsman,Manprit Juneja,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzcM,team_delhi': ~
+  'player_Batsman,Marlon Samuels,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjUM,team_pune': ~
+  'player_Batsman,Mayank Agarwal,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTUM,team_bangalore': ~
+  'player_Batsman,Mohammad Kaif,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjQM,team_bangalore': ~
+  'player_Batsman,Mohnish  Mishra,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTgM,team_pune': ~
+  'player_Batsman,Nitin Saini,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTIM,team_punjab': ~
+  'player_Batsman,Owais Shah,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjUM,team_rajasthan': ~
+  'player_Batsman,Paras Dogra,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzgM,team_punjab': ~
+  'player_Batsman,Paul Valthaty,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTYM,team_punjab': ~
+  'player_Batsman,Puneet Bisht,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDAM,team_delhi': ~
+  'player_Batsman,Richard Levi,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjkM,team_mumbai': ~
+  'player_Batsman,Rilee Rossouw,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzkM,team_bangalore': ~
+  'player_Batsman,Robin Uthappa,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzEM,team_pune': ~
+  'player_Batsman,Rohit Sharma,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODEM,team_mumbai': ~
+  'player_Batsman,Sanju Samson,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTQM,team_kolkata': ~
+  'player_Batsman,Saurabh Tiwary,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDEM,team_bangalore': ~
+  'player_Batsman,Siddharth Chitnis,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzcM,team_punjab': ~
+  'player_Batsman,Sunny Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTUM,team_punjab': ~
+  'player_Batsman,Sunny Sohal,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTAM,team_hyderabad': ~
+  'player_Batsman,Suresh Raina,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDcM,team_chennai': ~
+  'player_Batsman,Suryakumar Yadav,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODgM,team_mumbai': ~
+  'player_Batsman,Tirumalasetti Suman,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODQM,team_mumbai': ~
+  'player_Batsman,Vijay Zol,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDMM,team_bangalore': ~
+  'player_Bowler,Aavishkar Salvi,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTgM,team_delhi': ~
+  'player_Bowler,Abhimanyu Mithun,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzAM,team_bangalore': ~
+  'player_Bowler,Abrar Kazi,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjUM,team_bangalore': ~
+  'player_Bowler,Abu Nechim,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTgM,team_mumbai': ~
+  'player_Bowler,Aditya Dole,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTMM,team_rajasthan': ~
+  'player_Bowler,Ajit Agarkar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzkM,team_delhi': ~
+  'player_Bowler,Akash Bhandari,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjgM,team_hyderabad': ~
+  'player_Bowler,Alfonso Thomas,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjkM,team_pune': ~
+  'player_Bowler,Ali Murtaza,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTkM,team_pune': ~
+  'player_Bowler,Amit Mishra,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDAM,team_hyderabad': ~
+  'player_Bowler,Amit Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjcM,team_rajasthan': ~
+  'player_Bowler,Anand Rajan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjUM,team_hyderabad': ~
+  'player_Bowler,Ankit Sharma,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjYM,team_hyderabad': ~
+  'player_Bowler,Asad Pathan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzYM,team_bangalore': ~
+  'player_Bowler,Ashish Nehra,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjAM,team_pune': ~
+  'player_Bowler,Ashish Reddy,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjQM,team_hyderabad': ~
+  'player_Bowler,Ashok Dinda,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDQM,team_pune': ~
+  'player_Bowler,Ben Hilfenhaus,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTcM,team_chennai': ~
+  'player_Bowler,Bhargav Bhatt,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzMM,team_punjab': ~
+  'player_Bowler,Bhuvneshwar Kumar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTMM,team_pune': ~
+  'player_Bowler,Brett Lee,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDgM,team_kolkata': ~
+  'player_Bowler,Charl Langeveldt,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjgM,team_bangalore': ~
+  'player_Bowler,Clint McKay,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzAM,team_mumbai': ~
+  'player_Bowler,Dale Steyn,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTIM,team_hyderabad': ~
+  'player_Bowler,Deepak Chahar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDcM,team_rajasthan': ~
+  'player_Bowler,Dhawal Kulkarni,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjgM,team_mumbai': ~
+  'player_Bowler,Dirk Nannes,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzMM,team_bangalore': ~
+  'player_Bowler,Doug Bollinger,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTQM,team_chennai': ~
+  'player_Bowler,Doug Bracewell,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDMM,team_delhi': ~
+  'player_Bowler,Harbhajan Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjQM,team_mumbai': ~
+  'player_Bowler,Harmeet Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODAM,team_punjab': ~
+  'player_Bowler,Harshal Patel,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzUM,team_bangalore': ~
+  'player_Bowler,Iresh Saxena,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTYM,team_kolkata': ~
+  'player_Bowler,Ishant Sharma,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDgM,team_hyderabad': ~
+  'player_Bowler,Jamaluddin Syed Mohammad,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDAM,team_bangalore': ~
+  'player_Bowler,James Pattinson,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTMM,team_kolkata': ~
+  'player_Bowler,Jaydev Unadkat,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjIM,team_kolkata': ~
+  'player_Bowler,KP Appanna,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTYM,team_bangalore': ~
+  'player_Bowler,Kamran Khan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTAM,team_pune': ~
+  'player_Bowler,Kevon Cooper,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTIM,team_rajasthan': ~
+  'player_Bowler,Krishnakant  Upadhyay,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzAM,team_pune': ~
+  'player_Bowler,Lakshmipathy Balaji,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTkM,team_kolkata': ~
+  'player_Bowler,Lasith Malinga,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzEM,team_mumbai': ~
+  'player_Bowler,Love Ablish,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzAM,team_punjab': ~
+  'player_Bowler,Manpreet Gony,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzUM,team_hyderabad': ~
+  'player_Bowler,Marchant De Lange,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDMM,team_kolkata': ~
+  'player_Bowler,Mitchell Johnson,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjYM,team_mumbai': ~
+  'player_Bowler,Morne Morkel,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDgM,team_delhi': ~
+  'player_Bowler,Munaf Patel,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzUM,team_mumbai': ~
+  'player_Bowler,Murali Kartik,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTEM,team_pune': ~
+  'player_Bowler,Muttiah Muralitharan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMzEM,team_bangalore': ~
+  'player_Bowler,Nathan McCullum,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTQM,team_pune': ~
+  'player_Bowler,Nathan Rimmington,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTEM,team_punjab': ~
+  'player_Bowler,Nuwan Kulasekara,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDMM,team_chennai': ~
+  'player_Bowler,Pankaj Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjEM,team_rajasthan': ~
+  'player_Bowler,Parvinder Awana,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjkM,team_punjab': ~
+  'player_Bowler,Pawan Suyal,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODUM,team_mumbai': ~
+  'player_Bowler,Pradeep Sangwan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTUM,team_kolkata': ~
+  'player_Bowler,Pragyan Ojha,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzQM,team_mumbai': ~
+  'player_Bowler,Praveen Kumar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODMM,team_punjab': ~
+  'player_Bowler,RP Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODMM,team_mumbai': ~
+  'player_Bowler,Rahul Sharma,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjYM,team_pune': ~
+  'player_Bowler,Rahul Shukla,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODIM,team_mumbai': ~
+  'player_Bowler,Ramesh Powar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTAM,team_punjab': ~
+  'player_Bowler,Ravichandran Ashwin,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTEM,team_chennai': ~
+  'player_Bowler,Robin Peterson,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzcM,team_mumbai': ~
+  'player_Bowler,Rusty Theron,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTQM,team_hyderabad': ~
+  'player_Bowler,Ryan Harris,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODEM,team_punjab': ~
+  'player_Bowler,Sachin Rana,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjMM,team_pune': ~
+  'player_Bowler,Samad Fallah,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTQM,team_rajasthan': ~
+  'player_Bowler,Sarabjit Ladda,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTgM,team_kolkata': ~
+  'player_Bowler,Shadab Jakati,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDAM,team_chennai': ~
+  'player_Bowler,Shahbaz Nadeem,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDkM,team_delhi': ~
+  'player_Bowler,Shalabh Srivastava,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTQM,team_punjab': ~
+  'player_Bowler,Shami Ahmed,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTcM,team_kolkata': ~
+  'player_Bowler,Shaun Tait,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjkM,team_rajasthan': ~
+  'player_Bowler,Siddharth Trivedi,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNzAM,team_rajasthan': ~
+  'player_Bowler,Sneha Kishore,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDkM,team_hyderabad': ~
+  'player_Bowler,Sreenath Aravind,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTcM,team_bangalore': ~
+  'player_Bowler,Sreesanth,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjgM,team_rajasthan': ~
+  'player_Bowler,Stuart Broad,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNzUM,team_punjab': ~
+  'player_Bowler,Sudeep Tyagi,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTAM,team_chennai': ~
+  'player_Bowler,Sujit Nayak,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzMM,team_mumbai': ~
+  'player_Bowler,Sunil Narine,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTEM,team_kolkata': ~
+  'player_Bowler,Suraj Randiv,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDIM,team_chennai': ~
+  'player_Bowler,TP Sudhindra,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTMM,team_hyderabad': ~
+  'player_Bowler,Tekkami Atchuta Rao,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjcM,team_hyderabad': ~
+  'player_Bowler,Umesh Yadav,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjUM,team_delhi': ~
+  'player_Bowler,Varun Aaron,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzgM,team_delhi': ~
+  'player_Bowler,Veer Pratap Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDMM,team_hyderabad': ~
+  'player_Bowler,Vikas Mishra,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjIM,team_delhi': ~
+  'player_Bowler,Vikramjeet Malik,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODQM,team_punjab': ~
+  'player_Bowler,Vinay Kumar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDIM,team_bangalore': ~
+  'player_Bowler,Wayne Parnell,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjIM,team_pune': ~
+  'player_Bowler,Yuzvendra Chahal,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjEM,team_mumbai': ~
+  'player_Bowler,Zaheer Khan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjYM,team_bangalore': ~
+  'player_Middle-order batsman,Callum Ferguson,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDUM,team_pune': ~
+  'player_Middle-order batsman,Cameron White,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTUM,team_hyderabad': ~
+  'player_Middle-order batsman,David Miller,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODgM,team_punjab': ~
+  'player_Middle-order batsman,Eoin Morgan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMTAM,team_kolkata': ~
+  'player_Middle-order batsman,Jean-Paul Duminy,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzQM,team_hyderabad': ~
+  'player_Middle-order batsman,Michael Clarke,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDMM,team_pune': ~
+  'player_Middle-order batsman,Michael Hussey,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTgM,team_chennai': ~
+  'player_Middle-order batsman,Prashant Naik,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTEM,team_delhi': ~
+  'player_Middle-order batsman,Robin Bist,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDEM,team_delhi': ~
+  'player_Middle-order batsman,Ross Taylor,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTkM,team_delhi': ~
+  'player_Middle-order batsman,Subramaniam Badrinath,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTIM,team_chennai': ~
+  'player_Middle-order batsman,Tanmay Mishra,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDEM,team_hyderabad': ~
+  'player_Middle-order batsman,Tejashwi Yadav,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjQM,team_delhi': ~
+  'player_Middle-order batsman,Travis Birt,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjYM,team_delhi': ~
+  'player_Middle-order batsman,Venugopal Rao,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjEM,team_delhi': ~
+  'player_Middle-order batsman,Virat Kohli,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjcM,team_bangalore': ~
+  'player_Middle-order batsman,Yuvraj Singh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzQM,team_pune': ~
+  'player_Opening batsman,David Warner,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjMM,team_delhi': ~
+  'player_Opening batsman,Faiz Fazal,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTUM,team_rajasthan': ~
+  'player_Opening batsman,Graeme Smith,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjcM,team_pune': ~
+  'player_Opening batsman,Harshad Khadiwale,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMTIM,team_pune': ~
+  'player_Opening batsman,Murali Vijay,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMTMM,team_chennai': ~
+  'player_Top-order batsman,Aaron Finch,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDUM,team_delhi': ~
+  'player_Top-order batsman,Abhinav Mukund,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDYM,team_chennai': ~
+  'player_Top-order batsman,Ajinkya Rahane,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjMM,team_rajasthan': ~
+  'player_Top-order batsman,Brad Hodge,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTcM,team_rajasthan': ~
+  'player_Top-order batsman,Colin Ingram,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjcM,team_delhi': ~
+  'player_Top-order batsman,Gautam Gambhir,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wOTcM,team_kolkata': ~
+  'player_Top-order batsman,George Bailey,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTMM,team_chennai': ~
+  'player_Top-order batsman,Kevin Pietersen,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTUM,team_delhi': ~
+  'player_Top-order batsman,Manish Pandey,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMjEM,team_pune': ~
+  'player_Top-order batsman,Mitchell Marsh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzUM,team_pune': ~
+  'player_Top-order batsman,Rahul Dravid,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDQM,team_rajasthan': ~
+  'player_Top-order batsman,Sachin Tendulkar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTcM,team_mumbai': ~
+  'player_Top-order batsman,Shaun Marsh,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wODYM,team_punjab': ~
+  'player_Top-order batsman,Shikhar Dhawan,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzMM,team_hyderabad': ~
+  'player_Top-order batsman,Sourav Ganguly,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDEM,team_pune': ~
+  'player_Top-order batsman,Srikkanth Anirudha,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xOTAM,team_chennai': ~
+  'player_Top-order batsman,Tanmay Srivastava,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNTEM,team_hyderabad': ~
+  'player_Top-order batsman,Unmukt Chand,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNDQM,team_delhi': ~
+  'player_Top-order batsman,Virender Sehwag,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMzYM,team_delhi': ~
+  'player_Wicketkeeper batsman,AB de Villiers,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjAM,team_bangalore': ~
+  'player_Wicketkeeper batsman,Adam Gilchrist,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNjgM,team_punjab': ~
+  'player_Wicketkeeper batsman,Ambati Rayudu,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzkM,team_mumbai': ~
+  'player_Wicketkeeper batsman,Amit Paunikar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjIM,team_rajasthan': ~
+  'player_Wicketkeeper batsman,Brad Haddin,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDQM,team_kolkata': ~
+  'player_Wicketkeeper batsman,Brendon McCullum,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDkM,team_kolkata': ~
+  'player_Wicketkeeper batsman,Davy Jacobs,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjUM,team_mumbai': ~
+  'player_Wicketkeeper batsman,Dinesh Chandimal,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNDgM,team_rajasthan': ~
+  'player_Wicketkeeper batsman,Dinesh Karthik,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNjcM,team_mumbai': ~
+  'player_Wicketkeeper batsman,Kumar Sangakkara,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMjMM,team_hyderabad': ~
+  'player_Wicketkeeper batsman,MS Dhoni,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODkM,team_chennai': ~
+  'player_Wicketkeeper batsman,Naman Ojha,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wNTMM,team_delhi': ~
+  'player_Wicketkeeper batsman,Parthiv Patel,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNDIM,team_hyderabad': ~
+  'player_Wicketkeeper batsman,Pinal Shah,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNjYM,team_rajasthan': ~
+  'player_Wicketkeeper batsman,Shreevats Goswami,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNTYM,team_rajasthan': ~
+  'player_Wicketkeeper,Aditya Tare,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xODYM,team_mumbai': ~
+  'player_Wicketkeeper,Dishant Yagnik,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNzIM,team_rajasthan': ~
+  'player_Wicketkeeper,Eklavya Diwedi,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDIM,team_pune': ~
+  'player_Wicketkeeper,Kedar Devdhar,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMzIM,team_hyderabad': ~
+  'player_Wicketkeeper,Manvinder  Bisla,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xMDEM,team_kolkata': ~
+  'player_Wicketkeeper,Muralidharen Gautam,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMjIM,team_bangalore': ~
+  'player_Wicketkeeper,Sushant Marathe,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8xNzIM,team_mumbai': ~
+  'player_Wicketkeeper,Wriddhiman Saha,agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yMDgM,team_chennai': ~
+  'player_role,name,key,team': ~
