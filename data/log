@@ -29,18 +29,4 @@
 
 
 == Tasks ==
-* fix player data in dev yaml
-* test on cp-dev
-* Create Stats Schema
-* mind map stats for various usecases
-* upload 2-3 match dummy stats
-* show stats on anon closed
-* show stats on auth no pred
-show comparison + stat on auth with pred
-write rules for points calculation on client side
-show points on client side
-create background task for points calculation on GAE
-
-
-== Bugs ==
-body bg not centered
+read jijna doc on variable defining in templates

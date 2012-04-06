@@ -1,10 +1,22 @@
 <div class="scorecard-wrapper clearfix">
 {% if cp.matches[match_key].key in match_player_stats %}
-	<div class="stats-team-one">{{cp.teams[cp.matches[match_key].team_one].name}}</div><div class="stats-team-two">{{cp.teams[cp.matches[match_key].team_two].name}}</div>
-	<div class="stats-team-one">Player / Runs / Sixes / Wickets</div><div class="stats-team-two">Player / Runs / Sixes / Wickets</div>
-	{% for player_key, stat in match_player_stats[cp.matches[match_key].key].items() %}
-		<div class="stats-{{stat.team_one_or_two}}">{{player_key}} / {{stat.runs}} / {{stat.sixes}} / {{stat.wickets}}</div>
-	{% endfor %}
+	<div class="stats-team-one clearfix">{{cp.teams[cp.matches[match_key].team_one].name}} / {{match_team_stats[cp.matches[match_key].key][cp.teams[cp.matches[match_key].team_one].key].runs}} / {{match_team_stats[cp.matches[match_key].key][cp.teams[cp.matches[match_key].team_one].key].sixes}}</div>
+	<div class="stats-team-one clearfix">
+		{% for player_key, stat in match_player_stats[cp.matches[match_key].key].items() %}
+			{% if cp.player_team[player_key].team_keyname == cp.matches[match_key].team_one %}
+			<p>{{cp.player_team[player_key].player_name}} / {{stat.runs}} / {{stat.wickets}} / {{stat.sixes}}</p>
+			{% endif %}
+		{% endfor %}
+	</div>
+	
+	<div class="stats-team-two clearfix">{{cp.teams[cp.matches[match_key].team_two].name}} / {{match_team_stats[cp.matches[match_key].key][cp.teams[cp.matches[match_key].team_two].key].runs}} / {{match_team_stats[cp.matches[match_key].key][cp.teams[cp.matches[match_key].team_two].key].sixes}}</div>
+	<div class="stats-team-two clearfix">
+		{% for player_key, stat in match_player_stats[cp.matches[match_key].key].items() %}
+			{% if cp.player_team[player_key].team_keyname == cp.matches[match_key].team_two %}
+			<p>{{cp.player_team[player_key].player_name}} / {{stat.runs}} / {{stat.wickets}} / {{stat.sixes}}</p>
+			{% endif %}
+		{% endfor %}
+	</div>
 {% else %}
 TODO: Stats not yet updated for this match. -- {{cp.matches[match_key].key}}
 {% endif %}
