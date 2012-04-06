@@ -361,7 +361,18 @@ padding-left:40px;
     text-align: center;
     text-shadow: 1px 1px 3px #FFFFFF;
 }
-
+#message{
+	position:absolute;
+	left:-300px;
+	float:left;
+	padding:10px;
+	background:rgb(24, 49, 82);
+	background:rgba(24, 49, 82,.48);/*#e1e6f9*/;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius:9px;
+	color:#e0e5f9;
+}
 
 /* kaka temp styles start */
 .stats-team-one{

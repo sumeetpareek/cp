@@ -51,14 +51,14 @@
 
 {% macro prediction_select(id, name, val, default=None) -%}
 {% if default != None %}
-<input type="text" ReadOnly="true" class="{{id}}" value="{{default}}"/>
+<input type="text" ReadOnly="true" class="{{id}}" value="{{default}}" name="{{name}}"/>
 <!-- <select id="{{id}}" name="{{name}}"> -->
 <!-- 	{% for i in range(val.min, val.max) %} -->
 <!-- 		<option value="{{i}}" {% if i == default %} selected="selected" {% endif %}>{{i}}</option> -->
 <!-- 	{% endfor %} -->
 <!-- </select> -->
 {% else %}
-<input type="text" ReadOnly="true" class="{{id}}" />
+<input type="text" ReadOnly="true" class="{{id}}" name="{{name}}"/>
 <!-- <select id="{{id}}" name="{{name}}"> -->
 <!-- 	{% for i in range(val.min, val.max) %} -->
 <!-- 		<option value="{{i}}">{{i}}</option> -->
