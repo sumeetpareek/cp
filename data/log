@@ -7,6 +7,10 @@
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match_stats/match_01_player_stats.csv --kind=PlayerMatchStats --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match_stats/match_01_team_stats.csv --kind=TeamMatchStats --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
 
+-- on basant local -- 
+
+
+
 
 -- on gae dev instance --
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/team.gae.csv --kind=Team --url=http://cp-dev.appspot.com/_ah/remote_api -e=positivecharge@gmail.com
@@ -22,6 +26,13 @@
 /opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/team_local.csv --kind=Team --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
 /opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/player_local.csv --kind=Player --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
 /opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/match_local.csv --kind=Match --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+
+---on basant local machine --
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/basant/team_local.csv --kind=Team --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/basant/player_local.csv --kind=Player --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+/opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/basant/match_local.csv --kind=Match --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
+
+
 -- on dev gae instance --
 /opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/team_cp_dev.csv --kind=Team --url=http://cp-dev.appspot.com/_ah/remote_api
 /opt/google_appengine/appcfg.py download_data --config_file=bulkloader_download.yaml --filename=data/downloaded_csv_from_gae/match_cp_dev.csv --kind=Match --url=http://cp-dev.appspot.com/_ah/remote_api
