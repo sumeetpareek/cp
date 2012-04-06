@@ -68,7 +68,7 @@ display:none;
 }
 #fb-login{
 float:left;
-margin-left:80px;
+margin-left:28px;
 margin-top:25px;
 }
 #fb-like{
@@ -295,6 +295,7 @@ form .submit{
     float:right;
     margin:20px 40px;
     padding: 10px;
+    cursor:pointer;
 }
 .match-link{
 	position:relative;
