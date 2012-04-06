@@ -31,7 +31,7 @@ transformers:
 
     - property: start_time
       external_name: start_time
-      import_transform: transform.import_date_time('%a %b %d %Y %H:%M %Z')
+      import_transform: transform.import_date_time('%a %b %d %Y %H:%M')
 
     - property: team_one
       external_name: team_one
