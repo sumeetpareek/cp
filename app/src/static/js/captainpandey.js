@@ -133,6 +133,29 @@ $(document).ready(function(){
 		}
  });
 	
+	$('.prediction_slider_six_team').slider({
+	 	range: "max",
+		min:1,
+		max:30,
+		step: 1,
+		slide: function( event, ui ) {
+			var prediction_player = $('.prediction_player_six_team');
+			var ind = $('.prediction_slider_six_team').index(this);
+			prediction_player.eq(ind).val( ui.value );
+		}
+ });
+	$('.prediction_slider_run_team').slider({
+	 	range: "max",
+		min:0,
+		max:250,
+		step: 1,
+		slide: function( event, ui ) {
+			var prediction_player = $('.prediction_player_run_team');
+			var ind = $('.prediction_slider_run_team').index(this);
+			prediction_player.eq(ind).val( ui.value );
+		}
+ });
+	
 	//logic for form validation
 	var match_main_form = $('.match-main form .submit');
 	match_main_form.on('click',function(event){
@@ -192,7 +215,6 @@ $(document).ready(function(){
 				$.cookie('pred_team_run',pred_team_run);
 				$.cookie('pred_team_six',pred_team_six);
 				$.cookie('match_id',$('.match-main-open.active').attr('id'));
-				alert('anon');
 				message.text('Please log in first').animate({
 				    left: '30%',
 				    top:'50%',

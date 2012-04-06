@@ -53,12 +53,19 @@ $(document).ready(function(){
 //		return false;
 //	});
 	$('body.auth-user .match-main form').submit(function(){
+		$('.match-main-open.active form input.submit').attr('value','Uploading... ');
 		$.ajax({
 			type: 'POST',
 			url: 'pred/put',
 			data: $(this).serialize(),
 			success: function(response){
-				alert('SUCCESS --- '+response)
+				$('.match-main-open.active form input.submit').attr('value','Update Your Predictions');
+				$('#message').text('Your prediction saved').animate({
+				    left: '164px',
+				    top:'144px'
+					  }, 500,'swing', function() {
+					    // Animation complete.
+					  });
 			},
 			error: function(jqXHR,error, errorThrown) {  
 				alert(jqXHR.responseText); 
