@@ -179,7 +179,7 @@ $(document).ready(function(){
 			}).nextAll('.prediction-unit').css('color','red');
 			event.preventDefault();
 		} else{
-			alert('go');
+//			alert('go');
 			if($('body').hasClass('anon-user')){
 				$.cookie('player_run',player_run);
 				$.cookie('player_wicket',player_wicket);
@@ -203,7 +203,7 @@ $(document).ready(function(){
 					  });
 				event.preventDefault();
 			}
-		event.preventDefault();
+//		event.preventDefault();
 		}
 	});
 //		if($("#user-login-form #edit-name-wrapper input").val() == '')

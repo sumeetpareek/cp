@@ -88,6 +88,7 @@ class MainPage(BaseHandler):
           closed => matches which are over and scoring, points calculation has been done as well
     ''' 
 #    current_datetime = datetime.datetime.now() #TODO real val to use
+#    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
     current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
     for match_key in cp_data['match_keys']:
       match_datetime = cp_data['matches'][match_key]['start_time']
