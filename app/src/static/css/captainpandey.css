@@ -1,3 +1,15 @@
+.make-match-pred-msg,
+.share-match-pred-msg,
+.match-msg {
+text-align: center;
+color: #183152;
+font-size: 14px;
+font-family: monospace;
+font-weight: bold;
+text-shadow: 1px 1px 2px white;
+margin: 0px 0px 20px;
+}
+
 .future-match-notif {
 text-align: justify;
 color: #183152;
@@ -111,6 +123,7 @@ width:280px;
 	border-radius:9px;
 	border-top-right-radius:0px;
 	clear:right;
+	min-height: 380px;
 }
 #primary-menu li{
 	list-style:none;
@@ -291,6 +304,7 @@ form .submit{
     margin:20px 40px;
     padding: 10px;
     cursor:pointer;
+    min-width: 490px;
 }
 .match-link{
 	position:relative;
@@ -356,6 +370,7 @@ padding-left:40px;
     font-weight: bolder;
     text-align: center;
     text-shadow: 1px 1px 3px #FFFFFF;
+    margin: 10px 0px;
 }
 #message{
 	position:absolute;
