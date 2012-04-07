@@ -1,3 +1,34 @@
+teams_by_key:
+  agpkZXZ-Y3AtZGV2chMLEgRUZWFtIgl0ZWFtX3B1bmUM:
+    keyname: team_pune
+    name: Pune
+  agpkZXZ-Y3AtZGV2chQLEgRUZWFtIgp0ZWFtX2RlbGhpDA:
+    keyname: team_delhi
+    name: Delhi
+  agpkZXZ-Y3AtZGV2chULEgRUZWFtIgt0ZWFtX211bWJhaQw:
+    keyname: team_mumbai
+    name: Mumbai
+  agpkZXZ-Y3AtZGV2chULEgRUZWFtIgt0ZWFtX3B1bmphYgw:
+    keyname: team_punjab
+    name: Punjab
+  agpkZXZ-Y3AtZGV2chYLEgRUZWFtIgx0ZWFtX2NoZW5uYWkM:
+    keyname: team_chennai
+    name: Chennai
+  agpkZXZ-Y3AtZGV2chYLEgRUZWFtIgx0ZWFtX2tvbGthdGEM:
+    keyname: team_kolkata
+    name: Kolkata
+  agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX2JhbmdhbG9yZQw:
+    keyname: team_bangalore
+    name: Bangalore
+  agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX2h5ZGVyYWJhZAw:
+    keyname: team_hyderabad
+    name: Hyderabad
+  agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX3JhamFzdGhhbgw:
+    keyname: team_rajasthan
+    name: Rajasthan
+
+
+
 player_team:
   agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8wMDEM:
     player_name: Sourav Ganguly
