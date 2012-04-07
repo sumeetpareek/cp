@@ -1,35 +1,3 @@
-teams_by_key:
-  agpkZXZ-Y3AtZGV2chMLEgRUZWFtIgl0ZWFtX3B1bmUM:
-    keyname: team_pune
-    name: Pune
-  agpkZXZ-Y3AtZGV2chQLEgRUZWFtIgp0ZWFtX2RlbGhpDA:
-    keyname: team_delhi
-    name: Delhi
-  agpkZXZ-Y3AtZGV2chULEgRUZWFtIgt0ZWFtX211bWJhaQw:
-    keyname: team_mumbai
-    name: Mumbai
-  agpkZXZ-Y3AtZGV2chULEgRUZWFtIgt0ZWFtX3B1bmphYgw:
-    keyname: team_punjab
-    name: Punjab
-  agpkZXZ-Y3AtZGV2chYLEgRUZWFtIgx0ZWFtX2NoZW5uYWkM:
-    keyname: team_chennai
-    name: Chennai
-  agpkZXZ-Y3AtZGV2chYLEgRUZWFtIgx0ZWFtX2tvbGthdGEM:
-    keyname: team_kolkata
-    name: Kolkata
-  agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX2JhbmdhbG9yZQw:
-    keyname: team_bangalore
-    name: Bangalore
-  agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX2h5ZGVyYWJhZAw:
-    keyname: team_hyderabad
-    name: Hyderabad
-  agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX3JhamFzdGhhbgw:
-    keyname: team_rajasthan
-    name: Rajasthan
-
-
-
-
 team_players:
   team_bangalore:
     player_214: Daniel Vettori
@@ -390,509 +358,508 @@ match_keys:
 - match_72
 
 
-
 matches:
   match_01:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMDEM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-04 20:00:00
     team_one: team_chennai
     team_two: team_mumbai
   match_02:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMDIM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-05 20:00:00
     team_one: team_kolkata
     team_two: team_delhi
   match_03:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMDMM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-06 16:00:00
     team_one: team_mumbai
     team_two: team_pune
   match_04:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMDQM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-06 20:00:00
     team_one: team_rajasthan
     team_two: team_punjab
   match_05:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMDUM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-07 16:00:00
     team_one: team_bangalore
     team_two: team_delhi
   match_06:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMDYM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-07 20:00:00
     team_one: team_hyderabad
     team_two: team_chennai
   match_07:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMDcM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-08 16:00:00
     team_one: team_rajasthan
     team_two: team_kolkata
   match_08:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMDgM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-08 20:00:00
     team_one: team_pune
     team_two: team_punjab
   match_09:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMDkM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-09 20:00:00
     team_one: team_hyderabad
     team_two: team_mumbai
   match_10:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTAM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-10 16:00:00
     team_one: team_bangalore
     team_two: team_kolkata
   match_11:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTEM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-10 20:00:00
     team_one: team_delhi
     team_two: team_chennai
   match_12:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTIM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-11 20:00:00
     team_one: team_mumbai
     team_two: team_rajasthan
   match_13:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTMM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-12 16:00:00
     team_one: team_chennai
     team_two: team_bangalore
   match_14:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTQM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-12 20:00:00
     team_one: team_punjab
     team_two: team_pune
   match_15:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTUM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-13 20:00:00
     team_one: team_kolkata
     team_two: team_rajasthan
   match_16:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTYM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-14 20:00:00
     team_one: team_pune
     team_two: team_chennai
   match_17:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTcM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-15 16:00:00
     team_one: team_kolkata
     team_two: team_punjab
   match_18:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTgM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-15 20:00:00
     team_one: team_bangalore
     team_two: team_rajasthan
   match_19:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMTkM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-16 20:00:00
     team_one: team_mumbai
     team_two: team_delhi
   match_20:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjAM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-17 16:00:00
     team_one: team_rajasthan
     team_two: team_hyderabad
   match_21:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjEM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-17 20:00:00
     team_one: team_bangalore
     team_two: team_pune
   match_22:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjIM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-18 20:00:00
     team_one: team_punjab
     team_two: team_kolkata
   match_23:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjMM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-19 16:00:00
     team_one: team_delhi
     team_two: team_hyderabad
   match_24:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjQM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-19 20:00:00
     team_one: team_chennai
     team_two: team_pune
   match_25:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjUM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-20 20:00:00
     team_one: team_punjab
     team_two: team_bangalore
   match_26:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjYM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-21 16:00:00
     team_one: team_chennai
     team_two: team_rajasthan
   match_27:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjcM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-21 20:00:00
     team_one: team_delhi
     team_two: team_pune
   match_28:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjgM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-22 16:00:00
     team_one: team_mumbai
     team_two: team_punjab
   match_29:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMjkM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-22 20:00:00
     team_one: team_hyderabad
     team_two: team_kolkata
   match_30:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzAM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-23 20:00:00
     team_one: team_rajasthan
     team_two: team_bangalore
   match_31:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzEM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-24 16:00:00
     team_one: team_pune
     team_two: team_delhi
   match_32:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzIM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-24 20:00:00
     team_one: team_kolkata
     team_two: team_hyderabad
   match_33:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzMM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-25 16:00:00
     team_one: team_punjab
     team_two: team_mumbai
   match_34:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzQM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-25 20:00:00
     team_one: team_bangalore
     team_two: team_chennai
   match_35:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzUM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-26 20:00:00
     team_one: team_pune
     team_two: team_hyderabad
   match_36:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzYM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-27 20:00:00
     team_one: team_delhi
     team_two: team_mumbai
   match_37:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzcM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-28 16:00:00
     team_one: team_chennai
     team_two: team_punjab
   match_38:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzgM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-28 20:00:00
     team_one: team_kolkata
     team_two: team_bangalore
   match_39:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfMzkM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-29 16:00:00
     team_one: team_delhi
     team_two: team_rajasthan
   match_40:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDAM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-29 20:00:00
     team_one: team_mumbai
     team_two: team_hyderabad
   match_41:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDEM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-04-30 20:00:00
     team_one: team_chennai
     team_two: team_kolkata
   match_42:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDIM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-01 16:00:00
     team_one: team_hyderabad
     team_two: team_pune
   match_43:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDMM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-01 20:00:00
     team_one: team_rajasthan
     team_two: team_delhi
   match_44:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDQM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-02 20:00:00
     team_one: team_bangalore
     team_two: team_punjab
   match_45:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDUM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-03 16:00:00
     team_one: team_pune
     team_two: team_mumbai
   match_46:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDYM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-04 20:00:00
     team_one: team_chennai
     team_two: team_hyderabad
   match_47:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDcM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-05 16:00:00
     team_one: team_kolkata
     team_two: team_pune
   match_48:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDgM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-05 20:00:00
     team_one: team_punjab
     team_two: team_rajasthan
   match_49:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNDkM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-06 16:00:00
     team_one: team_mumbai
     team_two: team_chennai
   match_50:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTAM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-06 20:00:00
     team_one: team_bangalore
     team_two: team_hyderabad
   match_51:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTEM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-07 20:00:00
     team_one: team_delhi
     team_two: team_kolkata
   match_52:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTIM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-08 16:00:00
     team_one: team_pune
     team_two: team_rajasthan
   match_53:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTMM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-08 20:00:00
     team_one: team_hyderabad
     team_two: team_punjab
   match_54:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTQM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-09 20:00:00
     team_one: team_mumbai
     team_two: team_bangalore
   match_55:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTUM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-10 16:00:00
     team_one: team_hyderabad
     team_two: team_delhi
   match_56:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTYM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-10 20:00:00
     team_one: team_rajasthan
     team_two: team_chennai
   match_57:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTcM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-11 20:00:00
     team_one: team_pune
     team_two: team_bangalore
   match_58:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTgM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-12 16:00:00
     team_one: team_kolkata
     team_two: team_mumbai
   match_59:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNTkM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-12 20:00:00
     team_one: team_chennai
     team_two: team_delhi
   match_60:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjAM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-13 16:00:00
     team_one: team_rajasthan
     team_two: team_pune
   match_61:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjEM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-13 20:00:00
     team_one: team_punjab
     team_two: team_hyderabad
   match_62:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjIM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-14 16:00:00
     team_one: team_bangalore
     team_two: team_mumbai
   match_63:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjMM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-14 20:00:00
     team_one: team_kolkata
     team_two: team_chennai
   match_64:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjQM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-15 20:00:00
     team_one: team_delhi
     team_two: team_punjab
   match_65:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjUM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-16 20:00:00
     team_one: team_mumbai
     team_two: team_kolkata
   match_66:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjYM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-17 16:00:00
     team_one: team_punjab
     team_two: team_chennai
   match_67:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjcM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-17 20:00:00
     team_one: team_delhi
     team_two: team_bangalore
   match_68:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjgM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-18 20:00:00
     team_one: team_hyderabad
     team_two: team_rajasthan
   match_69:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNjkM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-19 16:00:00
     team_one: team_punjab
     team_two: team_delhi
   match_70:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNzAM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-19 20:00:00
     team_one: team_pune
     team_two: team_kolkata
   match_71:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNzEM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-20 16:00:00
     team_one: team_hyderabad
     team_two: team_bangalore
   match_72:
-    flag: 
+    flag: ''
     key: agpkZXZ-Y3AtZGV2chMLEgVNYXRjaCIIbWF0Y2hfNzIM
-    pred_start_time: 
+    pred_start_time: ''
     start_time: 2012-05-20 20:00:00
     team_one: team_rajasthan
     team_two: team_mumbai
@@ -2262,7 +2229,7 @@ players:
 
 
 
-teams:
+teams: 
   team_bangalore:
     key: agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX2JhbmdhbG9yZQw
     name: Bangalore
@@ -2290,6 +2257,7 @@ teams:
   team_rajasthan:
     key: agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX3JhamFzdGhhbgw
     name: Rajasthan
+
 
 
 
@@ -3110,3 +3078,32 @@ player_team:
   agpkZXZ-Y3AtZGV2chYLEgZQbGF5ZXIiCnBsYXllcl8yNzIM:
     player_name: Dishant Yagnik
     team_keyname: team_rajasthan
+
+teams_by_key:
+  agpkZXZ-Y3AtZGV2chMLEgRUZWFtIgl0ZWFtX3B1bmUM:
+    keyname: team_pune
+    name: Pune
+  agpkZXZ-Y3AtZGV2chQLEgRUZWFtIgp0ZWFtX2RlbGhpDA:
+    keyname: team_delhi
+    name: Delhi
+  agpkZXZ-Y3AtZGV2chULEgRUZWFtIgt0ZWFtX211bWJhaQw:
+    keyname: team_mumbai
+    name: Mumbai
+  agpkZXZ-Y3AtZGV2chULEgRUZWFtIgt0ZWFtX3B1bmphYgw:
+    keyname: team_punjab
+    name: Punjab
+  agpkZXZ-Y3AtZGV2chYLEgRUZWFtIgx0ZWFtX2NoZW5uYWkM:
+    keyname: team_chennai
+    name: Chennai
+  agpkZXZ-Y3AtZGV2chYLEgRUZWFtIgx0ZWFtX2tvbGthdGEM:
+    keyname: team_kolkata
+    name: Kolkata
+  agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX2JhbmdhbG9yZQw:
+    keyname: team_bangalore
+    name: Bangalore
+  agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX2h5ZGVyYWJhZAw:
+    keyname: team_hyderabad
+    name: Hyderabad
+  agpkZXZ-Y3AtZGV2chgLEgRUZWFtIg50ZWFtX3JhamFzdGhhbgw:
+    keyname: team_rajasthan
+    name: Rajasthan
