@@ -87,9 +87,7 @@
 				</form>
 				
 				{% elif (cp.matches[match_key].flag == 'future') %}
-				<p>This is a FUTURE match</p>
-				<p>You will be able to MAKE predictions for this match from - {{cp.matches[match_key].pred_start_time}}</p>
-				<p>We will STOP letting you add predictions right before the match begins at - {{cp.matches[match_key].start_time}} </p>
+					{% include 'templates/future_match_notification.html' %}
 				{% endif %}
 		</div>
 		{% endfor %}

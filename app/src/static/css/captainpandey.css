@@ -1,3 +1,13 @@
+.future-match-notif {
+text-align: justify;
+color: #183152;
+font-size: 20px;
+font-family: monospace;
+font-weight: bold;
+text-shadow: 1px 1px 2px white;
+margin: 0px 35px;
+}
+
 body{
 	background:url(images/background.jpg) no-repeat fixed 50% 0 #183152;
 }
