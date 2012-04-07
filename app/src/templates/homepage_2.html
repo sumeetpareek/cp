@@ -29,9 +29,8 @@
   <body class="{% if current_user %}auth-user{% else %}anon-user{% endif %}">
   {% import 'templates/macros.html' as mac %}
 	<div id="header-wrapper">
-		<div id="header">
+		<div id="header" class="clearfix">
 			<div id="logo">captain pandey</div>
-			<div id="slogan">TODO</div>
 			<div id="fb-login">
 <!-- 				{% if current_user %}<span>Hey!! {{ current_user.name }}</span> {% endif %} -->
 				<fb:login-button autologoutlink="true" scope="email"></fb:login-button>

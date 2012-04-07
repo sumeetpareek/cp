@@ -1,5 +1,5 @@
 body{
-	background:url(images/background.jpg) no-repeat fixed 0 0 #183152;
+	background:url(images/background.jpg) no-repeat fixed 50% 0 #183152;
 }
 
 #footer-bottom{
@@ -15,21 +15,6 @@ body{
 #page{
 	width:900px;
 	margin:0 auto;
-}
-
-#slogan{
-	background: url("images/slogan.png") no-repeat scroll 0 0 transparent;
-    color: #E0E5F8;
-    font-family: Comic Sans MS;
-    font-size: 28px;
-    font-weight: bolder;
-    height: 62px;
-    margin: 25px auto 40px;
-    text-align: center;
-    text-indent: -99999px;
-    width: 562px;    
-	float:left;
-	margin-left:80px;
 }
 
 .hidden{
