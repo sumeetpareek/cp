@@ -1,3 +1,10 @@
+* predictions can be made on those that did not play
+test the full app and frame all sentences well
+add a header menu with items - rules, videos, gallery
+make permanent URLs for player predictions
+add facebook share, twitter buttons
+
+
 == Upload Data ==
 -- on local --
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/team.gae.csv --kind=Team --url=http://localhost:8080/_ah/remote_api -e=admin@example.com

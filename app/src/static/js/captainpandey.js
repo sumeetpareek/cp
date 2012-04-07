@@ -30,11 +30,11 @@ $(document).ready(function(){
 			obj.find('input[name="player_six_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
 			obj.find('input[name="player_six_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
 			obj.find('input[name="team_run_pred"]').val($.cookie('pred_team_run'));
-			var width=$.cookie('pred_team_run')*100/150;
+			var width=$.cookie('pred_team_run')*100/250;
 			obj.find('input[name="team_run_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
 			obj.find('input[name="team_run_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
 			obj.find('input[name="team_six_pred"]').val($.cookie('pred_team_six'));
-			var width=$.cookie('pred_team_six')*100/20;
+			var width=$.cookie('pred_team_six')*100/30;
 			obj.find('input[name="team_six_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
 			obj.find('input[name="team_six_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
 			$.cookie('player_run',null);
