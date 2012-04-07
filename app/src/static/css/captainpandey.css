@@ -422,6 +422,7 @@ padding-left:40px;
     margin-right: 10px;
     float:left;
     width:160px;
+    text-shadow:1px 1px 1px #FFFFFF;
 }
 .score .score-item .prediction-compare{
 	float:left;
@@ -450,6 +451,7 @@ padding-left:40px;
     font-size:0.8em;
     position: relative;
     top: -28px;
+     text-shadow:1px 1px 0px #FFFFFF;
 }
 .score .score-item .value .text{
 	font-size:.7em;
@@ -460,23 +462,29 @@ padding-left:40px;
     top: -2px;
     color: #365D80;
     font-size: 0.8em;
+    text-shadow:1px 1px 0px #FFFFFF;
 }
 .score .score-item .prediction-points{
 	color: #365D80;
     font-size: 1.6em;
+    margin-left:25px;
+    text-shadow:1px 1px 1px #FFFFFF;
 }
 .score .socre-points{
-	float:right;
-	font-size:2em;
-	color:#365d80;
-	margin-right:80px;
+	color: #365D80;
+    float: right;
+    font-size: 1.7em;
+    margin-right: 70px;
+    position: relative;
+    top: 12px;
+    vertical-align: text-bottom;
+    text-shadow:1px 1px 0px #FFFFFF;
 }
 
 .score .graph-desc {
 	 margin-bottom: 25px;
-	 float:left;
-	 clear:both;
-	 margin-left:40px;
+	 float:right;
+	 margin-right:74px;
 }
 
 .score .graph-desc .prediction-compare .prediction-value .bar{
@@ -496,7 +504,11 @@ padding-left:40px;
 .score .graph-desc .prediction-compare .value{
   	color: #183152;
     font-size: 0.7em;
-}	
+    text-shadow:1px 1px 0px #FFFFFF;
+}
+.score .graph-desc .prediction-compare .stat-value .value{
+  	vertical-align:top;
+}
 /* kaka temp styles start */
 .stats-team-one{
 display: block;
