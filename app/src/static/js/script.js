@@ -30,6 +30,16 @@ $.fn.serializeObject = function()
 
 // Things to do when the document is all ready
 $(document).ready(function(){
+	// Show/Hide the rules when hovering on the rules link
+	$("#rules-link").mouseenter(function() {
+		var p = $(this).position();
+		$("#rules-content").css('left',p.left).css('top',p.top+20).slideDown(); 
+	});
+	$("#rules-content").mouseenter(function() { 
+		$("#rules-content").css('display','block'); 
+	});
+	$("#rules-content").mouseleave(function() { $("#rules-content").slideUp(); });
+	
 	// Show the match area on clicking a match's link
 	$('.match-link').click(function(){
 		id = $(this).attr('id');

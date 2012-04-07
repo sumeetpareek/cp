@@ -1,3 +1,76 @@
+#rules-content li {
+margin-bottom: 16px;
+}
+#rules-content li li{
+margin-top: 5px;
+margin-bottom: 0px;
+}
+#rules-content {
+display: none;
+position: absolute;
+top: 50px;
+left: 694px;
+background: #9196A7;
+padding: 2px 20px 2px 0px;
+border-radius: 8px;
+font-family: arial, sans-serif;
+font-size: 13px;
+z-index: 1000;
+border: 1px solid white;
+color: #EEE;
+max-width: 510px;
+line-height: 18px;
+}
+
+#top-menu a,
+#top-menu a:link,
+#top-menu a:visited {
+text-decoration: none;
+color: #333;
+}
+#top-menu a:hover,
+#top-menu a:focus,
+#top-menu a:active {
+text-decoration: underline;
+}
+#top-menu {
+float: right;
+background: rgba(225, 230, 249, .48);
+font-size: 12px;
+padding: 10px;
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+font-family: arial, sans-serif;
+color: #333;
+text-shadow: 0.9px 1px 2px white;
+margin-right: 100px;
+}
+#top-menu .top-menu-item {
+float: left;
+display: block;
+width: 176px;
+}
+.top-menu-item img {
+float: left;
+margin: 2px 7px 0px 0px;
+}
+#top-menu .top-menu-user{
+width: 250px;
+font-size: 14px;
+line-height: 24px;
+}
+#top-menu .top-menu-love-rules {
+font-size: 13px;
+line-height: 20px;
+width: 180px;
+}
+#top-menu .top-menu-social{
+font-size: 13px;
+width: 140px;
+line-height: 17px;
+}
+
 .make-match-pred-msg,
 .share-match-pred-msg,
 .match-msg {

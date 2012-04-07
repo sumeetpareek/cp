@@ -1,0 +1,40 @@
+<div id="top-menu">
+	<div class="top-menu-item top-menu-love-rules">
+		<div>Your Love <div class="fb-like" data-href="https://www.facebook.com/pages/Captain-Pandey/389814551036207" data-send="false" data-layout="button_count" data-show-faces="false" data-font="verdana"></div></div>
+		<div><a href="#" id="rules-link">Rules Of The Game</a></div>
+	</div>
+	<div class="top-menu-item top-menu-social">
+		<div><a href="http://www.facebook.com/captainpandey" target="_blank">Facebook Page</a></div>
+		<div><a href="https://twitter.com/CaptainPandey" target="_blank">Twitter Timeline</a></div>
+		<div><a href="http://www.youtube.com/user/CaptainPandey" target="_blank">Youtube Channel</a></div>
+	</div>
+	<div class="top-menu-item top-menu-user">
+		{% if current_user %}
+			<img src="http://graph.facebook.com/{{ current_user.id }}/picture?type=square" />
+			<div>{{ current_user.name }}</div>
+			<div><fb:login-button autologoutlink="true" scope="email"></fb:login-button></div>
+		{% else %}
+			<img src="{{request.url}}static/css/images/default_profile_image.png" />
+			<div>Welcome Guest</div>
+			<div><fb:login-button autologoutlink="true" scope="email"></fb:login-button></div>
+		{% endif %}
+	</div>
+</div>
+
+<div id="rules-content">
+<ol>
+	<li>Make predictions about a cricket match, and get points on the basis of how close your prediction was. Simple :-)</li>
+	<li>For an exact prediction in each category you get 1000 points. Oh yes, a full 1-0-0-0 points!!</li>
+	<li>
+		If there is a difference between your predictions and actual events, your score decreases as per below rules -
+		<ol>
+			<li>Player runs difference = R, then (your points) = 1000 - (R x 10)</li>
+			<li>Player sixes difference = S, then (your points) = 1000 - (S x 100)</li>
+			<li>Player wikcets difference = W, then (your points) = 1000 - (W x 100)</li>
+			<li>Team runs difference = TR, then (your points) = 1000 - (TR x 5)</li>
+			<li>Team sixes difference = TS, then (your points) = 1000 - (TS x 20)</li>
+		</ol>
+	</li>
+	<li>Thats it! Share your cricket gyan and score as many points as you can .. AND .. get ready to be surprised with some interesting prizes soon :-)</li>
+</ol>
+</div>

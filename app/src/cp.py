@@ -104,6 +104,7 @@ class MainPage(BaseHandler):
     template_values = {
       'cp': cp_data,
       'current_user': self.current_user,
+      'request': self.request,
       'facebook_app_id': FACEBOOK_APP_ID,
       'prediction_limits': PREDICTION_LIMITS,
       'curr_date_time': "Tue Apr 10 2012 11:00",
