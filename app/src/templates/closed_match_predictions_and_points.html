@@ -1,7 +1,159 @@
+
+{% set player_run_name = cp.player_team[user_pred[cp.matches[match_key].key].run_player_key].player_name %}
+{% set pred_run =  user_pred[cp.matches[match_key].key].run_player_val%}
+{% if user_pred[cp.matches[match_key].key].run_player_key in match_player_stats[cp.matches[match_key].key]%}
+{% set actual_run = match_player_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].run_player_key].runs%}
+{%else%} 
+ {% set actual_run ='NP' %}
+ {% endif %}
+{% set points_run = 'TODO'%}
+
+
+{% set player_six_name = cp.player_team[user_pred[cp.matches[match_key].key].six_player_key].player_name%}
+{% set pred_six = user_pred[cp.matches[match_key].key].six_player_val %}
+{%  if user_pred[cp.matches[match_key].key].six_player_key in match_player_stats[cp.matches[match_key].key]%} 
+{% set actual_six = match_player_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].six_player_key].sixes%}
+{%else%}
+{% set actual_six = 'NP'%}
+{% endif %}
+{% set points_six = 'TODO'%}
+
+
+{% set player_wicket_name = cp.player_team[user_pred[cp.matches[match_key].key].wicket_player_key].player_name %}
+{% set pred_wicket = user_pred[cp.matches[match_key].key].wicket_player_val%}
+{% if user_pred[cp.matches[match_key].key].wicket_player_key in match_player_stats[cp.matches[match_key].key]%}
+{% set actual_wicket = match_player_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].wicket_player_key].wickets%}
+{%else%}
+{% set actual_wicket = 'NP'%}
+{% endif %}
+{% set points_wicket = 'TODO'%}
+
+{% set team_run_name = cp.teams_by_key[user_pred[cp.matches[match_key].key].run_team_key].name%}
+{% set pred_team_run = user_pred[cp.matches[match_key].key].run_team_val%}
+{%if user_pred[cp.matches[match_key].key].run_team_key in match_team_stats[cp.matches[match_key].key] %}
+{% set actual_team_run = match_team_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].run_team_key].runs%}
+{%else%}
+{%  set actual_team_run = 'NP'%}
+{% endif %}
+{% set points_team_run = 'TODO'%}
+
+
+{% set team_six_name = cp.teams_by_key[user_pred[cp.matches[match_key].key].six_team_key].name%}
+{% set pred_team_six = user_pred[cp.matches[match_key].key].six_team_val%}
+{% if user_pred[cp.matches[match_key].key].six_team_key in match_team_stats[cp.matches[match_key].key]%}
+{%  set actual_team_six =  match_team_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].six_team_key].sixes%}
+{%else%}
+{%  set actual_team_six =  'NP'%}
+{% endif %}
+{% set points_team_six = 'TODO'%}
+
+
 <div class="score">
-	<div class="score-item score-run"><div class="prediction-select-wrapper"><span class="player-name">{{cp.player_team[user_pred[cp.matches[match_key].key].run_player_key].player_name}}</span> <div class="prediction-compare"> <div class="prediction-value"><span class="bar"></span></span><span class="value">{{user_pred[cp.matches[match_key].key].run_player_val}}<span class="text">predicted score</span></span></div><div class="stat-value"><span class="bar"></span><span class="value">{{match_player_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].run_player_key].runs}}<span class="text">real score</span></span></div></div><span class="precition-points">TODO</span></div></div>
-	<div class="score-item score-wicket"><div class="prediction-select-wrapper"><span class="player-name">{{cp.player_team[user_pred[cp.matches[match_key].key].six_player_key].player_name}}</span><div class="prediction-compare"><div class="prediction-value"><span class="bar"></span></span><span class="value">{{user_pred[cp.matches[match_key].key].six_player_val}}<span class="text">predicted score</span></span></div><div class="stat-value"><span class="bar"></span></span><span class="value">{{match_player_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].six_player_key].sixes}}<span class="text">real score</span></span></div></div><span class="precition-points">TODO</span></div></div>
-	<div class="score-item score-six"><div class="prediction-select-wrapper"><span class="player-name">{{cp.player_team[user_pred[cp.matches[match_key].key].wicket_player_key].player_name}}</span> <div class="prediction-compare"> <div class="prediction-value"><span class="bar"></span></span><span class="value">{{user_pred[cp.matches[match_key].key].wicket_player_val}}<span class="text">predicted score</span></span></div><div class="stat-value"><span class="bar"></span></span><span class="value">{{match_player_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].wicket_player_key].wickets}}<span class="text">real score</span></span></div></div><span class="precition-points">TODO</span></div></div>
-	<div class="score-item score-run"><div class="prediction-select-wrapper"><span class="player-name">{{cp.teams_by_key[user_pred[cp.matches[match_key].key].run_team_key].name}}</span> <div class="prediction-compare"> <div class="prediction-value"><span class="bar"></span></span><span class="value">{{user_pred[cp.matches[match_key].key].run_team_val}}<span class="text">predicted score</span></span></div><div class="stat-value"><span class="bar"></span></span><span class="value">{{match_team_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].run_team_key].runs}}<span class="text">real score</span></span></div></div><span class="precition-points">TODO</span></div></div>
-	<div class="score-item score-six"><div class="prediction-select-wrapper"><span class="player-name">{{cp.teams_by_key[user_pred[cp.matches[match_key].key].six_team_key].name}}</span> <div class="prediction-compare"> <div class="prediction-value"><span class="bar"></span></span><span class="value">{{user_pred[cp.matches[match_key].key].six_team_val}}<span class="text">predicted score</span></span></div><div class="stat-value"><span class="bar"></span></span><span class="value">{{match_team_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].six_team_key].sixes}}<span class="text">real score</span></span></div></div><span class="precition-points">TODO</span></div></div>			
+	<div class="score-item score-run">
+		<div class="prediction-select-wrapper">
+			<span class="player-name">{{player_run_name}}</span> 
+			<div class="prediction-compare"> 
+				<div class="prediction-value">
+					<span class="bar"></span>
+					<span class="value">{{pred_run}}
+						<span class="text">predicted score</span>
+					</span>
+				</div>
+				<div class="stat-value">
+					<span class="bar"></span>
+					<span class="value">{{actual_run}}
+						<span class="text">real score</span>
+					</span>
+				</div>
+			</div>
+			<span class="precition-points">{{points_run}}</span>
+		</div>
+	</div>
+	
+	
+	<div class="score-item score-wicket">
+		<div class="prediction-select-wrapper">
+			<span class="player-name">{{player_six_name}}</span>
+			<div class="prediction-compare">
+				<div class="prediction-value">
+					<span class="bar"></span>
+					<span class="value">{{pred_six}}
+						<span class="text">predicted score</span>
+					</span>
+				</div>
+				<div class="stat-value">
+					<span class="bar"></span>
+					<span class="value">{{actual_six}}
+						<span class="text">real score</span>
+					</span>
+				</div>
+			</div>
+			<span class="precition-points">{{points_six}}</span>
+		</div>
+	</div>
+	
+	<div class="score-item score-six">
+		<div class="prediction-select-wrapper">
+			<span class="player-name">{{player_wicket_name}}</span> 
+			<div class="prediction-compare"> 
+				<div class="prediction-value">
+					<span class="bar"></span>
+					<span class="value">{{pred_wicket}}
+						<span class="text">predicted score</span>
+					</span>
+				</div>
+				<div class="stat-value">
+					<span class="bar"></span>
+					<span class="value">{{actual_wicket}}
+						<span class="text">real score</span>
+					</span>
+				</div>
+			</div>
+			<span class="precition-points">{{points_wicket}}</span>
+		</div>
+	</div>
+	
+	
+	<div class="score-item score-run">
+		<div class="prediction-select-wrapper">
+			<span class="player-name">{{team_run_name}}</span>
+			<div class="prediction-compare"> 
+				<div class="prediction-value">
+					<span class="bar"></span>
+					<span class="value">{{pred_team_run}}
+						<span class="text">predicted score</span>
+					</span>
+				</div>
+				<div class="stat-value">
+					<span class="bar"></span>
+					<span class="value">{{actual_team_run}}
+						<span class="text">real score</span>
+					</span>
+				</div>
+			</div>
+			<span class="precition-points">{{points_team_run}}</span>
+		</div>
+	</div>
+	<div class="score-item score-six">
+		<div class="prediction-select-wrapper">
+			<span class="player-name">{{team_six_name}}</span> 
+			<div class="prediction-compare"> 
+				<div class="prediction-value">
+					<span class="bar"></span>
+					<span class="value">{{pred_team_six}}
+						<span class="text">predicted score</span>
+					</span>
+				</div>
+				<div class="stat-value">
+					<span class="bar"></span>
+					<span class="value">{{actual_team_six}}
+						<span class="text">real score</span>
+					</span>
+				</div>
+			</div>
+			<span class="precition-points">{{points_team_six}}</span>
+		</div>
+	</div>			
 </div>
+
+
