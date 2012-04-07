@@ -95,7 +95,7 @@ class MainPage(BaseHandler):
       match_time_delta = match_datetime - current_datetime
       if (match_time_delta.days > 0):
         cp_data['matches'][match_key]['flag'] = 'future'
-        cp_data['matches'][match_key]['pred_start_time'] = (match_datetime - datetime.timedelta(days=1)).strftime('%a %b %d %Y %H:%M')
+        cp_data['matches'][match_key]['pred_start_time'] = (match_datetime - datetime.timedelta(days=1))
       elif (match_time_delta.days < 0):
         cp_data['matches'][match_key]['flag'] = 'closed' #TODO: add pending check later
       else:
