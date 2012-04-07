@@ -50,109 +50,113 @@
 
 
 <div class="score">
+	<div class="graph-desc">
+		<div class="prediction-compare"> 
+			<div class="prediction-value">
+				<span class="value">predicted score</span>
+				<span class="bar"></span>
+			</div>
+			<div class="stat-value">
+				<span class="bar"></span>
+				<span class="value">real score</span>
+			</div>
+		</div>
+	</div>
+	<div class="socre-points">Points</div>
+	<div style="clear: both"></div>
 	<div class="score-item score-run">
-		<div class="prediction-select-wrapper">
+		<div class="prediction-select-wrapper player_run">
 			<span class="player-name">{{player_run_name}}</span> 
 			<div class="prediction-compare"> 
 				<div class="prediction-value">
 					<span class="bar"></span>
 					<span class="value">{{pred_run}}
-						<span class="text">predicted score</span>
 					</span>
 				</div>
 				<div class="stat-value">
 					<span class="bar"></span>
 					<span class="value">{{actual_run}}
-						<span class="text">real score</span>
 					</span>
 				</div>
 			</div>
-			<span class="precition-points">{{points_run}}</span>
+			<span class="prediction-points">{{points_run}}</span>
 		</div>
 	</div>
 	
 	
 	<div class="score-item score-wicket">
-		<div class="prediction-select-wrapper">
-			<span class="player-name">{{player_six_name}}</span>
+		<div class="prediction-select-wrapper player_wicket">
+			<span class="player-name">{{player_wicket_name}}</span>
 			<div class="prediction-compare">
 				<div class="prediction-value">
 					<span class="bar"></span>
-					<span class="value">{{pred_six}}
-						<span class="text">predicted score</span>
-					</span>
-				</div>
-				<div class="stat-value">
-					<span class="bar"></span>
-					<span class="value">{{actual_six}}
-						<span class="text">real score</span>
-					</span>
-				</div>
-			</div>
-			<span class="precition-points">{{points_six}}</span>
-		</div>
-	</div>
-	
-	<div class="score-item score-six">
-		<div class="prediction-select-wrapper">
-			<span class="player-name">{{player_wicket_name}}</span> 
-			<div class="prediction-compare"> 
-				<div class="prediction-value">
-					<span class="bar"></span>
 					<span class="value">{{pred_wicket}}
-						<span class="text">predicted score</span>
 					</span>
 				</div>
 				<div class="stat-value">
 					<span class="bar"></span>
 					<span class="value">{{actual_wicket}}
-						<span class="text">real score</span>
 					</span>
 				</div>
 			</div>
-			<span class="precition-points">{{points_wicket}}</span>
+			<span class="prediction-points">{{points_wicket}}</span>
+		</div>
+	</div>
+	
+	<div class="score-item score-six">
+		<div class="prediction-select-wrapper player_six">
+			<span class="player-name">{{player_six_name}}</span> 
+			<div class="prediction-compare"> 
+				<div class="prediction-value">
+					<span class="bar"></span>
+					<span class="value">{{pred_six}}
+					</span>
+				</div>
+				<div class="stat-value">
+					<span class="bar"></span>
+					<span class="value">{{actual_six}}
+					</span>
+				</div>
+			</div>
+			<span class="prediction-points">{{points_six}}</span>
 		</div>
 	</div>
 	
 	
 	<div class="score-item score-run">
-		<div class="prediction-select-wrapper">
+		<div class="prediction-select-wrapper team_run">
 			<span class="player-name">{{team_run_name}}</span>
 			<div class="prediction-compare"> 
 				<div class="prediction-value">
 					<span class="bar"></span>
 					<span class="value">{{pred_team_run}}
-						<span class="text">predicted score</span>
 					</span>
 				</div>
 				<div class="stat-value">
 					<span class="bar"></span>
 					<span class="value">{{actual_team_run}}
-						<span class="text">real score</span>
 					</span>
 				</div>
 			</div>
-			<span class="precition-points">{{points_team_run}}</span>
+			<span class="prediction-points">{{points_team_run}}</span>
 		</div>
 	</div>
 	<div class="score-item score-six">
-		<div class="prediction-select-wrapper">
+		<div class="prediction-select-wrapper team_six">
 			<span class="player-name">{{team_six_name}}</span> 
 			<div class="prediction-compare"> 
 				<div class="prediction-value">
 					<span class="bar"></span>
 					<span class="value">{{pred_team_six}}
-						<span class="text">predicted score</span>
 					</span>
 				</div>
 				<div class="stat-value">
 					<span class="bar"></span>
 					<span class="value">{{actual_team_six}}
-						<span class="text">real score</span>
 					</span>
 				</div>
 			</div>
-			<span class="precition-points">{{points_team_six}}</span>
+			<span class="prediction-points">{{points_team_six}}</span>
 		</div>
 	</div>			
 </div>
