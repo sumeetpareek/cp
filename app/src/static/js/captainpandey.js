@@ -90,6 +90,11 @@ $(document).ready(function(){
 			min:0,
 			max:100,
 			step: 1,
+			create:function( event, ui ) {
+				var prediction_player = $('.prediction_player_run');
+				var ind = $('.prediction_slider_run').index(this);
+				$('.prediction_slider_run').eq(ind).slider( "option", "value", prediction_player.eq(ind).val() );
+			},
 			slide: function( event, ui ) {
 				var prediction_player = $('.prediction_player_run');
 				var ind = $('.prediction_slider_run').index(this);
@@ -101,6 +106,11 @@ $(document).ready(function(){
 		min:1,
 		max:10,
 		step: 1,
+		create:function( event, ui ) {
+			var prediction_player = $('.prediction_player_wicket');
+			var ind = $('.prediction_slider_wicket').index(this);
+			$('.prediction_slider_wicket').eq(ind).slider( "option", "value", prediction_player.eq(ind).val() );
+		},
 		slide: function( event, ui ) {
 			var prediction_player = $('.prediction_player_wicket');
 			var ind = $('.prediction_slider_wicket').index(this);
@@ -112,6 +122,11 @@ $(document).ready(function(){
 		min:1,
 		max:10,
 		step: 1,
+		create:function( event, ui ) {
+			var prediction_player = $('.prediction_player_six');
+			var ind = $('.prediction_slider_six').index(this);
+			$('.prediction_slider_six').eq(ind).slider( "option", "value", prediction_player.eq(ind).val() );
+		},
 		slide: function( event, ui ) {
 			var prediction_player = $('.prediction_player_six');
 			var ind = $('.prediction_slider_six').index(this);
@@ -124,6 +139,11 @@ $(document).ready(function(){
 		min:1,
 		max:20,
 		step: 1,
+		create:function( event, ui ) {
+			var prediction_player = $('.prediction_player_six_team');
+			var ind = $('.prediction_slider_six_team').index(this);
+			$('.prediction_slider_six_team').eq(ind).slider( "option", "value", prediction_player.eq(ind).val() );
+		},
 		slide: function( event, ui ) {
 			var prediction_player = $('.prediction_player_six_team');
 			var ind = $('.prediction_slider_six_team').index(this);
@@ -135,6 +155,11 @@ $(document).ready(function(){
 		min:0,
 		max:200,
 		step: 1,
+		create:function( event, ui ) {
+			var prediction_player = $('.prediction_player_run_team');
+			var ind = $('.prediction_slider_run_team').index(this);
+			$('.prediction_slider_run_team').eq(ind).slider( "option", "value", prediction_player.eq(ind).val() );
+		},
 		slide: function( event, ui ) {
 			var prediction_player = $('.prediction_player_run_team');
 			var ind = $('.prediction_slider_run_team').index(this);
@@ -202,6 +227,7 @@ $(document).ready(function(){
 //		event.preventDefault();
 		}
 	});
+	
 //		if($("#user-login-form #edit-name-wrapper input").val() == '')
 //		{
 //		event.preventDefault();
