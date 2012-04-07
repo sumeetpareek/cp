@@ -176,12 +176,7 @@ $(document).ready(function(){
 			|| pred_team_run == ''
 			|| pred_team_run == ''
 			) {
-			message.text('please fill the form').animate({
-			    left: '164px',
-			    top:'144px'
-				  }, 500,'swing', function() {
-				    // Animation complete.
-				  });
+			show_action_message('You need to fill all the marked fields.');
 			form.find('select[value="default"] option:selected').parents('.prediction-select-wrapper').css('border','1px solid red');
 			form.find('input').filter(function() {
 			    return $(this).val()==='';
@@ -201,14 +196,7 @@ $(document).ready(function(){
 				$.cookie('pred_team_run',pred_team_run);
 				$.cookie('pred_team_six',pred_team_six);
 				$.cookie('match_id',$('.match-main-open.active').attr('id'));
-				message.text('Please log in first').animate({
-				    left: '30%',
-				    top:'50%',
-				    'z-index':10,
-				    'font-size':'1.5em'
-					  }, 100,'swing', function() {
-					    // Animation complete.
-					  });
+				show_action_message('Please login before we are save your predictions.');
 				event.preventDefault();
 			}
 //		event.preventDefault();

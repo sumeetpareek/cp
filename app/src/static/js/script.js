@@ -1,3 +1,15 @@
+// Function to show "action message" and then hide it
+function show_action_message(msg) {
+	var p = $('.content').position();
+	$('#message').text(msg).animate({
+	left: p.left,
+	top: p.top - $('#message').outerHeight() - 5,
+	}, 500,'swing', function() {
+		setTimeout(function(){$('#message').css('left','-300px').css('top','-40px');}, 3500);
+	});
+}
+
+
 // Function to serialize form data - see http://stackoverflow.com/questions/1184624/convert-form-data-to-js-object-with-jquery
 $.fn.serializeObject = function()
 {
@@ -16,30 +28,9 @@ $.fn.serializeObject = function()
     return o;
 };
 
+// Things to do when the document is all ready
 $(document).ready(function(){
-	// if dummy user is logged in show hello msg and logout link
-	if(user = $.cookie('loggedinuser')) {
-		$('#msg').show();
-		$('#user-loggedin').html(user);
-		$('#user').hide();
-	}
-	else {
-		$('#user').show();
-		$('#msg').hide();
-	}
-	
-	// allow dummy user login
-	$('#user').change(function(){
-		$.cookie('loggedinuser', $(this).val());
-		window.location.reload();
-	});
-	
-	// allow dummy user logout
-	$('#logout').click(function(){
-		$.cookie('loggedinuser', null);
-		window.location.reload();
-	});
-	
+	// Show the match area on clicking a match's link
 	$('.match-link').click(function(){
 		id = $(this).attr('id');
 		$('.match-main.active').hide().removeClass('active');
@@ -52,23 +43,22 @@ $(document).ready(function(){
 //		alert("Please login to submit your info. (TODO: Take to the login popup and auto submit)");
 //		return false;
 //	});
+	
+	// Submit predictions via AJAX and show the status
 	$('body.auth-user .match-main form').submit(function(){
-		$('.match-main-open.active form input.submit').attr('value','Uploading... ');
+		$('.match-main-open.active form input.submit').attr('disabled',true).attr('value','Updating...');
 		$.ajax({
 			type: 'POST',
 			url: 'pred/put',
 			data: $(this).serialize(),
 			success: function(response){
-				$('.match-main-open.active form input.submit').attr('value','Update Your Predictions');
-				$('#message').text('Your prediction saved').animate({
-				    left: '164px',
-				    top:'144px'
-					  }, 500,'swing', function() {
-					    // Animation complete.
-					  });
+				$('.match-main-open.active form input.submit').attr('disabled',false).attr('value','Update Your Predictions');
+				show_action_message('Done! You can now share your predictions with friends.');
+				//TODO update the form with pred key that will be used in resaving
 			},
 			error: function(jqXHR,error, errorThrown) {  
-				alert(jqXHR.responseText); 
+				$('.match-main-open.active form input.submit').attr('disabled',false).attr('value','Save Your Predictions');
+				show_action_message('Sorry. Your predictions could not be saved. Try again please.');
 	        },
 		});
 		return false;

@@ -56,16 +56,15 @@
 				
 				{% if (cp.matches[match_key].flag == 'closed') %}
 					{% if (not user_pred) or (cp.matches[match_key].key not in user_pred) %}
-						{% include 'templates/closed_match_scorecard.html' %}
+						{% include 'templates/closed_match_no_predictions.html' %}
 					{% else %}
 						{% include 'templates/closed_match_predictions_and_points.html' %}
 					{% endif %}
 
 				{% elif (cp.matches[match_key].flag == 'open') %}
-				<p>Make your predictions for this game below and win prizes.. la la la la..</p>
-				<p>Hurry!! We will STOP accepting your predictions as soon as the match starts at - {{cp.matches[match_key].start_time}}</p>
 				<form method="post" action="/TODO">
 				{% if (not user_pred) or (cp.matches[match_key].key not in user_pred) %}
+					<div class="make-match-pred-msg">Hurry!! Make your expert cricket predictions for this match.</div>
 					<div class="form-item form-run"><div class="prediction-select-wrapper">{{ mac.match_player_select(id=match_key+'_player_run', name='player_run', match=cp.matches[match_key], cp=cp) }}</div> <div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_run', name='player_run_pred', val=prediction_limits['p_r']) }}<div class="prediction_slider_run"></div><div class="prediction-unit">predict runs</div></div></div>
 					<div class="form-item form-wicket"><div class="prediction-select-wrapper">{{ mac.match_player_select(id=match_key+'_player_wicket', name='player_wicket', match=cp.matches[match_key], cp=cp) }}</div> <div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_wicket', name='player_wicket_pred', val=prediction_limits['p_w']) }}<div class="prediction_slider_wicket"></div><div class="prediction-unit">predict wickets</div></div></div>
 					<div class="form-item form-six"><div class="prediction-select-wrapper">{{ mac.match_player_select(id=match_key+'_player_six', name='player_six', match=cp.matches[match_key], cp=cp) }}</div> <div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_six', name='player_six_pred', val=prediction_limits['p_s']) }}<div class="prediction_slider_six"></div><div class="prediction-unit">predict sixes</div></div></div>
@@ -75,6 +74,7 @@
 					<input type="hidden" name="pred_key" value="" />
 					<input type="submit" value="Save Your Predictions" class="submit"/>
 				{% else %}
+					<div class="share-match-pred-msg">TODO: Share match predictions on twitter and facebook.</div>
 					<div class="form-item form-run"><div class="prediction-select-wrapper">{{ mac.match_player_select(id=match_key+'_player_run', name='player_run', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].run_player_key) }}</div> <div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_run', name='player_run_pred', val=prediction_limits['p_r'], default=user_pred[cp.matches[match_key].key].run_player_val) }}<div class="prediction_slider_run"></div><div class="prediction-unit">predict runs</div></div></div>
 					<div class="form-item form-wicket"><div class="prediction-select-wrapper">{{ mac.match_player_select(id=match_key+'_player_wicket', name='player_wicket', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].wicket_player_key) }}</div> <div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_wicket', name='player_wicket_pred', val=prediction_limits['p_w'], default=user_pred[cp.matches[match_key].key].wicket_player_val) }}<div class="prediction_slider_wicket"></div><div class="prediction-unit">predict wickets</div></div></div>
 					<div class="form-item form-six"><div class="prediction-select-wrapper">{{ mac.match_player_select(id=match_key+'_player_six', name='player_six', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].six_player_key) }} </div><div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_six', name='player_six_pred', val=prediction_limits['p_s'], default=user_pred[cp.matches[match_key].key].six_player_val) }}<div class="prediction_slider_six"></div><div class="prediction-unit">predict sixes</div></div></div>
