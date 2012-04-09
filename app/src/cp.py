@@ -18,6 +18,7 @@ import urllib2
 import yaml
 import datetime
 import time
+import simplejson as json
 
 from google.appengine.ext.webapp import util
 from google.appengine.ext.webapp import template
@@ -146,9 +147,15 @@ class PredHandler(BaseHandler):
       
       pred_key = pred.put()
       if pred_key:
-        self.response.out.write('SUCCESS')
+        response = {'status': 'SUCCESS', 'pred_key': str(pred_key)}
+        json_response = json.dumps(response)
+        self.response.headers.add_header('content-type', 'application/json', charset='utf-8')
+        self.response.out.write(json_response)
       else:
-        self.response.out.write('FAIL')
+        response = {'status': 'FAIL', 'pred_key': pred_key}
+        json_response = json.dumps(response)
+        self.response.headers.add_header('content-type', 'application/json', charset='utf-8')
+        self.response.out.write(json_response)
 
 
 # Once app.yaml sends us here we call use appropriate clases to show functionality for appropriate paths

@@ -61,10 +61,17 @@ $(document).ready(function(){
 			type: 'POST',
 			url: 'pred/put',
 			data: $(this).serialize(),
+			dataType: 'json',
 			success: function(response){
-				$('.match-main-open.active form input.submit').attr('disabled',false).attr('value','Update Your Predictions');
-				show_action_message('Done! You can now share your predictions with friends.');
-				//TODO update the form with pred key that will be used in resaving
+				if (response.status == 'SUCCESS') {
+					$('.match-main-open.active form input.submit').attr('disabled',false).attr('value','Update Your Predictions');
+					$('.match-main-open.active form input[name=pred_key]').attr('value', response.pred_key);
+					show_action_message('Done! You can now share your predictions with friends.');
+				}
+				else {
+					$('.match-main-open.active form input.submit').attr('disabled',false).attr('value','Save Your Predictions');
+					show_action_message('Sorry. Your predictions could not be saved. Try again please.');				
+				}
 			},
 			error: function(jqXHR,error, errorThrown) {  
 				$('.match-main-open.active form input.submit').attr('disabled',false).attr('value','Save Your Predictions');
