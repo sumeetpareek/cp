@@ -14,7 +14,7 @@
 			<div>{{ current_user.name }}</div>
 			<div><fb:login-button autologoutlink="true" scope="email"></fb:login-button></div>
 		{% else %}
-			<img src="{{request.url}}static/css/images/default_profile_image.png" />
+			<img src="http://{{environ['HTTP_HOST']}}/static/css/images/default_profile_image.png" />
 			<div>Welcome Guest</div>
 			<div><fb:login-button autologoutlink="true" scope="email"></fb:login-button></div>
 		{% endif %}

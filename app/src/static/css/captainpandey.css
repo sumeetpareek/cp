@@ -1,3 +1,45 @@
+.user-pred-attention {
+color: #183152;
+font-size: 14px;
+font-family: monospace;
+font-weight: bold;
+text-shadow: 1px 1px 2px white;
+text-align: center;
+}
+.user-pred-attention p {}
+.user-pred-attention .match-string {
+text-transform: uppercase;
+}
+.user-pred-attention .user-pred-user-img-wrapper {
+font-family: arial,sans-serif;
+background: #9196A7;
+padding: 6px;
+margin: 0px 20px;
+border-radius: 6px;
+text-align: left;
+}
+.user-pred-attention .user-pred-user-img {
+width: 30px;
+height: 30px;
+float: left;
+}
+.user-pred-attention .user-pred-user-profile {
+line-height: 30px;
+display: block;
+float: left;
+margin-left: 10px;
+color: white;
+text-decoration: none;
+text-shadow: none;
+}
+.user-pred-attention .user-pred-own-link {
+margin: 20px 10px;
+}
+.user-pred-attention .user-pred-own-link a {
+text-shadow: none;
+font-family: arial, sans-serif;
+}
+
 #rules-content li {
 margin-bottom: 16px;
 }

@@ -106,6 +106,7 @@ class MainPage(BaseHandler):
       'cp': cp_data,
       'current_user': self.current_user,
       'request': self.request,
+      'environ': os.environ,
       'facebook_app_id': FACEBOOK_APP_ID,
       'prediction_limits': PREDICTION_LIMITS,
       'curr_date_time': "Tue Apr 10 2012 11:00",
@@ -158,9 +159,64 @@ class PredHandler(BaseHandler):
         self.response.out.write(json_response)
 
 
+class UserMatchPredHandler(BaseHandler):
+  def get(self,match_keyname_raw,match_string_raw):
+    # Get the match key
+    
+    match_keyname = match_keyname_raw.replace("-","_")
+    match_string = match_string_raw.replace("-"," ")
+    user_key = self.request.get('user')
+    
+    match_team_stats = TeamMatchStats.get_matches_team_stats()
+    match_player_stats = PlayerMatchStats.get_matches_player_stats()    
+    
+    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
+    cp_data = yaml.load(stream)
+    
+    user = User.get(Key(user_key))
+    user_pred = Prediction.get_user_predictions(user)
+    
+#    current_datetime = datetime.datetime.now() #TODO real val to use
+#    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
+    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
+    for match_key in cp_data['match_keys']:
+      match_datetime = cp_data['matches'][match_key]['start_time']
+      match_time_delta = match_datetime - current_datetime
+      if (match_time_delta.days > 0):
+        cp_data['matches'][match_key]['flag'] = 'future'
+        cp_data['matches'][match_key]['pred_start_time'] = (match_datetime - datetime.timedelta(days=1))
+      elif (match_time_delta.days < 0):
+        cp_data['matches'][match_key]['flag'] = 'closed' #TODO: add pending check later
+      else:
+        cp_data['matches'][match_key]['flag'] = 'open'
+    
+    template_values = {
+      'cp': cp_data,
+      'user': user,
+      'match_key': match_keyname,
+      'match_string': match_string,
+      'environ': os.environ,
+      'current_user': self.current_user,
+      'request': self.request,
+      'facebook_app_id': FACEBOOK_APP_ID,
+      'prediction_limits': PREDICTION_LIMITS,
+      'curr_date_time': "Tue Apr 10 2012 11:00",
+      'allowed_date_time': "Wed Apr 11 2012 11:00",
+      'user_pred': user_pred,
+      'match_player_stats': match_player_stats,
+      'match_team_stats': match_team_stats,
+                       }
+    
+    template = jinja_environment.get_template('templates/direct_url_user_match_pred.html')
+    self.response.out.write(template.render(template_values))
+    
+#    self.response.out.write('You will see preds for match = ' + match_keyname + ' made by user = ' + user_key)
+
+
 # Once app.yaml sends us here we call use appropriate clases to show functionality for appropriate paths
 app = webapp2.WSGIApplication([
   ('/', MainPage),
   ('/pred/put', PredHandler),
+  ('/ipl-2012/prediction/(.*)/(.*)', UserMatchPredHandler),
 ], debug = True)
   

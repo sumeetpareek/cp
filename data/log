@@ -1,5 +1,8 @@
+http://localhost:8080/ipl-2012/prediction/match-22/mumbai-vs-chennai?user=TODO
+
 make permanent URLs for player predictions - 4h
 add facebook share, twitter buttons - 2h
+add pending match functionality and content - 2h
 
 == Upload Data ==
 -- on local --
