@@ -54,6 +54,8 @@ width: 176px;
 .top-menu-item img {
 float: left;
 margin: 2px 7px 0px 0px;
+height: 50px;
+width: 50px;
 }
 #top-menu .top-menu-user{
 width: 250px;

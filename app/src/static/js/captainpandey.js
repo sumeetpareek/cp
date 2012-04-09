@@ -196,7 +196,7 @@ $(document).ready(function(){
 				$.cookie('pred_team_run',pred_team_run);
 				$.cookie('pred_team_six',pred_team_six);
 				$.cookie('match_id',$('.match-main-open.active').attr('id'));
-				show_action_message('Please login before we are save your predictions.');
+				show_action_message('Please login before we can save your predictions.');
 				event.preventDefault();
 			}
 //		event.preventDefault();

@@ -1,11 +1,9 @@
-* predictions can be made on those that did not play
-* test the full app and frame all sentences well
-* small JS affects and text chagnes - 1h
-* add a header menu with items - rules, videos, gallery - 1h
-* make the rules section
-make permanent URLs for player predictions - 3h
+fix update prediction error - 1h
+make permanent URLs for player predictions - 4h
 add facebook share, twitter buttons - 2h
 
+slider set like in cookie wale
+polish the pred/actual page
 
 == Upload Data ==
 -- on local --
