@@ -1,8 +1,22 @@
-http://localhost:8080/ipl-2012/prediction/match-22/mumbai-vs-chennai?user=TODO
+prema url sample = http://localhost:8080/ipl-2012/prediction/match-22/mumbai-vs-chennai?user=TODO
 
-make permanent URLs for player predictions - 4h
-add facebook share, twitter buttons - 2h
-add pending match functionality and content - 2h
+FB share
+* on pending page show user options to share
+after predictions save/update, show user options to share
+on the points page, show user options to share
+
+
+correct font colors on the points page - 1h
+change the favicon to a pandey glass - 1h
+for pending matches on perma url show prediction page not points page
+
+go live list
+import data on dev
+create dev yaml file
+udpate cp.py to use correct yaml and date
+add google analytics code
+change the fb login destination
+add search engine meta content
 
 == Upload Data ==
 -- on local --

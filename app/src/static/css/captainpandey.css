@@ -1,3 +1,18 @@
+.fb-share-btn {
+background: #ECEEF5;
+border: 1px solid #CAD4E7;
+border-radius: 3px;
+padding: 2px 4px;
+text-decoration: none;
+color: #3B5998;
+font-family: verdana, sans-serif;
+font-size: 11px;
+height: 14px;
+font-weight: normal;
+cursor: pointer;
+}
+
+
 .user-pred-attention {
 color: #183152;
 font-size: 14px;
@@ -125,6 +140,7 @@ font-family: monospace;
 font-weight: bold;
 text-shadow: 1px 1px 2px white;
 margin: 0px 0px 20px;
+line-height: 22px;
 }
 
 .future-match-notif {
@@ -456,14 +472,14 @@ form .submit{
 .match-link-future .match-link-flag{
 	left:7px;
 }
-.match-link-future{
-	background:url("images/future_bg.png") no-repeat scroll transparent;
+.match-link-future {
+	background:url("images/future_color_ball.png") no-repeat 8px 9px transparent;
 }
-.match-link-open{
+.match-link-open {
 	background:url("images/open_bg.png") no-repeat scroll transparent;
 }
-.match-link-closed{
-	background:url("images/closed_bg.png") no-repeat 9px 11px scroll transparent;
+.match-link-closed, .match-link-pending {
+	background:url("images/closed_grey_ball.png") no-repeat 8px 9px scroll transparent;
 }
 
 .match-link{

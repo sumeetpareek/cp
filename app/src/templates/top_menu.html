@@ -11,12 +11,12 @@
 	<div class="top-menu-item top-menu-user">
 		{% if current_user %}
 			<img src="http://graph.facebook.com/{{ current_user.id }}/picture?type=square" />
+			<div>Welcome</div>
 			<div>{{ current_user.name }}</div>
-			<div><fb:login-button autologoutlink="true" scope="email"></fb:login-button></div>
 		{% else %}
 			<img src="http://{{environ['HTTP_HOST']}}/static/css/images/default_profile_image.png" />
 			<div>Welcome Guest</div>
-			<div><fb:login-button autologoutlink="true" scope="email"></fb:login-button></div>
+			<div><fb:login-button autologoutlink="false" scope="email"></fb:login-button></div>
 		{% endif %}
 	</div>
 </div>
