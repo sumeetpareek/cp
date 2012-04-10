@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="shortcut icon" type="image/x-icon" href="/static/css/images/favicon.ico">
-    <title>CaptainPandey - Award winning game for everybody with a cricket prediction</title>
+    <title>CaptainPandey - Everybody has a cricket prediction, Have fun with yours</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="/static/js/jquery.cookie.js" type="text/javascript"></script>
     <script type="text/javascript" src="/static/js/ui/jquery.ui.core.js"></script>
@@ -64,7 +64,7 @@
 						{% include 'templates/pending_match_no_predictions.html' %}
 					{% else %}
 					<form method="post" action="/TODO">
-						<div class="share-match-pred-msg">Go ahead <a href="#" class="fb-share-btn">Share Predictions</a> with your friends on Facebook. <br/>And oh, as soon as the match is over you will be able to see here how real your predictions were and earn points :-)</div>
+						<div class="share-match-pred-msg">Go ahead <a href="#" class="fb-share-btn">Share Predictions</a> with your friends on Facebook. <br/>Also, this match is in progress right now and the predicition udpates are closed. When the match is over you will be able to see here how real your predictions were and the points earned by you :-)</div>
 						<div class="form-item form-run"><div class="prediction-select-wrapper">{{ mac.match_player_select(id=match_key+'_player_run', name='player_run', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].run_player_key) }}</div> <div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_run', name='player_run_pred', val=prediction_limits['p_r'], default=user_pred[cp.matches[match_key].key].run_player_val) }}<div class="prediction_slider_run"></div><div class="prediction-unit">predict runs</div></div></div>
 						<div class="form-item form-wicket"><div class="prediction-select-wrapper">{{ mac.match_player_select(id=match_key+'_player_wicket', name='player_wicket', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].wicket_player_key) }}</div> <div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_wicket', name='player_wicket_pred', val=prediction_limits['p_w'], default=user_pred[cp.matches[match_key].key].wicket_player_val) }}<div class="prediction_slider_wicket"></div><div class="prediction-unit">predict wickets</div></div></div>
 						<div class="form-item form-six"><div class="prediction-select-wrapper">{{ mac.match_player_select(id=match_key+'_player_six', name='player_six', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].six_player_key) }} </div><div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_six', name='player_six_pred', val=prediction_limits['p_s'], default=user_pred[cp.matches[match_key].key].six_player_val) }}<div class="prediction_slider_six"></div><div class="prediction-unit">predict sixes</div></div></div>

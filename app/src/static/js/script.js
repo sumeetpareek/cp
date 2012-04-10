@@ -2,9 +2,9 @@ function postToFeed(url, name_val, caption_val, desc_val) {
 	var obj = {
 	  method: 'feed',
 	  link: url,
-	//  picture: 'http://localhost:8080/static/css/images/logo.png', //TODO use  each match specific image here
+	//  picture: 'http://localhost:8080/static/css/images/logo.png', //TODO use each match specific image here
 	  name: name_val,
-	  caption: 'Think you can better this!?',
+	  caption: caption_val,
 	  description: desc_val
 	};
 	
@@ -52,6 +52,39 @@ $.fn.serializeObject = function()
 
 // Things to do when the document is all ready
 $(document).ready(function() {
+	// On click of .points-fb-share-btn > TODO
+	$('.points-fb-share-btn ').click(function() {
+		// get the concerned match
+		var parent_match_main = $(this).parents('.match-main');
+		
+		// form the message title
+		var teams = parent_match_main.find('h1').text();
+		var title = teams + ' - My predictions Vs Real score';
+		var points = parent_match_main.find('.prediction-select-wrapper .prediction-points');
+		var total_points = parseInt($(points[0]).text()) + parseInt($(points[1]).text()) + parseInt($(points[2]).text()) + parseInt($(points[3]).text()) + parseInt($(points[4]).text()); 
+		var caption = 'I nailed '+total_points+' points out of 5000! Cool predictions huh? :-)';
+		
+		// Grab predictions permanent URL
+		var perma_url = parent_match_main.find('input[name="perma_url"]').val();
+		
+		// Form the message description to be shared
+		var names = parent_match_main.find('.prediction-select-wrapper .player-name');
+		var pred_values = parent_match_main.find('.prediction-select-wrapper .prediction-value .value');
+		var real_values = parent_match_main.find('.prediction-select-wrapper .stat-value .value');
+		
+		var message = '';
+		message += ' (1) My runs prediction for '+$(names[0]).text()+' = '+$(pred_values[0]).text()+', actual runs = '+$(real_values[0]).text() ;
+		message += ' (2) My wickets prediction for '+$(names[1]).text()+' = '+$(pred_values[1]).text()+', actual wickets = '+$(real_values[1]).text();
+		message += ' (3) My sixes prediction for '+$(names[2]).text()+' = '+$(pred_values[2]).text()+', actual sixes = '+$(real_values[2]).text();
+		message += ' (4) My runs prediction for '+$(names[3]).text()+' = '+$(pred_values[3]).text()+', actual runs = '+$(real_values[3]).text();
+		message += '..and.. (5) My sixes prediction for '+$(names[4]).text()+' = '+$(pred_values[4]).text()+', actual sixes = '+$(real_values[4]).text();
+		
+		postToFeed(perma_url, title, caption, message);;
+		return false;
+		
+	});
+	
+	
 	// On click of .fb-share-btn's > we find parent .match-main > using the form values create a message to post
 	$('.fb-share-btn').click(function(){
 		// get the concerned match
@@ -60,6 +93,7 @@ $(document).ready(function() {
 		// form the message title
 		var teams = parent_match_main.find('h1').text();
 		var title = 'My predictions for the ' + teams + ' game!';
+		var caption = 'Can you beat this? :-)'
 		
 		// Grab predictions permanent URL
 		var perma_url = parent_match_main.find('input[name="perma_url"]').val();
@@ -104,17 +138,22 @@ $(document).ready(function() {
 			message += team_six + ' will hit ' + pred_team_six + ' sixes !!';
 		}
 		
-		postToFeed(perma_url, title, teams, message)
+		postToFeed(perma_url, title, caption, message);
 		return false;
 	});
 	
 	
 	// If there is schedule in the sidebar, scroll to keep the open match at the center
 	var container = $('div.schedule-content');
-	var scrollTo = $('div.match-link-open:first');
-	container.scrollTop(
-	    scrollTo.offset().top - container.offset().top + container.scrollTop() - 140
-	);
+	if (container.find('.user-pred-attention').text() != '') {
+		// do nothing when there is no match schedule list in the sidebar
+	} else {
+		var scrollTo = $('div.match-link-open:first');
+		container.scrollTop(
+		    scrollTo.offset().top - container.offset().top + container.scrollTop() - 140
+		);		
+	}
+
 	
 	
 	// Show/Hide the rules when hovering on the rules link

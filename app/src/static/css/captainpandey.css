@@ -1,4 +1,10 @@
-.fb-share-btn {
+.points-fb-share-wrapper {
+float: left;
+margin: 18px 0 0 7px;
+}
+
+.fb-share-btn,
+.points-fb-share-btn {
 background: #ECEEF5;
 border: 1px solid #CAD4E7;
 border-radius: 3px;
@@ -606,7 +612,7 @@ padding-left:40px;
 .score .socre-points{
 	color: #365D80;
     float: right;
-    font-size: 1.7em;
+    font-size: 1.6em;
     margin-right: 70px;
     position: relative;
     top: 12px;

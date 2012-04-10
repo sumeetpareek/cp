@@ -77,6 +77,10 @@ class MainPage(BaseHandler):
 #    self.response.out.write(match_player_stats)
     
     current_user_predictions = Prediction.get_user_predictions(self.current_user)
+    if self.current_user is not None:
+      current_user_key = str(self.current_user.key())
+    else:
+      current_user_key = None
     stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
 #    stream = open("cp_static_data_dev.yaml", "r") #TODO: use only on cp-dev setup
     cp_data = yaml.load(stream)
@@ -109,7 +113,7 @@ class MainPage(BaseHandler):
     template_values = {
       'cp': cp_data,
       'current_user': self.current_user,
-      'current_user_key': str(self.current_user.key()),
+      'current_user_key': current_user_key,
       'request': self.request,
       'environ': os.environ,
       'facebook_app_id': FACEBOOK_APP_ID,
@@ -183,7 +187,7 @@ class UserMatchPredHandler(BaseHandler):
     
 #    current_datetime = datetime.datetime.now() #TODO real val to use
 #    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
-    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
+    current_datetime = datetime.datetime.strptime('Fri Apr 20 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
     for match_key in cp_data['match_keys']:
       match_datetime = cp_data['matches'][match_key]['start_time']
       match_time_delta = match_datetime - current_datetime
@@ -191,7 +195,11 @@ class UserMatchPredHandler(BaseHandler):
         cp_data['matches'][match_key]['flag'] = 'future'
         cp_data['matches'][match_key]['pred_start_time'] = (match_datetime - datetime.timedelta(days=1))
       elif (match_time_delta.days < 0):
-        cp_data['matches'][match_key]['flag'] = 'closed' #TODO: add pending check later
+        # If scores of this match are updated then the match is 'closed' else it is 'pending'
+        if cp_data['matches'][match_key]['key'] in match_team_stats :
+          cp_data['matches'][match_key]['flag'] = 'closed' 
+        else:
+          cp_data['matches'][match_key]['flag'] = 'pending'
       else:
         cp_data['matches'][match_key]['flag'] = 'open'
     
