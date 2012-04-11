@@ -1,3 +1,824 @@
+player_team:
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDA0DA:
+    player_name: Ashok Dinda
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDA1DA:
+    player_name: Callum Ferguson
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDA2DA:
+    player_name: Raiphi Gomez
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDA3DA:
+    player_name: Harpreet Singh
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDA4DA:
+    player_name: James Hopes
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDA5DA:
+    player_name: Dheeraj Jadhav
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDAxDA:
+    player_name: Sourav Ganguly
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDAyDA:
+    player_name: Eklavya Diwedi
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDAzDA:
+    player_name: Michael Clarke
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDE0DA:
+    player_name: Nathan McCullum
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDE1DA:
+    player_name: Anustup Majumdar
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDE2DA:
+    player_name: Mithun Manhas
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDE3DA:
+    player_name: Angelo Mathews
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDE4DA:
+    player_name: Mohnish  Mishra
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDE5DA:
+    player_name: Ali Murtaza
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDEwDA:
+    player_name: Kamran Khan
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDExDA:
+    player_name: Murali Kartik
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDEyDA:
+    player_name: Harshad Khadiwale
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDEzDA:
+    player_name: Bhuvneshwar Kumar
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDI0DA:
+    player_name: Jesse Ryder
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDI1DA:
+    player_name: Marlon Samuels
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDI2DA:
+    player_name: Rahul Sharma
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDI3DA:
+    player_name: Graeme Smith
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDI4DA:
+    player_name: Steven Smith
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDI5DA:
+    player_name: Alfonso Thomas
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDIwDA:
+    player_name: Ashish Nehra
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDIxDA:
+    player_name: Manish Pandey
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDIyDA:
+    player_name: Wayne Parnell
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDIzDA:
+    player_name: Sachin Rana
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDM0DA:
+    player_name: Yuvraj Singh
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDM1DA:
+    player_name: Mitchell Marsh
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDM2DA:
+    player_name: Virender Sehwag
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDM3DA:
+    player_name: Manprit Juneja
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDM4DA:
+    player_name: Varun Aaron
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDM5DA:
+    player_name: Ajit Agarkar
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDMwDA:
+    player_name: Krishnakant  Upadhyay
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDMxDA:
+    player_name: Robin Uthappa
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDMyDA:
+    player_name: Shrikant Wagh
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDMzDA:
+    player_name: Luke Wright
+    team_keyname: team_pune
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQ0DA:
+    player_name: Unmukt Chand
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQ1DA:
+    player_name: Aaron Finch
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQ2DA:
+    player_name: Mahela Jayawardene
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQ3DA:
+    player_name: Glenn Maxwell
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQ4DA:
+    player_name: Morne Morkel
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQ5DA:
+    player_name: Shahbaz Nadeem
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQwDA:
+    player_name: Puneet Bisht
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQxDA:
+    player_name: Robin Bist
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQyDA:
+    player_name: Gulam Bodi
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDQzDA:
+    player_name: Doug Bracewell
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDU0DA:
+    player_name: Irfan Pathan
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDU1DA:
+    player_name: Kevin Pietersen
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDU2DA:
+    player_name: Kuldeep Raval
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDU3DA:
+    player_name: Andre Russell
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDU4DA:
+    player_name: Aavishkar Salvi
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDU5DA:
+    player_name: Ross Taylor
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDUwDA:
+    player_name: Yogesh Nagar
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDUxDA:
+    player_name: Prashant Naik
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDUyDA:
+    player_name: Pawan Negi
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDUzDA:
+    player_name: Naman Ojha
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDY0DA:
+    player_name: Tejashwi Yadav
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDY1DA:
+    player_name: Umesh Yadav
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDY2DA:
+    player_name: Travis Birt
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDY3DA:
+    player_name: Colin Ingram
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDY4DA:
+    player_name: Adam Gilchrist
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDY5DA:
+    player_name: Parvinder Awana
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDYwDA:
+    player_name: Roelof van der Merwe
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDYxDA:
+    player_name: Venugopal Rao
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDYyDA:
+    player_name: Vikas Mishra
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDYzDA:
+    player_name: David Warner
+    team_keyname: team_delhi
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDc0DA:
+    player_name: Bipul Sharma
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDc1DA:
+    player_name: Stuart Broad
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDc2DA:
+    player_name: Piyush Chawla
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDc3DA:
+    player_name: Siddharth Chitnis
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDc4DA:
+    player_name: Paras Dogra
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDc5DA:
+    player_name: James Faulkner
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDcwDA:
+    player_name: Love Ablish
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDcxDA:
+    player_name: Amit Yadav
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDcyDA:
+    player_name: Azhar Mahmood
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDczDA:
+    player_name: Bhargav Bhatt
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDg0DA:
+    player_name: Vikramjeet Malik
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDg1DA:
+    player_name: Mandeep Singh
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDg2DA:
+    player_name: Shaun Marsh
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDg3DA:
+    player_name: Dimitri Mascarenhas
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDg4DA:
+    player_name: David Miller
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDg5DA:
+    player_name: Abhishek Nayar
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDgwDA:
+    player_name: Harmeet Singh
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDgxDA:
+    player_name: Ryan Harris
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDgyDA:
+    player_name: David Hussey
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDgzDA:
+    player_name: Praveen Kumar
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDk0DA:
+    player_name: Shalabh Srivastava
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDk1DA:
+    player_name: Sunny Singh
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDk2DA:
+    player_name: Paul Valthaty
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDk3DA:
+    player_name: Gautam Gambhir
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDk4DA:
+    player_name: Sarabjit Ladda
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDk5DA:
+    player_name: Lakshmipathy Balaji
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDkwDA:
+    player_name: Ramesh Powar
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDkxDA:
+    player_name: Nathan Rimmington
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDkyDA:
+    player_name: Nitin Saini
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDkzDA:
+    player_name: Rajagopal Sathish
+    team_keyname: team_punjab
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTA0DA:
+    player_name: Brad Haddin
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTA1DA:
+    player_name: Iqbal Abdulla
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTA2DA:
+    player_name: Chirag Jani
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTA3DA:
+    player_name: jacques Kallis
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTA4DA:
+    player_name: Brett Lee
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTA5DA:
+    player_name: Brendon McCullum
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTAwDA:
+    player_name: Rajat Bhatia
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTAxDA:
+    player_name: Manvinder  Bisla
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTAyDA:
+    player_name: Debabrata Das
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTAzDA:
+    player_name: Marchant De Lange
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTE0DA:
+    player_name: Sanju Samson
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTE1DA:
+    player_name: Pradeep Sangwan
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTE2DA:
+    player_name: Iresh Saxena
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTE3DA:
+    player_name: Shami Ahmed
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTE4DA:
+    player_name: Shakib Al Hasan
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTE5DA:
+    player_name: Laxmi Shukla
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTEwDA:
+    player_name: Eoin Morgan
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTExDA:
+    player_name: Sunil Narine
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTEyDA:
+    player_name: Yusuf Pathan
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTEzDA:
+    player_name: James Pattinson
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTI0DA:
+    player_name: Ashish Reddy
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTI1DA:
+    player_name: Anand Rajan
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTI2DA:
+    player_name: Ankit Sharma
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTI3DA:
+    player_name: Tekkami Atchuta Rao
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTI4DA:
+    player_name: Akash Bhandari
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTI5DA:
+    player_name: Darren Bravo
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTIwDA:
+    player_name: Ryan ten Doeschate
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTIxDA:
+    player_name: Manoj Tiwary
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTIyDA:
+    player_name: Jaydev Unadkat
+    team_keyname: team_kolkata
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTIzDA:
+    player_name: Kumar Sangakkara
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTM0DA:
+    player_name: Jean-Paul Duminy
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTM1DA:
+    player_name: Manpreet Gony
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTM2DA:
+    player_name: Daniel Harris
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTM3DA:
+    player_name: Ishank Jaggi
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTM4DA:
+    player_name: Abhishek Jhunjhunwala
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTM5DA:
+    player_name: Chris Lynn
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTMwDA:
+    player_name: Bharat Chipli
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTMxDA:
+    player_name: Daniel Christian
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTMyDA:
+    player_name: Kedar Devdhar
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTMzDA:
+    player_name: Shikhar Dhawan
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQ0DA:
+    player_name: Syed Quadri
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQ1DA:
+    player_name: Dwaraka Ravi Teja
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQ2DA:
+    player_name: Akshath Reddy
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQ3DA:
+    player_name: Biplab Samantray
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQ4DA:
+    player_name: Ishant Sharma
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQ5DA:
+    player_name: Sneha Kishore
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQwDA:
+    player_name: Amit Mishra
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQxDA:
+    player_name: Tanmay Mishra
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQyDA:
+    player_name: Parthiv Patel
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTQzDA:
+    player_name: Veer Pratap Singh
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTU0DA:
+    player_name: Rusty Theron
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTU1DA:
+    player_name: Cameron White
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTU2DA:
+    player_name: Arjun Yadav
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTU3DA:
+    player_name: Sachin Tendulkar
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTU4DA:
+    player_name: Abu Nechim
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTU5DA:
+    player_name: Amitoze Singh
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTUwDA:
+    player_name: Sunny Sohal
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTUxDA:
+    player_name: Tanmay Srivastava
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTUyDA:
+    player_name: Dale Steyn
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTUzDA:
+    player_name: TP Sudhindra
+    team_keyname: team_hyderabad
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTY0DA:
+    player_name: Harbhajan Singh
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTY1DA:
+    player_name: Davy Jacobs
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTY2DA:
+    player_name: Mitchell Johnson
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTY3DA:
+    player_name: Dinesh Karthik
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTY4DA:
+    player_name: Dhawal Kulkarni
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTY5DA:
+    player_name: Richard Levi
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTYwDA:
+    player_name: Aliden Blizzard
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTYxDA:
+    player_name: Yuzvendra Chahal
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTYyDA:
+    player_name: James Franklin
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTYzDA:
+    player_name: Herschelle Gibbs
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTc0DA:
+    player_name: Pragyan Ojha
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTc1DA:
+    player_name: Munaf Patel
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTc2DA:
+    player_name: Thisara Perera
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTc3DA:
+    player_name: Robin Peterson
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTc4DA:
+    player_name: Kieron Pollard
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTc5DA:
+    player_name: Ambati Rayudu
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTcwDA:
+    player_name: Clint McKay
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTcxDA:
+    player_name: Lasith Malinga
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTcyDA:
+    player_name: Sushant Marathe
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTczDA:
+    player_name: Sujit Nayak
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTg0DA:
+    player_name: Tirumalasetti Suman
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTg1DA:
+    player_name: Pawan Suyal
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTg2DA:
+    player_name: Aditya Tare
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTg3DA:
+    player_name: Apoorv Wankhade
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTg4DA:
+    player_name: Suryakumar Yadav
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTg5DA:
+    player_name: MS Dhoni
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTgwDA:
+    player_name: Jaydev Shah
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTgxDA:
+    player_name: Rohit Sharma
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTgyDA:
+    player_name: Rahul Shukla
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTgzDA:
+    player_name: RP Singh
+    team_keyname: team_mumbai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTk0DA:
+    player_name: Doug Bollinger
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTk1DA:
+    player_name: Dwayne Bravo
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTk2DA:
+    player_name: Faf du Plessis
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTk3DA:
+    player_name: Ben Hilfenhaus
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTk4DA:
+    player_name: Michael Hussey
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTk5DA:
+    player_name: Ravindra Jadeja
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTkwDA:
+    player_name: Srikkanth Anirudha
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTkxDA:
+    player_name: Ravichandran Ashwin
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTkyDA:
+    player_name: Subramaniam Badrinath
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMTkzDA:
+    player_name: George Bailey
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjA0DA:
+    player_name: Yo Mahesh
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjA1DA:
+    player_name: Albie Morkel
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjA2DA:
+    player_name: Abhinav Mukund
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjA3DA:
+    player_name: Suresh Raina
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjA4DA:
+    player_name: Wriddhiman Saha
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjA5DA:
+    player_name: Scott Styris
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjAwDA:
+    player_name: Shadab Jakati
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjAxDA:
+    player_name: Joginder Sharma
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjAyDA:
+    player_name: Suraj Randiv
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjAzDA:
+    player_name: Nuwan Kulasekara
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjE0DA:
+    player_name: Daniel Vettori
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjE1DA:
+    player_name: Mayank Agarwal
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjE2DA:
+    player_name: KP Appanna
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjE3DA:
+    player_name: Sreenath Aravind
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjE4DA:
+    player_name: Arun Karthik
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjE5DA:
+    player_name: Raju Bhatkal
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjEwDA:
+    player_name: Sudeep Tyagi
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjExDA:
+    player_name: Kuthethurshri Vasudevadas
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjEyDA:
+    player_name: Ganapathi Vignesh
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjEzDA:
+    player_name: Murali Vijay
+    team_keyname: team_chennai
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjI0DA:
+    player_name: Mohammad Kaif
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjI1DA:
+    player_name: Abrar Kazi
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjI2DA:
+    player_name: Zaheer Khan
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjI3DA:
+    player_name: Virat Kohli
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjI4DA:
+    player_name: Charl Langeveldt
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjI5DA:
+    player_name: Andrew McDonald
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjIwDA:
+    player_name: AB de Villiers
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjIxDA:
+    player_name: Tillakaratne Dilshan
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjIyDA:
+    player_name: Muralidharen Gautam
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjIzDA:
+    player_name: Chris Gayle
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjM0DA:
+    player_name: Ryan Ninan
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjM1DA:
+    player_name: Harshal Patel
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjM2DA:
+    player_name: Asad Pathan
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjM3DA:
+    player_name: Luke Pomersbach
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjM4DA:
+    player_name: Cheteshwar Pujara
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjM5DA:
+    player_name: Rilee Rossouw
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjMwDA:
+    player_name: Abhimanyu Mithun
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjMxDA:
+    player_name: Muttiah Muralitharan
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjMyDA:
+    player_name: Karun Nair
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjMzDA:
+    player_name: Dirk Nannes
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQ0DA:
+    player_name: Rahul Dravid
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQ1DA:
+    player_name: Stuart Binny
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQ2DA:
+    player_name: Johan Botha
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQ3DA:
+    player_name: Deepak Chahar
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQ4DA:
+    player_name: Dinesh Chandimal
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQ5DA:
+    player_name: Ankeet Chavan
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQwDA:
+    player_name: Jamaluddin Syed Mohammad
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQxDA:
+    player_name: Saurabh Tiwary
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQyDA:
+    player_name: Vinay Kumar
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjQzDA:
+    player_name: Vijay Zol
+    team_keyname: team_bangalore
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjU0DA:
+    player_name: Samad Fallah
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjU1DA:
+    player_name: Faiz Fazal
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjU2DA:
+    player_name: Shreevats Goswami
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjU3DA:
+    player_name: Brad Hodge
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjU4DA:
+    player_name: Brad Hogg
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjU5DA:
+    player_name: Ashok Menaria
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjUwDA:
+    player_name: Aakash Chopra
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjUxDA:
+    player_name: Paul Collingwood
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjUyDA:
+    player_name: Kevon Cooper
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjUzDA:
+    player_name: Aditya Dole
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjY0DA:
+    player_name: Abhishek Raut
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjY1DA:
+    player_name: Owais Shah
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjY2DA:
+    player_name: Pinal Shah
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjY3DA:
+    player_name: Amit Singh
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjY4DA:
+    player_name: Sreesanth
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjY5DA:
+    player_name: Shaun Tait
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjYwDA:
+    player_name: Sumit Narwal
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjYxDA:
+    player_name: Pankaj Singh
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjYyDA:
+    player_name: Amit Paunikar
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjYzDA:
+    player_name: Ajinkya Rahane
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjcwDA:
+    player_name: Siddharth Trivedi
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjcxDA:
+    player_name: Shane Watson
+    team_keyname: team_rajasthan
+  aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMjcyDA:
+    player_name: Dishant Yagnik
+    team_keyname: team_rajasthan
+
+
+
+
 players:
   player_001:
     key: aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDAxDA
