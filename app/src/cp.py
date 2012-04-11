@@ -81,8 +81,8 @@ class MainPage(BaseHandler):
       current_user_key = str(self.current_user.key())
     else:
       current_user_key = None
-    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
-#    stream = open("cp_static_data_dev.yaml", "r") #TODO: use only on cp-dev setup
+#    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
+    stream = open("cp_static_data_dev.yaml", "r") #TODO: use only on cp-dev setup
     cp_data = yaml.load(stream)
     
     '''
@@ -93,8 +93,7 @@ class MainPage(BaseHandler):
           closed => matches which are over and scoring, points calculation has been done as well
     ''' 
 #    current_datetime = datetime.datetime.now() #TODO real val to use
-#    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
-    current_datetime = datetime.datetime.strptime('Fri Apr 20 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
+    current_datetime = datetime.datetime.strptime('Fri Apr 10 2012 13:00','%a %b %d %Y %H:%M') #TODO temp val to use
     for match_key in cp_data['match_keys']:
       match_datetime = cp_data['matches'][match_key]['start_time']
       match_time_delta = match_datetime - current_datetime
@@ -118,8 +117,6 @@ class MainPage(BaseHandler):
       'environ': os.environ,
       'facebook_app_id': FACEBOOK_APP_ID,
       'prediction_limits': PREDICTION_LIMITS,
-      'curr_date_time': "Tue Apr 10 2012 11:00",
-      'allowed_date_time': "Wed Apr 11 2012 11:00",
       'user_pred': current_user_predictions,
       'match_player_stats': match_player_stats,
       'match_team_stats': match_team_stats,
@@ -179,7 +176,8 @@ class UserMatchPredHandler(BaseHandler):
     match_team_stats = TeamMatchStats.get_matches_team_stats()
     match_player_stats = PlayerMatchStats.get_matches_player_stats()    
     
-    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
+#    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
+    stream = open("cp_static_data_dev.yaml", "r") #TODO: use on the dev setup
     cp_data = yaml.load(stream)
     
     user = User.get(Key(user_key))
@@ -187,7 +185,7 @@ class UserMatchPredHandler(BaseHandler):
     
 #    current_datetime = datetime.datetime.now() #TODO real val to use
 #    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
-    current_datetime = datetime.datetime.strptime('Fri Apr 20 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
+    current_datetime = datetime.datetime.strptime('Fri Apr 10 2012 13:00','%a %b %d %Y %H:%M') #TODO temp val to use
     for match_key in cp_data['match_keys']:
       match_datetime = cp_data['matches'][match_key]['start_time']
       match_time_delta = match_datetime - current_datetime
@@ -213,8 +211,6 @@ class UserMatchPredHandler(BaseHandler):
       'request': self.request,
       'facebook_app_id': FACEBOOK_APP_ID,
       'prediction_limits': PREDICTION_LIMITS,
-      'curr_date_time': "Tue Apr 10 2012 11:00",
-      'allowed_date_time': "Wed Apr 11 2012 11:00",
       'user_pred': user_pred,
       'match_player_stats': match_player_stats,
       'match_team_stats': match_team_stats,

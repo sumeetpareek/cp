@@ -1,13 +1,5 @@
 bug - fetch more than thousand player match stats
 
-go live list
-import data on dev
-create dev yaml file
-udpate cp.py to use correct yaml and date
-add google analytics code
-change the fb login destination
-add search engine meta content
-
 == Upload Data ==
 -- on local --
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/team.gae.csv --kind=Team --url=http://localhost:8080/_ah/remote_api -e=admin@example.com
