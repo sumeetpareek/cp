@@ -1,0 +1,27 @@
+team_bangalore:
+  key: aglzfmNwLWxpdmVyGAsSBFRlYW0iDnRlYW1fYmFuZ2Fsb3JlDA
+  name: Bangalore
+team_chennai:
+  key: aglzfmNwLWxpdmVyFgsSBFRlYW0iDHRlYW1fY2hlbm5haQw
+  name: Chennai
+team_delhi:
+  key: aglzfmNwLWxpdmVyFAsSBFRlYW0iCnRlYW1fZGVsaGkM
+  name: Delhi
+team_hyderabad:
+  key: aglzfmNwLWxpdmVyGAsSBFRlYW0iDnRlYW1faHlkZXJhYmFkDA
+  name: Hyderabad
+team_kolkata:
+  key: aglzfmNwLWxpdmVyFgsSBFRlYW0iDHRlYW1fa29sa2F0YQw
+  name: Kolkata
+team_mumbai:
+  key: aglzfmNwLWxpdmVyFQsSBFRlYW0iC3RlYW1fbXVtYmFpDA
+  name: Mumbai
+team_pune:
+  key: aglzfmNwLWxpdmVyEwsSBFRlYW0iCXRlYW1fcHVuZQw
+  name: Pune
+team_punjab:
+  key: aglzfmNwLWxpdmVyFQsSBFRlYW0iC3RlYW1fcHVuamFiDA
+  name: Punjab
+team_rajasthan:
+  key: aglzfmNwLWxpdmVyGAsSBFRlYW0iDnRlYW1fcmFqYXN0aGFuDA
+  name: Rajasthan

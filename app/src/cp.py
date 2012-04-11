@@ -82,7 +82,8 @@ class MainPage(BaseHandler):
     else:
       current_user_key = None
 #    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
-    stream = open("cp_static_data_dev.yaml", "r") #TODO: use only on cp-dev setup
+#    stream = open("cp_static_data_dev.yaml", "r") #TODO: use only on cp-dev setup
+    stream = open("cp_static_data_live.yaml", "r") #TODO: use only on cp-live setup
     cp_data = yaml.load(stream)
     
     '''
@@ -92,8 +93,8 @@ class MainPage(BaseHandler):
           pending => matches that have their predictions closed but scoring and point calculation not done yet
           closed => matches which are over and scoring, points calculation has been done as well
     ''' 
-#    current_datetime = datetime.datetime.now() #TODO real val to use
-    current_datetime = datetime.datetime.strptime('Fri Apr 10 2012 19:00','%a %b %d %Y %H:%M') #TODO temp val to use
+    current_datetime = datetime.datetime.now() #TODO real val to use
+#    current_datetime = datetime.datetime.strptime('Fri Apr 10 2012 19:00','%a %b %d %Y %H:%M') #TODO temp val to use
     for match_key in cp_data['match_keys']:
       match_datetime = cp_data['matches'][match_key]['start_time']
       match_time_delta = match_datetime - current_datetime
@@ -177,15 +178,16 @@ class UserMatchPredHandler(BaseHandler):
     match_player_stats = PlayerMatchStats.get_matches_player_stats()    
     
 #    stream = open("cp_static_data.yaml", "r") #TODO: use only on local setup
-    stream = open("cp_static_data_dev.yaml", "r") #TODO: use on the dev setup
+#    stream = open("cp_static_data_dev.yaml", "r") #TODO: use on the dev setup
+    stream = open("cp_static_data_live.yaml", "r") #TODO: use on the live setup
     cp_data = yaml.load(stream)
     
     user = User.get(Key(user_key))
     user_pred = Prediction.get_user_predictions(user)
     
-#    current_datetime = datetime.datetime.now() #TODO real val to use
+    current_datetime = datetime.datetime.now() #TODO real val to use
 #    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
-    current_datetime = datetime.datetime.strptime('Fri Apr 10 2012 19:00','%a %b %d %Y %H:%M') #TODO temp val to use
+#    current_datetime = datetime.datetime.strptime('Fri Apr 10 2012 19:00','%a %b %d %Y %H:%M') #TODO temp val to use
     for match_key in cp_data['match_keys']:
       match_datetime = cp_data['matches'][match_key]['start_time']
       match_time_delta = match_datetime - current_datetime

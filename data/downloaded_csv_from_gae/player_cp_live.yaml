@@ -1,0 +1,1360 @@
+player_001:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAwMQw
+  name: Sourav Ganguly
+  role: Top-order batsman
+  team: team_pune
+player_002:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAwMgw
+  name: Eklavya Diwedi
+  role: Wicketkeeper
+  team: team_pune
+player_003:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAwMww
+  name: Michael Clarke
+  role: Middle-order batsman
+  team: team_pune
+player_004:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAwNAw
+  name: Ashok Dinda
+  role: Bowler
+  team: team_pune
+player_005:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAwNQw
+  name: Callum Ferguson
+  role: Middle-order batsman
+  team: team_pune
+player_006:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAwNgw
+  name: Raiphi Gomez
+  role: Allrounder
+  team: team_pune
+player_007:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAwNww
+  name: Harpreet Singh
+  role: Batsman
+  team: team_pune
+player_008:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAwOAw
+  name: James Hopes
+  role: Allrounder
+  team: team_pune
+player_009:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAwOQw
+  name: Dheeraj Jadhav
+  role: Batsman
+  team: team_pune
+player_010:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxMAw
+  name: Kamran Khan
+  role: Bowler
+  team: team_pune
+player_011:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxMQw
+  name: Murali Kartik
+  role: Bowler
+  team: team_pune
+player_012:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxMgw
+  name: Harshad Khadiwale
+  role: Opening batsman
+  team: team_pune
+player_013:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxMww
+  name: Bhuvneshwar Kumar
+  role: Bowler
+  team: team_pune
+player_014:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxNAw
+  name: Nathan McCullum
+  role: Bowler
+  team: team_pune
+player_015:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxNQw
+  name: Anustup Majumdar
+  role: Batsman
+  team: team_pune
+player_016:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxNgw
+  name: Mithun Manhas
+  role: Allrounder
+  team: team_pune
+player_017:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxNww
+  name: Angelo Mathews
+  role: Allrounder
+  team: team_pune
+player_018:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxOAw
+  name: Mohnish  Mishra
+  role: Batsman
+  team: team_pune
+player_019:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAxOQw
+  name: Ali Murtaza
+  role: Bowler
+  team: team_pune
+player_020:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyMAw
+  name: Ashish Nehra
+  role: Bowler
+  team: team_pune
+player_021:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyMQw
+  name: Manish Pandey
+  role: Top-order batsman
+  team: team_pune
+player_022:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyMgw
+  name: Wayne Parnell
+  role: Bowler
+  team: team_pune
+player_023:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyMww
+  name: Sachin Rana
+  role: Bowler
+  team: team_pune
+player_024:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyNAw
+  name: Jesse Ryder
+  role: Allrounder
+  team: team_pune
+player_025:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyNQw
+  name: Marlon Samuels
+  role: Batsman
+  team: team_pune
+player_026:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyNgw
+  name: Rahul Sharma
+  role: Bowler
+  team: team_pune
+player_027:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyNww
+  name: Graeme Smith
+  role: Opening batsman
+  team: team_pune
+player_028:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyOAw
+  name: Steven Smith
+  role: Allrounder
+  team: team_pune
+player_029:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAyOQw
+  name: Alfonso Thomas
+  role: Bowler
+  team: team_pune
+player_030:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzMAw
+  name: Krishnakant  Upadhyay
+  role: Bowler
+  team: team_pune
+player_031:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzMQw
+  name: Robin Uthappa
+  role: Batsman
+  team: team_pune
+player_032:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzMgw
+  name: Shrikant Wagh
+  role: Allrounder
+  team: team_pune
+player_033:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzMww
+  name: Luke Wright
+  role: Allrounder
+  team: team_pune
+player_034:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzNAw
+  name: Yuvraj Singh
+  role: Middle-order batsman
+  team: team_pune
+player_035:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzNQw
+  name: Mitchell Marsh
+  role: Top-order batsman
+  team: team_pune
+player_036:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzNgw
+  name: Virender Sehwag
+  role: Top-order batsman
+  team: team_delhi
+player_037:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzNww
+  name: Manprit Juneja
+  role: Batsman
+  team: team_delhi
+player_038:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzOAw
+  name: Varun Aaron
+  role: Bowler
+  team: team_delhi
+player_039:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzAzOQw
+  name: Ajit Agarkar
+  role: Bowler
+  team: team_delhi
+player_040:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0MAw
+  name: Puneet Bisht
+  role: Batsman
+  team: team_delhi
+player_041:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0MQw
+  name: Robin Bist
+  role: Middle-order batsman
+  team: team_delhi
+player_042:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0Mgw
+  name: Gulam Bodi
+  role: Batsman
+  team: team_delhi
+player_043:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0Mww
+  name: Doug Bracewell
+  role: Bowler
+  team: team_delhi
+player_044:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0NAw
+  name: Unmukt Chand
+  role: Top-order batsman
+  team: team_delhi
+player_045:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0NQw
+  name: Aaron Finch
+  role: Top-order batsman
+  team: team_delhi
+player_046:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0Ngw
+  name: Mahela Jayawardene
+  role: Batsman
+  team: team_delhi
+player_047:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0Nww
+  name: Glenn Maxwell
+  role: Allrounder
+  team: team_delhi
+player_048:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0OAw
+  name: Morne Morkel
+  role: Bowler
+  team: team_delhi
+player_049:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA0OQw
+  name: Shahbaz Nadeem
+  role: Bowler
+  team: team_delhi
+player_050:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1MAw
+  name: Yogesh Nagar
+  role: Allrounder
+  team: team_delhi
+player_051:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1MQw
+  name: Prashant Naik
+  role: Middle-order batsman
+  team: team_delhi
+player_052:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1Mgw
+  name: Pawan Negi
+  role: Allrounder
+  team: team_delhi
+player_053:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1Mww
+  name: Naman Ojha
+  role: Wicketkeeper batsman
+  team: team_delhi
+player_054:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1NAw
+  name: Irfan Pathan
+  role: Allrounder
+  team: team_delhi
+player_055:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1NQw
+  name: Kevin Pietersen
+  role: Top-order batsman
+  team: team_delhi
+player_056:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1Ngw
+  name: Kuldeep Raval
+  role: Batsman
+  team: team_delhi
+player_057:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1Nww
+  name: Andre Russell
+  role: Allrounder
+  team: team_delhi
+player_058:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1OAw
+  name: Aavishkar Salvi
+  role: Bowler
+  team: team_delhi
+player_059:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA1OQw
+  name: Ross Taylor
+  role: Middle-order batsman
+  team: team_delhi
+player_060:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2MAw
+  name: Roelof van der Merwe
+  role: Allrounder
+  team: team_delhi
+player_061:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2MQw
+  name: Venugopal Rao
+  role: Middle-order batsman
+  team: team_delhi
+player_062:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2Mgw
+  name: Vikas Mishra
+  role: Bowler
+  team: team_delhi
+player_063:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2Mww
+  name: David Warner
+  role: Opening batsman
+  team: team_delhi
+player_064:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2NAw
+  name: Tejashwi Yadav
+  role: Middle-order batsman
+  team: team_delhi
+player_065:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2NQw
+  name: Umesh Yadav
+  role: Bowler
+  team: team_delhi
+player_066:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2Ngw
+  name: Travis Birt
+  role: Middle-order batsman
+  team: team_delhi
+player_067:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2Nww
+  name: Colin Ingram
+  role: Top-order batsman
+  team: team_delhi
+player_068:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2OAw
+  name: Adam Gilchrist
+  role: Wicketkeeper batsman
+  team: team_punjab
+player_069:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA2OQw
+  name: Parvinder Awana
+  role: Bowler
+  team: team_punjab
+player_070:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3MAw
+  name: Love Ablish
+  role: Bowler
+  team: team_punjab
+player_071:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3MQw
+  name: Amit Yadav
+  role: Allrounder
+  team: team_punjab
+player_072:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3Mgw
+  name: Azhar Mahmood
+  role: Allrounder
+  team: team_punjab
+player_073:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3Mww
+  name: Bhargav Bhatt
+  role: Bowler
+  team: team_punjab
+player_074:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3NAw
+  name: Bipul Sharma
+  role: Allrounder
+  team: team_punjab
+player_075:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3NQw
+  name: Stuart Broad
+  role: Bowler
+  team: team_punjab
+player_076:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3Ngw
+  name: Piyush Chawla
+  role: Allrounder
+  team: team_punjab
+player_077:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3Nww
+  name: Siddharth Chitnis
+  role: Batsman
+  team: team_punjab
+player_078:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3OAw
+  name: Paras Dogra
+  role: Batsman
+  team: team_punjab
+player_079:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA3OQw
+  name: James Faulkner
+  role: Allrounder
+  team: team_punjab
+player_080:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4MAw
+  name: Harmeet Singh
+  role: Bowler
+  team: team_punjab
+player_081:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4MQw
+  name: Ryan Harris
+  role: Bowler
+  team: team_punjab
+player_082:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4Mgw
+  name: David Hussey
+  role: Allrounder
+  team: team_punjab
+player_083:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4Mww
+  name: Praveen Kumar
+  role: Bowler
+  team: team_punjab
+player_084:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4NAw
+  name: Vikramjeet Malik
+  role: Bowler
+  team: team_punjab
+player_085:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4NQw
+  name: Mandeep Singh
+  role: Allrounder
+  team: team_punjab
+player_086:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4Ngw
+  name: Shaun Marsh
+  role: Top-order batsman
+  team: team_punjab
+player_087:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4Nww
+  name: Dimitri Mascarenhas
+  role: Allrounder
+  team: team_punjab
+player_088:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4OAw
+  name: David Miller
+  role: Middle-order batsman
+  team: team_punjab
+player_089:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA4OQw
+  name: Abhishek Nayar
+  role: Allrounder
+  team: team_punjab
+player_090:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5MAw
+  name: Ramesh Powar
+  role: Bowler
+  team: team_punjab
+player_091:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5MQw
+  name: Nathan Rimmington
+  role: Bowler
+  team: team_punjab
+player_092:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5Mgw
+  name: Nitin Saini
+  role: Batsman
+  team: team_punjab
+player_093:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5Mww
+  name: Rajagopal Sathish
+  role: Allrounder
+  team: team_punjab
+player_094:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5NAw
+  name: Shalabh Srivastava
+  role: Bowler
+  team: team_punjab
+player_095:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5NQw
+  name: Sunny Singh
+  role: Batsman
+  team: team_punjab
+player_096:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5Ngw
+  name: Paul Valthaty
+  role: Batsman
+  team: team_punjab
+player_097:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5Nww
+  name: Gautam Gambhir
+  role: Top-order batsman
+  team: team_kolkata
+player_098:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5OAw
+  name: Sarabjit Ladda
+  role: Bowler
+  team: team_kolkata
+player_099:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzA5OQw
+  name: Lakshmipathy Balaji
+  role: Bowler
+  team: team_kolkata
+player_100:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwMAw
+  name: Rajat Bhatia
+  role: Allrounder
+  team: team_kolkata
+player_101:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwMQw
+  name: Manvinder  Bisla
+  role: Wicketkeeper
+  team: team_kolkata
+player_102:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwMgw
+  name: Debabrata Das
+  role: Batsman
+  team: team_kolkata
+player_103:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwMww
+  name: Marchant De Lange
+  role: Bowler
+  team: team_kolkata
+player_104:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwNAw
+  name: Brad Haddin
+  role: Wicketkeeper batsman
+  team: team_kolkata
+player_105:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwNQw
+  name: Iqbal Abdulla
+  role: Allrounder
+  team: team_kolkata
+player_106:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwNgw
+  name: Chirag Jani
+  role: Batsman
+  team: team_kolkata
+player_107:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwNww
+  name: jacques Kallis
+  role: Allrounder
+  team: team_kolkata
+player_108:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwOAw
+  name: Brett Lee
+  role: Bowler
+  team: team_kolkata
+player_109:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEwOQw
+  name: Brendon McCullum
+  role: Wicketkeeper batsman
+  team: team_kolkata
+player_110:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExMAw
+  name: Eoin Morgan
+  role: Middle-order batsman
+  team: team_kolkata
+player_111:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExMQw
+  name: Sunil Narine
+  role: Bowler
+  team: team_kolkata
+player_112:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExMgw
+  name: Yusuf Pathan
+  role: Allrounder
+  team: team_kolkata
+player_113:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExMww
+  name: James Pattinson
+  role: Bowler
+  team: team_kolkata
+player_114:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExNAw
+  name: Sanju Samson
+  role: Batsman
+  team: team_kolkata
+player_115:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExNQw
+  name: Pradeep Sangwan
+  role: Bowler
+  team: team_kolkata
+player_116:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExNgw
+  name: Iresh Saxena
+  role: Bowler
+  team: team_kolkata
+player_117:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExNww
+  name: Shami Ahmed
+  role: Bowler
+  team: team_kolkata
+player_118:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExOAw
+  name: Shakib Al Hasan
+  role: Allrounder
+  team: team_kolkata
+player_119:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzExOQw
+  name: Laxmi Shukla
+  role: Allrounder
+  team: team_kolkata
+player_120:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyMAw
+  name: Ryan ten Doeschate
+  role: Allrounder
+  team: team_kolkata
+player_121:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyMQw
+  name: Manoj Tiwary
+  role: Batsman
+  team: team_kolkata
+player_122:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyMgw
+  name: Jaydev Unadkat
+  role: Bowler
+  team: team_kolkata
+player_123:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyMww
+  name: Kumar Sangakkara
+  role: Wicketkeeper batsman
+  team: team_hyderabad
+player_124:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyNAw
+  name: Ashish Reddy
+  role: Bowler
+  team: team_hyderabad
+player_125:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyNQw
+  name: Anand Rajan
+  role: Bowler
+  team: team_hyderabad
+player_126:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyNgw
+  name: Ankit Sharma
+  role: Bowler
+  team: team_hyderabad
+player_127:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyNww
+  name: Tekkami Atchuta Rao
+  role: Bowler
+  team: team_hyderabad
+player_128:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyOAw
+  name: Akash Bhandari
+  role: Bowler
+  team: team_hyderabad
+player_129:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEyOQw
+  name: Darren Bravo
+  role: Batsman
+  team: team_hyderabad
+player_130:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzMAw
+  name: Bharat Chipli
+  role: Batsman
+  team: team_hyderabad
+player_131:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzMQw
+  name: Daniel Christian
+  role: Allrounder
+  team: team_hyderabad
+player_132:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzMgw
+  name: Kedar Devdhar
+  role: Wicketkeeper
+  team: team_hyderabad
+player_133:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzMww
+  name: Shikhar Dhawan
+  role: Top-order batsman
+  team: team_hyderabad
+player_134:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzNAw
+  name: Jean-Paul Duminy
+  role: Middle-order batsman
+  team: team_hyderabad
+player_135:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzNQw
+  name: Manpreet Gony
+  role: Bowler
+  team: team_hyderabad
+player_136:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzNgw
+  name: Daniel Harris
+  role: Batsman
+  team: team_hyderabad
+player_137:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzNww
+  name: Ishank Jaggi
+  role: Batsman
+  team: team_hyderabad
+player_138:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzOAw
+  name: Abhishek Jhunjhunwala
+  role: Batsman
+  team: team_hyderabad
+player_139:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzEzOQw
+  name: Chris Lynn
+  role: Batsman
+  team: team_hyderabad
+player_140:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0MAw
+  name: Amit Mishra
+  role: Bowler
+  team: team_hyderabad
+player_141:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0MQw
+  name: Tanmay Mishra
+  role: Middle-order batsman
+  team: team_hyderabad
+player_142:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0Mgw
+  name: Parthiv Patel
+  role: Wicketkeeper batsman
+  team: team_hyderabad
+player_143:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0Mww
+  name: Veer Pratap Singh
+  role: Bowler
+  team: team_hyderabad
+player_144:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0NAw
+  name: Syed Quadri
+  role: Allrounder
+  team: team_hyderabad
+player_145:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0NQw
+  name: Dwaraka Ravi Teja
+  role: Batsman
+  team: team_hyderabad
+player_146:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0Ngw
+  name: Akshath Reddy
+  role: Batsman
+  team: team_hyderabad
+player_147:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0Nww
+  name: Biplab Samantray
+  role: Batsman
+  team: team_hyderabad
+player_148:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0OAw
+  name: Ishant Sharma
+  role: Bowler
+  team: team_hyderabad
+player_149:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE0OQw
+  name: Sneha Kishore
+  role: Bowler
+  team: team_hyderabad
+player_150:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1MAw
+  name: Sunny Sohal
+  role: Batsman
+  team: team_hyderabad
+player_151:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1MQw
+  name: Tanmay Srivastava
+  role: Top-order batsman
+  team: team_hyderabad
+player_152:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1Mgw
+  name: Dale Steyn
+  role: Bowler
+  team: team_hyderabad
+player_153:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1Mww
+  name: TP Sudhindra
+  role: Bowler
+  team: team_hyderabad
+player_154:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1NAw
+  name: Rusty Theron
+  role: Bowler
+  team: team_hyderabad
+player_155:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1NQw
+  name: Cameron White
+  role: Middle-order batsman
+  team: team_hyderabad
+player_156:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1Ngw
+  name: Arjun Yadav
+  role: Batsman
+  team: team_hyderabad
+player_157:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1Nww
+  name: Sachin Tendulkar
+  role: Top-order batsman
+  team: team_mumbai
+player_158:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1OAw
+  name: Abu Nechim
+  role: Bowler
+  team: team_mumbai
+player_159:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE1OQw
+  name: Amitoze Singh
+  role: Batsman
+  team: team_mumbai
+player_160:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2MAw
+  name: Aliden Blizzard
+  role: Batsman
+  team: team_mumbai
+player_161:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2MQw
+  name: Yuzvendra Chahal
+  role: Bowler
+  team: team_mumbai
+player_162:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2Mgw
+  name: James Franklin
+  role: Allrounder
+  team: team_mumbai
+player_163:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2Mww
+  name: Herschelle Gibbs
+  role: Batsman
+  team: team_mumbai
+player_164:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2NAw
+  name: Harbhajan Singh
+  role: Bowler
+  team: team_mumbai
+player_165:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2NQw
+  name: Davy Jacobs
+  role: Wicketkeeper batsman
+  team: team_mumbai
+player_166:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2Ngw
+  name: Mitchell Johnson
+  role: Bowler
+  team: team_mumbai
+player_167:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2Nww
+  name: Dinesh Karthik
+  role: Wicketkeeper batsman
+  team: team_mumbai
+player_168:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2OAw
+  name: Dhawal Kulkarni
+  role: Bowler
+  team: team_mumbai
+player_169:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE2OQw
+  name: Richard Levi
+  role: Batsman
+  team: team_mumbai
+player_170:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3MAw
+  name: Clint McKay
+  role: Bowler
+  team: team_mumbai
+player_171:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3MQw
+  name: Lasith Malinga
+  role: Bowler
+  team: team_mumbai
+player_172:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3Mgw
+  name: Sushant Marathe
+  role: Wicketkeeper
+  team: team_mumbai
+player_173:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3Mww
+  name: Sujit Nayak
+  role: Bowler
+  team: team_mumbai
+player_174:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3NAw
+  name: Pragyan Ojha
+  role: Bowler
+  team: team_mumbai
+player_175:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3NQw
+  name: Munaf Patel
+  role: Bowler
+  team: team_mumbai
+player_176:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3Ngw
+  name: Thisara Perera
+  role: Allrounder
+  team: team_mumbai
+player_177:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3Nww
+  name: Robin Peterson
+  role: Bowler
+  team: team_mumbai
+player_178:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3OAw
+  name: Kieron Pollard
+  role: Allrounder
+  team: team_mumbai
+player_179:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE3OQw
+  name: Ambati Rayudu
+  role: Wicketkeeper batsman
+  team: team_mumbai
+player_180:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4MAw
+  name: Jaydev Shah
+  role: Batsman
+  team: team_mumbai
+player_181:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4MQw
+  name: Rohit Sharma
+  role: Batsman
+  team: team_mumbai
+player_182:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4Mgw
+  name: Rahul Shukla
+  role: Bowler
+  team: team_mumbai
+player_183:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4Mww
+  name: RP Singh
+  role: Bowler
+  team: team_mumbai
+player_184:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4NAw
+  name: Tirumalasetti Suman
+  role: Batsman
+  team: team_mumbai
+player_185:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4NQw
+  name: Pawan Suyal
+  role: Bowler
+  team: team_mumbai
+player_186:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4Ngw
+  name: Aditya Tare
+  role: Wicketkeeper
+  team: team_mumbai
+player_187:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4Nww
+  name: Apoorv Wankhade
+  role: Batsman
+  team: team_mumbai
+player_188:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4OAw
+  name: Suryakumar Yadav
+  role: Batsman
+  team: team_mumbai
+player_189:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE4OQw
+  name: MS Dhoni
+  role: Wicketkeeper batsman
+  team: team_chennai
+player_190:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5MAw
+  name: Srikkanth Anirudha
+  role: Top-order batsman
+  team: team_chennai
+player_191:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5MQw
+  name: Ravichandran Ashwin
+  role: Bowler
+  team: team_chennai
+player_192:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5Mgw
+  name: Subramaniam Badrinath
+  role: Middle-order batsman
+  team: team_chennai
+player_193:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5Mww
+  name: George Bailey
+  role: Top-order batsman
+  team: team_chennai
+player_194:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5NAw
+  name: Doug Bollinger
+  role: Bowler
+  team: team_chennai
+player_195:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5NQw
+  name: Dwayne Bravo
+  role: Allrounder
+  team: team_chennai
+player_196:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5Ngw
+  name: Faf du Plessis
+  role: Allrounder
+  team: team_chennai
+player_197:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5Nww
+  name: Ben Hilfenhaus
+  role: Bowler
+  team: team_chennai
+player_198:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5OAw
+  name: Michael Hussey
+  role: Middle-order batsman
+  team: team_chennai
+player_199:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzE5OQw
+  name: Ravindra Jadeja
+  role: Allrounder
+  team: team_chennai
+player_200:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwMAw
+  name: Shadab Jakati
+  role: Bowler
+  team: team_chennai
+player_201:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwMQw
+  name: Joginder Sharma
+  role: Allrounder
+  team: team_chennai
+player_202:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwMgw
+  name: Suraj Randiv
+  role: Bowler
+  team: team_chennai
+player_203:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwMww
+  name: Nuwan Kulasekara
+  role: Bowler
+  team: team_chennai
+player_204:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwNAw
+  name: Yo Mahesh
+  role: Allrounder
+  team: team_chennai
+player_205:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwNQw
+  name: Albie Morkel
+  role: Allrounder
+  team: team_chennai
+player_206:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwNgw
+  name: Abhinav Mukund
+  role: Top-order batsman
+  team: team_chennai
+player_207:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwNww
+  name: Suresh Raina
+  role: Batsman
+  team: team_chennai
+player_208:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwOAw
+  name: Wriddhiman Saha
+  role: Wicketkeeper
+  team: team_chennai
+player_209:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIwOQw
+  name: Scott Styris
+  role: Allrounder
+  team: team_chennai
+player_210:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxMAw
+  name: Sudeep Tyagi
+  role: Bowler
+  team: team_chennai
+player_211:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxMQw
+  name: Kuthethurshri Vasudevadas
+  role: Batsman
+  team: team_chennai
+player_212:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxMgw
+  name: Ganapathi Vignesh
+  role: Allrounder
+  team: team_chennai
+player_213:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxMww
+  name: Murali Vijay
+  role: Opening batsman
+  team: team_chennai
+player_214:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxNAw
+  name: Daniel Vettori
+  role: Allrounder
+  team: team_bangalore
+player_215:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxNQw
+  name: Mayank Agarwal
+  role: Batsman
+  team: team_bangalore
+player_216:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxNgw
+  name: KP Appanna
+  role: Bowler
+  team: team_bangalore
+player_217:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxNww
+  name: Sreenath Aravind
+  role: Bowler
+  team: team_bangalore
+player_218:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxOAw
+  name: Arun Karthik
+  role: Batsman
+  team: team_bangalore
+player_219:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIxOQw
+  name: Raju Bhatkal
+  role: Allrounder
+  team: team_bangalore
+player_220:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyMAw
+  name: AB de Villiers
+  role: Wicketkeeper batsman
+  team: team_bangalore
+player_221:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyMQw
+  name: Tillakaratne Dilshan
+  role: Allrounder
+  team: team_bangalore
+player_222:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyMgw
+  name: Muralidharen Gautam
+  role: Wicketkeeper
+  team: team_bangalore
+player_223:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyMww
+  name: Chris Gayle
+  role: Allrounder
+  team: team_bangalore
+player_224:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyNAw
+  name: Mohammad Kaif
+  role: Batsman
+  team: team_bangalore
+player_225:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyNQw
+  name: Abrar Kazi
+  role: Bowler
+  team: team_bangalore
+player_226:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyNgw
+  name: Zaheer Khan
+  role: Bowler
+  team: team_bangalore
+player_227:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyNww
+  name: Virat Kohli
+  role: Middle-order batsman
+  team: team_bangalore
+player_228:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyOAw
+  name: Charl Langeveldt
+  role: Bowler
+  team: team_bangalore
+player_229:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIyOQw
+  name: Andrew McDonald
+  role: Allrounder
+  team: team_bangalore
+player_230:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzMAw
+  name: Abhimanyu Mithun
+  role: Bowler
+  team: team_bangalore
+player_231:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzMQw
+  name: Muttiah Muralitharan
+  role: Bowler
+  team: team_bangalore
+player_232:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzMgw
+  name: Karun Nair
+  role: Batsman
+  team: team_bangalore
+player_233:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzMww
+  name: Dirk Nannes
+  role: Bowler
+  team: team_bangalore
+player_234:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzNAw
+  name: Ryan Ninan
+  role: Allrounder
+  team: team_bangalore
+player_235:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzNQw
+  name: Harshal Patel
+  role: Bowler
+  team: team_bangalore
+player_236:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzNgw
+  name: Asad Pathan
+  role: Bowler
+  team: team_bangalore
+player_237:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzNww
+  name: Luke Pomersbach
+  role: Batsman
+  team: team_bangalore
+player_238:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzOAw
+  name: Cheteshwar Pujara
+  role: Batsman
+  team: team_bangalore
+player_239:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzIzOQw
+  name: Rilee Rossouw
+  role: Batsman
+  team: team_bangalore
+player_240:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0MAw
+  name: Jamaluddin Syed Mohammad
+  role: Bowler
+  team: team_bangalore
+player_241:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0MQw
+  name: Saurabh Tiwary
+  role: Batsman
+  team: team_bangalore
+player_242:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0Mgw
+  name: Vinay Kumar
+  role: Bowler
+  team: team_bangalore
+player_243:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0Mww
+  name: Vijay Zol
+  role: Batsman
+  team: team_bangalore
+player_244:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0NAw
+  name: Rahul Dravid
+  role: Top-order batsman
+  team: team_rajasthan
+player_245:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0NQw
+  name: Stuart Binny
+  role: Allrounder
+  team: team_rajasthan
+player_246:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0Ngw
+  name: Johan Botha
+  role: Allrounder
+  team: team_rajasthan
+player_247:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0Nww
+  name: Deepak Chahar
+  role: Bowler
+  team: team_rajasthan
+player_248:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0OAw
+  name: Dinesh Chandimal
+  role: Wicketkeeper batsman
+  team: team_rajasthan
+player_249:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI0OQw
+  name: Ankeet Chavan
+  role: Batsman
+  team: team_rajasthan
+player_250:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1MAw
+  name: Aakash Chopra
+  role: Batsman
+  team: team_rajasthan
+player_251:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1MQw
+  name: Paul Collingwood
+  role: Allrounder
+  team: team_rajasthan
+player_252:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1Mgw
+  name: Kevon Cooper
+  role: Bowler
+  team: team_rajasthan
+player_253:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1Mww
+  name: Aditya Dole
+  role: Bowler
+  team: team_rajasthan
+player_254:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1NAw
+  name: Samad Fallah
+  role: Bowler
+  team: team_rajasthan
+player_255:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1NQw
+  name: Faiz Fazal
+  role: Opening batsman
+  team: team_rajasthan
+player_256:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1Ngw
+  name: Shreevats Goswami
+  role: Wicketkeeper batsman
+  team: team_rajasthan
+player_257:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1Nww
+  name: Brad Hodge
+  role: Top-order batsman
+  team: team_rajasthan
+player_258:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1OAw
+  name: Brad Hogg
+  role: Allrounder
+  team: team_rajasthan
+player_259:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI1OQw
+  name: Ashok Menaria
+  role: Allrounder
+  team: team_rajasthan
+player_260:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2MAw
+  name: Sumit Narwal
+  role: Allrounder
+  team: team_rajasthan
+player_261:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2MQw
+  name: Pankaj Singh
+  role: Bowler
+  team: team_rajasthan
+player_262:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2Mgw
+  name: Amit Paunikar
+  role: Wicketkeeper batsman
+  team: team_rajasthan
+player_263:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2Mww
+  name: Ajinkya Rahane
+  role: Top-order batsman
+  team: team_rajasthan
+player_264:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2NAw
+  name: Abhishek Raut
+  role: Allrounder
+  team: team_rajasthan
+player_265:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2NQw
+  name: Owais Shah
+  role: Batsman
+  team: team_rajasthan
+player_266:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2Ngw
+  name: Pinal Shah
+  role: Wicketkeeper batsman
+  team: team_rajasthan
+player_267:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2Nww
+  name: Amit Singh
+  role: Bowler
+  team: team_rajasthan
+player_268:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2OAw
+  name: Sreesanth
+  role: Bowler
+  team: team_rajasthan
+player_269:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI2OQw
+  name: Shaun Tait
+  role: Bowler
+  team: team_rajasthan
+player_270:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI3MAw
+  name: Siddharth Trivedi
+  role: Bowler
+  team: team_rajasthan
+player_271:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI3MQw
+  name: Shane Watson
+  role: Allrounder
+  team: team_rajasthan
+player_272:
+  key: aglzfmNwLWxpdmVyFgsSBlBsYXllciIKcGxheWVyXzI3Mgw
+  name: Dishant Yagnik
+  role: Wicketkeeper
+  team: team_rajasthan
