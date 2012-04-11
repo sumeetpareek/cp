@@ -4,9 +4,9 @@ prema url sample = http://localhost:8080/ipl-2012/prediction/match-22/mumbai-vs-
 * correct font colors on the points page - 1h
 * change the favicon to a pandey glass - 1h (also update this on twitter and facebook)
 * update the page titles
-review and change texts again
-make logo an image, not bg image 
-make logo link to home page
+* review and change texts again
+* make logo an image, not bg image 
+* make logo link to home page
 search for all TODOs and clean
 add image URLs to FB share
 

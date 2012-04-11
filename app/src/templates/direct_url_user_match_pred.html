@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="shortcut icon" type="image/x-icon" href="/static/css/images/favicon.ico">
-    <title>CaptainPandey - {{user.name}}'s prediction for IPL 2012 Match-{{match_key.split('_')[1]}} : {{match_string}}</title>
+    <title>{{user.name}}'s prediction for IPL 2012 Match-{{match_key.split('_')[1]}} : {{match_string}} | CaptainPandey - Fun game for everybody with a cricket prediction</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="/static/js/jquery.cookie.js" type="text/javascript"></script>
     <script type="text/javascript" src="/static/js/ui/jquery.ui.core.js"></script>
@@ -30,7 +30,7 @@
   {% import 'templates/macros.html' as mac %}
 	<div id="header-wrapper">
 		<div id="header" class="clearfix">
-			<div id="logo">captain pandey</div>
+			<div id="logo"><a href="http://{{environ['HTTP_HOST']}}" rel="home" title="Home"><img src="http://{{environ['HTTP_HOST']}}/static/css/images/logo.png" alt="Captain Pandey"/></a></div>
 			{% include 'templates/top_menu.html' %}
 
 		</div>
