@@ -1,3 +1,32 @@
+teams_by_key:
+  aghzfmNwLWRldnITCxIEVGVhbSIJdGVhbV9wdW5lDA:
+    keyname: team_pune
+    name: Pune
+  aghzfmNwLWRldnIUCxIEVGVhbSIKdGVhbV9kZWxoaQw:
+    keyname: team_delhi
+    name: Delhi
+  aghzfmNwLWRldnIVCxIEVGVhbSILdGVhbV9tdW1iYWkM:
+    keyname: team_mumbai
+    name: Mumbai
+  aghzfmNwLWRldnIVCxIEVGVhbSILdGVhbV9wdW5qYWIM:
+    keyname: team_punjab
+    name: Punjab
+  aghzfmNwLWRldnIWCxIEVGVhbSIMdGVhbV9jaGVubmFpDA:
+    keyname: team_chennai
+    name: Chennai
+  aghzfmNwLWRldnIWCxIEVGVhbSIMdGVhbV9rb2xrYXRhDA:
+    keyname: team_kolkata
+    name: Kolkata
+  aghzfmNwLWRldnIYCxIEVGVhbSIOdGVhbV9iYW5nYWxvcmUM:
+    keyname: team_bangalore
+    name: Bangalore
+  aghzfmNwLWRldnIYCxIEVGVhbSIOdGVhbV9oeWRlcmFiYWQM:
+    keyname: team_hyderabad
+    name: Hyderabad
+  aghzfmNwLWRldnIYCxIEVGVhbSIOdGVhbV9yYWphc3RoYW4M:
+    keyname: team_rajasthan
+    name: Rajasthan
+
 player_team:
   aghzfmNwLWRldnIWCxIGUGxheWVyIgpwbGF5ZXJfMDA0DA:
     player_name: Ashok Dinda

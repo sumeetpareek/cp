@@ -22,11 +22,11 @@ $(document).ready(function(){
 			obj.find('input[name="player_run_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
 			obj.find('input[name="player_run_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
 			obj.find('input[name="player_wicket_pred"]').val($.cookie('pred_player_wicket'));
-			var width=$.cookie('pred_player_wicket')*100/10;
+			var width=$.cookie('pred_player_wicket')*100/5;
 			obj.find('input[name="player_wicket_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
 			obj.find('input[name="player_wicket_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
 			obj.find('input[name="player_six_pred"]').val($.cookie('pred_player_six'));
-			var width=$.cookie('pred_player_six')*100/10;
+			var width=$.cookie('pred_player_six')*100/5;
 			obj.find('input[name="player_six_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
 			obj.find('input[name="player_six_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
 			obj.find('input[name="team_run_pred"]').val($.cookie('pred_team_run'));
@@ -34,7 +34,7 @@ $(document).ready(function(){
 			obj.find('input[name="team_run_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
 			obj.find('input[name="team_run_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
 			obj.find('input[name="team_six_pred"]').val($.cookie('pred_team_six'));
-			var width=$.cookie('pred_team_six')*100/20;
+			var width=$.cookie('pred_team_six')*100/10;
 			obj.find('input[name="team_six_pred"]').nextAll('.ui-slider').find('.ui-slider-range').css('width',100-width+'%');
 			obj.find('input[name="team_six_pred"]').nextAll('.ui-slider').find('.ui-slider-handle').css('left',width+'%');
 			$.cookie('player_run',null);
@@ -59,16 +59,16 @@ $(document).ready(function(){
 	 $('.prediction-select-wrapper.player_run .prediction-points').text(isNaN(target = 1000-Math.abs(parseInt(player_run_actual_width.find('.value').text()) - parseInt(player_run_pred_width.find('.value').text()))*1000/100)?0:target);
 	
 	var player_wicket_pred_width = $('.prediction-select-wrapper.player_wicket .prediction-value');
-	player_wicket_pred_width.find('.bar').css('width',parseInt(player_wicket_pred_width.find('.value').text())*150/10+'px');
+	player_wicket_pred_width.find('.bar').css('width',parseInt(player_wicket_pred_width.find('.value').text())*150/5+'px');
 	var player_wicket_actual_width = $('.prediction-select-wrapper.player_wicket .stat-value');
-	player_wicket_actual_width.find('.bar').css('width',parseInt(player_wicket_actual_width.find('.value').text())*150/10+'px');
-	$('.prediction-select-wrapper.player_wicket .prediction-points').text(isNaN(target = 1000-Math.abs(parseInt(player_wicket_actual_width.find('.value').text()) - parseInt(player_wicket_pred_width.find('.value').text()))*1000/10)?0:target);
+	player_wicket_actual_width.find('.bar').css('width',parseInt(player_wicket_actual_width.find('.value').text())*150/5+'px');
+	$('.prediction-select-wrapper.player_wicket .prediction-points').text(isNaN(target = 1000-Math.abs(parseInt(player_wicket_actual_width.find('.value').text()) - parseInt(player_wicket_pred_width.find('.value').text()))*1000/5)?0:target);
 	
 	var player_six_pred_width = $('.prediction-select-wrapper.player_six .prediction-value');
-	player_six_pred_width.find('.bar').css('width',parseInt(player_six_pred_width.find('.value').text())*150/10+'px');
+	player_six_pred_width.find('.bar').css('width',parseInt(player_six_pred_width.find('.value').text())*150/5+'px');
 	var player_six_actual_width = $('.prediction-select-wrapper.player_six .stat-value');
-	player_six_actual_width.find('.bar').css('width',parseInt(player_six_actual_width.find('.value').text())*150/10+'px');
-	$('.prediction-select-wrapper.player_six .prediction-points').text(isNaN(target = 1000-Math.abs(parseInt(player_six_actual_width.find('.value').text()) - parseInt(player_six_pred_width.find('.value').text()))*1000/10)?0:target);
+	player_six_actual_width.find('.bar').css('width',parseInt(player_six_actual_width.find('.value').text())*150/5+'px');
+	$('.prediction-select-wrapper.player_six .prediction-points').text(isNaN(target = 1000-Math.abs(parseInt(player_six_actual_width.find('.value').text()) - parseInt(player_six_pred_width.find('.value').text()))*1000/5)?0:target);
 	
 	var team_run_pred_width = $('.prediction-select-wrapper.team_run .prediction-value');
 	team_run_pred_width.find('.bar').css('width',parseInt(team_run_pred_width.find('.value').text())*150/200+'px');
@@ -77,10 +77,10 @@ $(document).ready(function(){
 	$('.prediction-select-wrapper.team_run .prediction-points').text(isNaN(target = 1000-Math.abs(parseInt(team_run_actual_width.find('.value').text()) - parseInt(team_run_pred_width.find('.value').text()))*1000/200)?0:target);
 	
 	var team_six_pred_width = $('.prediction-select-wrapper.team_six .prediction-value');
-	team_six_pred_width.find('.bar').css('width',parseInt(team_six_pred_width.find('.value').text())*150/20+'px');
+	team_six_pred_width.find('.bar').css('width',parseInt(team_six_pred_width.find('.value').text())*150/10+'px');
 	var team_six_actual_width = $('.prediction-select-wrapper.team_six .stat-value');
-	team_six_actual_width.find('.bar').css('width',parseInt(team_six_actual_width.find('.value').text())*150/20+'px');
-	 $('.prediction-select-wrapper.team_six .prediction-points').text(isNaN(target = 1000-Math.abs(parseInt(team_six_actual_width.find('.value').text()) - parseInt(team_six_pred_width.find('.value').text()))*1000/20)?0:target);
+	team_six_actual_width.find('.bar').css('width',parseInt(team_six_actual_width.find('.value').text())*150/10+'px');
+	 $('.prediction-select-wrapper.team_six .prediction-points').text(isNaN(target = 1000-Math.abs(parseInt(team_six_actual_width.find('.value').text()) - parseInt(team_six_pred_width.find('.value').text()))*1000/10)?0:target);
 	
 	$('select.match_player').selectmenu();
 //	$('ul.ui-selectmenu-menu-dropdown').niceScroll({touchbehavior:false,cursorcolor:"#000000",cursoropacitymax:0.9,cursorwidth:10,cursorborder:"none",cursorborderradius:"2px",boxzoom:false,cursoropacitymin:0.8});
@@ -104,7 +104,7 @@ $(document).ready(function(){
 	$('.prediction_slider_wicket').slider({
 	 	range: "max",
 		min:1,
-		max:10,
+		max:5,
 		step: 1,
 		create:function( event, ui ) {
 			var prediction_player = $('.prediction_player_wicket');
@@ -120,7 +120,7 @@ $(document).ready(function(){
 	$('.prediction_slider_six').slider({
 	 	range: "max",
 		min:1,
-		max:10,
+		max:5,
 		step: 1,
 		create:function( event, ui ) {
 			var prediction_player = $('.prediction_player_six');
@@ -137,7 +137,7 @@ $(document).ready(function(){
 	$('.prediction_slider_six_team').slider({
 	 	range: "max",
 		min:1,
-		max:20,
+		max:10,
 		step: 1,
 		create:function( event, ui ) {
 			var prediction_player = $('.prediction_player_six_team');
