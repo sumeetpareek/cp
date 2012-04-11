@@ -1,8 +1,8 @@
-function postToFeed(url, name_val, caption_val, desc_val) {
+function postToFeed(url, name_val, caption_val, desc_val, image_url) {
 	var obj = {
 	  method: 'feed',
 	  link: url,
-	//  picture: 'http://localhost:8080/static/css/images/logo.png', //TODO use each match specific image here
+	  picture: image_url,
 	  name: name_val,
 	  caption: caption_val,
 	  description: desc_val
@@ -66,6 +66,8 @@ $(document).ready(function() {
 		
 		// Grab predictions permanent URL
 		var perma_url = parent_match_main.find('input[name="perma_url"]').val();
+		var image_url = parent_match_main.find('input[name="match_teams_image_url"]').val();
+		
 		
 		// Form the message description to be shared
 		var names = parent_match_main.find('.prediction-select-wrapper .player-name');
@@ -79,7 +81,7 @@ $(document).ready(function() {
 		message += ' (4) My runs prediction for '+$(names[3]).text()+' = '+$(pred_values[3]).text()+', actual runs = '+$(real_values[3]).text();
 		message += '..and.. (5) My sixes prediction for '+$(names[4]).text()+' = '+$(pred_values[4]).text()+', actual sixes = '+$(real_values[4]).text();
 		
-		postToFeed(perma_url, title, caption, message);;
+		postToFeed(perma_url, title, caption, message, image_url);
 		return false;
 		
 	});
@@ -97,6 +99,7 @@ $(document).ready(function() {
 		
 		// Grab predictions permanent URL
 		var perma_url = parent_match_main.find('input[name="perma_url"]').val();
+		var image_url = parent_match_main.find('input[name="match_teams_image_url"]').val();
 		
 		// form the message description to be shared
 		var player_run = parent_match_main.find('select.match_player[name="player_run"] option:selected').text(); 
@@ -138,7 +141,7 @@ $(document).ready(function() {
 			message += team_six + ' will hit ' + pred_team_six + ' sixes !!';
 		}
 		
-		postToFeed(perma_url, title, caption, message);
+		postToFeed(perma_url, title, caption, message, image_url);
 		return false;
 	});
 	

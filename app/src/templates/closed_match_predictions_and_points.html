@@ -154,4 +154,5 @@
 	</div>			
 </div>
 <input type="hidden" name="perma_url" value="http://{{environ['HTTP_HOST']}}/ipl-2012/prediction/match-{{match_key.split('_')[1]}}/{{cp.teams[cp.matches[match_key].team_one].name}}-vs-{{cp.teams[cp.matches[match_key].team_two].name}}?user={{current_user_key}}" />
+<input type="hidden" name="match_teams_image_url" value="http://{{environ['HTTP_HOST']}}/static/css/images/teams/{{cp.matches[match_key].team_one.replace('team_','')}}_{{cp.matches[match_key].team_two.replace('team_','')}}.png" />
 

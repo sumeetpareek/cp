@@ -71,6 +71,7 @@
 						<div class="form-item form-run"><div class="prediction-select-wrapper">{{ mac.match_team_select(id=match_key+'_team_run', name='team_run', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].run_team_key) }} </div><div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_run_team', name='team_run_pred', val=prediction_limits['t_r'], default=user_pred[cp.matches[match_key].key].run_team_val) }}<div class="prediction_slider_run_team"></div><div class="prediction-unit">predict runs</div></div></div>
 						<div class="form-item form-six"><div class="prediction-select-wrapper">{{ mac.match_team_select(id=match_key+'_team_six', name='team_six', match=cp.matches[match_key], cp=cp, default=user_pred[cp.matches[match_key].key].six_team_key) }}</div> <div class="prediction-wrapper">  {{ mac.prediction_select(id='prediction_player_six_team', name='team_six_pred', val=prediction_limits['t_s'], default=user_pred[cp.matches[match_key].key].six_team_val) }}<div class="prediction_slider_six_team"></div><div class="prediction-unit">predict sixes</div></div></div>
 						<input type="hidden" name="perma_url" value="http://{{environ['HTTP_HOST']}}/ipl-2012/prediction/match-{{match_key.split('_')[1]}}/{{cp.teams[cp.matches[match_key].team_one].name}}-vs-{{cp.teams[cp.matches[match_key].team_two].name}}?user={{current_user_key}}" />
+						<input type="hidden" name="match_teams_image_url" value="http://{{environ['HTTP_HOST']}}/static/css/images/teams/{{cp.matches[match_key].team_one.replace('team_','')}}_{{cp.matches[match_key].team_two.replace('team_','')}}.png" />
 					</form>
 					{% endif %}
 				
@@ -87,6 +88,7 @@
 					<input type="hidden" name="match_key" value="{{cp.matches[match_key].key}}" />
 					<input type="hidden" name="pred_key" value="" />
 					<input type="hidden" name="perma_url" value="http://{{environ['HTTP_HOST']}}/ipl-2012/prediction/match-{{match_key.split('_')[1]}}/{{cp.teams[cp.matches[match_key].team_one].name}}-vs-{{cp.teams[cp.matches[match_key].team_two].name}}?user={{current_user_key}}" />
+					<input type="hidden" name="match_teams_image_url" value="http://{{environ['HTTP_HOST']}}/static/css/images/teams/{{cp.matches[match_key].team_one.replace('team_','')}}_{{cp.matches[match_key].team_two.replace('team_','')}}.png" />
 					<input type="submit" value="Save Your Predictions" class="submit"/>
 				{% else %}
 					<div class="share-match-pred-msg">Go ahead <a href="#" class="fb-share-btn">Share Predictions</a> with your friends on Facebook. <br/>And oh, as soon as the match is over you will be able to see here how real your predictions were and earn points :-)</div>
@@ -98,6 +100,7 @@
 					<input type="hidden" name="match_key" value="{{cp.matches[match_key].key}}" />
 					<input type="hidden" name="pred_key" value="{{user_pred[cp.matches[match_key].key].pred_key}}" />
 					<input type="hidden" name="perma_url" value="http://{{environ['HTTP_HOST']}}/ipl-2012/prediction/match-{{match_key.split('_')[1]}}/{{cp.teams[cp.matches[match_key].team_one].name}}-vs-{{cp.teams[cp.matches[match_key].team_two].name}}?user={{current_user_key}}" />
+					<input type="hidden" name="match_teams_image_url" value="http://{{environ['HTTP_HOST']}}/static/css/images/teams/{{cp.matches[match_key].team_one.replace('team_','')}}_{{cp.matches[match_key].team_two.replace('team_','')}}.png" />
 					<input type="submit" value="Update Your Predictions" class="submit" />
 				{% endif %}
 				</form>
