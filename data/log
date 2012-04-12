@@ -1,7 +1,7 @@
 * bug - fix timezone issue
 * bug - update time check in code not just JS
 update point rules
-make dropdown alphabatical
+* make dropdown alphabatical
 
 bug - fetch more than thousand player match stats
 
