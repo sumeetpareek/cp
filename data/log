@@ -1,9 +1,8 @@
-* bug - fix timezone issue
-* bug - update time check in code not just JS
-update point rules
-* make dropdown alphabatical
-
 bug - fetch more than thousand player match stats
+enable billing
+setup local, dev, live environment
+friends predictions / with points
+top predictions
 
 == Upload Data ==
 -- on local --

@@ -1,11 +1,10 @@
-
 {% set player_run_name = cp.player_team[user_pred[cp.matches[match_key].key].run_player_key].player_name %}
 {% set pred_run =  user_pred[cp.matches[match_key].key].run_player_val%}
-{% if user_pred[cp.matches[match_key].key].run_player_key in match_player_stats[cp.matches[match_key].key]%}
-{% set actual_run = match_player_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].run_player_key].runs%}
-{%else%} 
- {% set actual_run ='NP' %}
- {% endif %}
+{% if (user_pred[cp.matches[match_key].key].run_player_key in match_player_stats[cp.matches[match_key].key]) and (match_player_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].run_player_key].runs != -1)%}
+	{% set actual_run = match_player_stats[cp.matches[match_key].key][user_pred[cp.matches[match_key].key].run_player_key].runs%}
+{% else %} 
+ 	{% set actual_run ='NP' %}
+{% endif %}
 {% set points_run = 'TODO'%}
 
 
