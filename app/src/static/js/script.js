@@ -196,6 +196,10 @@ $(document).ready(function() {
 						$('.match-main-open.active .share-match-pred-msg').slideDown('slow');
 					});
 				}
+				else if (response.status == 'FAIL' && response.pred_key == 'FAIL') {
+					$('.match-main-open.active form input.submit').attr('disabled',false).attr('value','Save Your Predictions');
+					show_action_message('Sorry. You cannot make predictions after the match has begun.');				
+				}
 				else {
 					$('.match-main-open.active form input.submit').attr('disabled',false).attr('value','Save Your Predictions');
 					show_action_message('Sorry. Your predictions could not be saved. Try again please.');				

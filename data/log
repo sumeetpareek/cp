@@ -1,3 +1,8 @@
+* bug - fix timezone issue
+* bug - update time check in code not just JS
+update point rules
+make dropdown alphabatical
+
 bug - fetch more than thousand player match stats
 
 == Upload Data ==
@@ -21,8 +26,8 @@ bug - fetch more than thousand player match stats
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/team.gae.csv --kind=Team --url=http://cp-live.appspot.com/_ah/remote_api
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match.gae.csv --kind=Match --url=http://cp-live.appspot.com/_ah/remote_api
 /opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/player.gae.csv --kind=Player --url=http://cp-live.appspot.com/_ah/remote_api
-/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match_stats/match_10_player_stats.csv --kind=PlayerMatchStats --url=http://cp-live.appspot.com/_ah/remote_api
-/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match_stats/match_10_team_stats.csv --kind=TeamMatchStats --url=http://cp-live.appspot.com/_ah/remote_api
+/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match_stats/match_12_player_stats.csv --kind=PlayerMatchStats --url=http://cp-live.appspot.com/_ah/remote_api
+/opt/google_appengine/appcfg.py upload_data --config_file=bulkloader.yaml --filename=data/match_stats/match_12_team_stats.csv --kind=TeamMatchStats --url=http://cp-live.appspot.com/_ah/remote_api
 
 == Download Data ==
 -- on local machine --

@@ -17,6 +17,9 @@ handlers:
 
 - url: /fblogin
   script: fblogin.app
+  
+- url: /timetest
+  script: timetest.app
 
 
 - url: .*

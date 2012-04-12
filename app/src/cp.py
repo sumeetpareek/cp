@@ -94,6 +94,8 @@ class MainPage(BaseHandler):
           closed => matches which are over and scoring, points calculation has been done as well
     ''' 
     current_datetime = datetime.datetime.now() #TODO real val to use
+    current_datetime = current_datetime + datetime.timedelta(minutes=30, hours=5) # Adjusting for UTC to IST
+    
 #    current_datetime = datetime.datetime.strptime('Fri Apr 10 2012 19:00','%a %b %d %Y %H:%M') #TODO temp val to use
     for match_key in cp_data['match_keys']:
       match_datetime = cp_data['matches'][match_key]['start_time']
@@ -138,6 +140,15 @@ class PredHandler(BaseHandler):
       pred.user = self.current_user
       pred.match = Key(self.request.get('match_key'))
       
+      # If it is already beyond the match time then do not accept predictions
+      current_datetime = datetime.datetime.now() #TODO real val to use
+      current_datetime = current_datetime + datetime.timedelta(minutes=30, hours=5) # Adjusting for UTC to IST
+      if pred.match.start_time < current_datetime :
+        response = {'status': 'FAIL', 'pred_key': 'FAIL'}
+        json_response = json.dumps(response)
+        self.response.headers.add_header('content-type', 'application/json', charset='utf-8')
+        self.response.out.write(json_response)
+        
       pred.pred_six_player = Key(self.request.get('player_six'))
       pred.pred_six_player_val = int(self.request.get('player_six_pred'))
       
@@ -186,6 +197,8 @@ class UserMatchPredHandler(BaseHandler):
     user_pred = Prediction.get_user_predictions(user)
     
     current_datetime = datetime.datetime.now() #TODO real val to use
+    current_datetime = current_datetime + datetime.timedelta(minutes=30, hours=5) # Adjusting for UTC to IST
+    
 #    current_datetime = datetime.datetime.strptime('Fri Apr 6 2012 18:00','%a %b %d %Y %H:%M') #TODO temp val to use
 #    current_datetime = datetime.datetime.strptime('Fri Apr 10 2012 19:00','%a %b %d %Y %H:%M') #TODO temp val to use
     for match_key in cp_data['match_keys']:
